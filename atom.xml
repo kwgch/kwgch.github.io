@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-08-28T12:49:02+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#67に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/08/27/blog/"/>
+    <updated>2014-08-27T22:41:45+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/08/27/blog</id>
+    <content type="html"><![CDATA[<h2>すごい広島について</h2>
+
+<p><a href="http://great-h.github.io/">すごい広島</a>というのは、広島市内でやっているミートアップ的なもので、１年以上やっているようです。</p>
+
+<p>（調べたら2013-05-22が初回でした）</p>
+
+<p><a href="https://github.com/eiel">ひむらさん</a>という人が主催しています。広島のいろいろな勉強会やイベントの主催、もしくは裏で何かやっているようです。</p>
+
+<p>すごい広島という名前は、<a href="http://www.amazon.co.jp/dp/4274068854">すごいH本</a>の影響のようです。なんてHなんだ。</p>
+
+<p>開催しているのは以前から知っていて、そのうち遊びに行こうと思っていたのですが、なかなか参加できず、今回やっと参加しました。</p>
+
+<p>あ、今回は９人くらいの参加だったようです。各自もくもくと作業に取り組んでいました。</p>
+
+<h2>場所</h2>
+
+<p>場所は中区のコワーキングスペース<a href="http://coworking-hiroshima.com/">Movin&#8217;on</a>というところでした。フリードリンクとお菓子とWiFiと電源があって、最近できたところらしくキレイで、落ち着ける場所だと思いました。</p>
+
+<h2>しきたりと習わし</h2>
+
+<p>参加した人はブログを書いて、すごい広島のGitHub Pagesにリンクを追加して、プルリクを送るしきたりがあるようです。</p>
+
+<p>新しくブログを始めた私にとっては渡りに船ということで、ここに書かせていただきます。</p>
+
+<p>Githubの練習にもなるので、行ってよかったと思います。正直言って、日常でプルリクを送る機会がありません。</p>
+
+<p>すごい広島に参加するときは、「今日やること」をGitHubのIssueとして登録するのが、ならわしのようなので、私も登録しました。</p>
+
+<h2>予定と実績</h2>
+
+<p>その内容は<a href="https://github.com/great-h/great-h.github.io/issues/1160">Rspecでコントローラのテストコードを書く</a>というものです。</p>
+
+<p>なぜなら私は、<a href="http://www.sonicgarden.jp/">株式会社ソニックガーデン</a>さんの運営する<a href="https://learning.sonicgarden.jp/">sgLearning</a>を利用して、<a href="http://rubyonrails.org/">Ruby on Rails</a>を絶賛勉強中で、ちょうど<a href="https://learning.sonicgarden.jp/lc/practices/510_rails10">コントローラのテストコードを書けるようになる</a>という課題をやるところだったからです。</p>
+
+<p>2、３ヶ月前に<a href="http://railstutorial.jp/">Ruby on Rails チュートリアル</a>もひととおりやったし、楽勝だろうと思ったのですが、そのときの内容はすっかり忘れており、書き方がさっぱりわかりません。</p>
+
+<p>結局、すごい広島の終了時間ギリギリまでかかってしまいました。緑色にはなりましたが。</p>
+
+<p>成果は<a href="https://github.com/kwgch/blog_practice/commit/7d0dfd2cc65fc8d0ddac12136f355fbcb2ed0ee5">こちら</a>です。汚いです。</p>
+
+<p>分かっていないメソッドとか多すぎるので、<a href="https://leanpub.com/everydayrailsrspec-jp">Everyday Rails</a>なんかをしっかり読んで、はあくしたいと思いました。</p>
+
+<h2>先生現る</h2>
+
+<p>ひむらさんと話していたら、<a href="https://www.relishapp.com/rspec/rspec-core/docs/helper-methods/let-and-let">letは遅延評価、let!は実行前に評価される</a>ことや、<a href="https://relishapp.com/rspec/rspec-rails/docs/transactions">itごとにトランザクションが分かれる</a>ことなどを教えてもらいました。</p>
+
+<p>なんと彼は広島でいちばんRuby on Railsに詳しい人らしく、<a href="https://github.com/rails/rails">ソース</a>まで読んでいるというではありませんか。今度からひむら先生と呼ぼう。そして色々教えてもらおうと思いました。</p>
+
+<h2>感想</h2>
+
+<p>初めて参加したのもあり、正直どんなノリかよくわからなかったのですが、ひたすら作業に没頭してしまいました。
+すごい広島は毎週水曜18:00〜でやってるようなので、また遊びに行こうと思いました。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[新しくブログを始めました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/08/26/blog/"/>
+    <updated>2014-08-26T22:41:45+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/08/26/blog</id>
+    <content type="html"><![CDATA[<h2>新しくブログを始めた理由</h2>
+
+<p>新しくブログを始めました。</p>
+
+<p>はじめは、<a href="https://pages.github.com/">GitHub Pages</a>が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、</p>
+
+<p>ググってると<a href="http://jekyllrb.com/">Jekyll</a>（ジキルと読む）を使うとブログが簡単に構築できると知りました。</p>
+
+<p>さらにググると<a href="http://octopress.org/">Octopress</a>というものがあり、さらに簡単にブログを構築できると知りました。</p>
+
+<p>テーマというのを入れると見た目を簡単に変えられるようなので、<a href="https://github.com/kAworu/octostrap3">octostrap3</a>というのを入れました。</p>
+
+<p>意外と簡単にできたので、blogを書いてみることにしました。</p>
+
+<p><a href="http://daringfireball.net/projects/markdown/">markdown</a>で書けるので、その練習も兼ねてしばらくこれで書こうと思います。</p>
+]]></content>
+  </entry>
+  
+</feed>
