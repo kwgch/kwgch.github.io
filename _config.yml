@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://kwgch.github.io
+title: blogはweb logの略
+subtitle: kwgchさんのblog
+author: m.kwgch
 simple_search: https://www.google.com/search
-description:
+description: A blog (a truncation of the expression web log) is a discussion or informational site published on the World Wide Web and consisting of discrete entries ("posts") typically displayed in reverse chronological order (the most recent post appears first).
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -51,7 +51,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, custom/asides/octo-about-me-from-twitter/aboutmetwitter.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -64,13 +64,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: kwgch
+github_repo_count: 1
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: ducky19999
 twitter_tweet_button: true
 
 # Google +1
@@ -79,23 +79,23 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
-googleplus_hidden: false
+googleplus_user: 100196969641520759124
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: kwgch
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: kwgch
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: 
 
 # Facebook Like
-facebook_like: false
+facebook_like: true

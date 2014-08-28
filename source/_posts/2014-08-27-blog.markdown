@@ -1,0 +1,60 @@
+---
+layout: post
+title: "すごい広島#67に参加しました"
+date: 2014-08-27 22:41:45 +0900
+comments: true
+categories: 
+---
+
+## すごい広島について
+
+[すごい広島](http://great-h.github.io/)というのは、広島市内でやっているミートアップ的なもので、１年以上やっているようです。
+
+（調べたら2013-05-22が初回でした）
+
+[ひむらさん](https://github.com/eiel)という人が主催しています。広島のいろいろな勉強会やイベントの主催、もしくは裏で何かやっているようです。
+
+すごい広島という名前は、[すごいH本](http://www.amazon.co.jp/dp/4274068854)の影響のようです。なんてHなんだ。
+
+開催しているのは以前から知っていて、そのうち遊びに行こうと思っていたのですが、なかなか参加できず、今回やっと参加しました。
+
+あ、今回は９人くらいの参加だったようです。各自もくもくと作業に取り組んでいました。
+
+## 場所
+
+場所は中区のコワーキングスペース[Movin'on](http://coworking-hiroshima.com/)というところでした。フリードリンクとお菓子とWiFiと電源があって、最近できたところらしくキレイで、落ち着ける場所だと思いました。
+
+## しきたりと習わし
+
+参加した人はブログを書いて、すごい広島のGitHub Pagesにリンクを追加して、プルリクを送るしきたりがあるようです。
+
+新しくブログを始めた私にとっては渡りに船ということで、ここに書かせていただきます。
+
+Githubの練習にもなるので、行ってよかったと思います。正直言って、日常でプルリクを送る機会がありません。
+
+すごい広島に参加するときは、「今日やること」をGitHubのIssueとして登録するのが、ならわしのようなので、私も登録しました。
+
+## 予定と実績
+
+その内容は[Rspecでコントローラのテストコードを書く](https://github.com/great-h/great-h.github.io/issues/1160)というものです。
+
+なぜなら私は、[株式会社ソニックガーデン](http://www.sonicgarden.jp/)さんの運営する[sgLearning](https://learning.sonicgarden.jp/)を利用して、[Ruby on Rails](http://rubyonrails.org/)を絶賛勉強中で、ちょうど[コントローラのテストコードを書けるようになる](https://learning.sonicgarden.jp/lc/practices/510_rails10)という課題をやるところだったからです。
+
+2、３ヶ月前に[Ruby on Rails チュートリアル](http://railstutorial.jp/)もひととおりやったし、楽勝だろうと思ったのですが、そのときの内容はすっかり忘れており、書き方がさっぱりわかりません。
+
+結局、すごい広島の終了時間ギリギリまでかかってしまいました。緑色にはなりましたが。
+
+成果は[こちら](https://github.com/kwgch/blog_practice/commit/7d0dfd2cc65fc8d0ddac12136f355fbcb2ed0ee5)です。汚いです。
+
+分かっていないメソッドとか多すぎるので、[Everyday Rails](https://leanpub.com/everydayrailsrspec-jp)なんかをしっかり読んで、はあくしたいと思いました。
+
+## 先生現る
+
+ひむらさんと話していたら、[letは遅延評価、let!は実行前に評価される](https://www.relishapp.com/rspec/rspec-core/docs/helper-methods/let-and-let)ことや、[itごとにトランザクションが分かれる](https://relishapp.com/rspec/rspec-rails/docs/transactions)ことなどを教えてもらいました。
+
+なんと彼は広島でいちばんRuby on Railsに詳しい人らしく、[ソース](https://github.com/rails/rails)まで読んでいるというではありませんか。今度からひむら先生と呼ぼう。そして色々教えてもらおうと思いました。
+
+## 感想
+
+初めて参加したのもあり、正直どんなノリかよくわからなかったのですが、ひたすら作業に没頭してしまいました。
+すごい広島は毎週水曜18:00〜でやってるようなので、また遊びに行こうと思いました。
