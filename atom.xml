@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-08-28T16:33:27+09:00</updated>
+  <updated>2014-08-29T17:55:42+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[【広島】AWSハンズオンに参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/08/29/aws-hands-on/"/>
+    <updated>2014-08-29T15:03:39+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/08/29/aws-hands-on</id>
+    <content type="html"><![CDATA[<p>午後休をとって、<a href="https://atnd.org/events/55286">【広島】AWSハンズオン</a>というのに参加してきました。</p>
+
+<h1>やったこと</h1>
+
+<h3>VPC（仮想プライベートクラウド）</h3>
+
+<ul>
+<li>VPCを作成</li>
+<li>Internet Gatewaysを設定</li>
+<li>Subnetsでサブネットを設定</li>
+<li>RoutTablesで上記VPCをAttatch</li>
+<li>Security GroupsのInbound RulesでSSHを許可</li>
+</ul>
+
+
+<h3>EC2（仮想サーバー）</h3>
+
+<ul>
+<li>Key Pairsを作成、pemファイル保存</li>
+<li>Amazon Linux AMIをt2.microで作成</li>
+<li>TeraTermでローカルからSSH接続（上記pemファイルを使用）</li>
+<li>apacheのインストールと立ち上げ</li>
+<li>ローカルのブラウザからアクセス</li>
+</ul>
+
+
+<h3>RDS（マネージドRDBサービス）</h3>
+
+<ul>
+<li>mysqlを立ち上げ</li>
+<li>EC2側Security GroupsのInbound Rulesでmysqlを許可</li>
+<li>EC2からアクセス</li>
+</ul>
+
+
+<h3>あとかたづけ</h3>
+
+<ul>
+<li>各種インスタンスの廃棄</li>
+</ul>
+
+
+<h1>感想</h1>
+
+<p>以前、ドットインストールの<a href="http://dotinstall.com/lessons/basic_aws">Amazon Web Services入門 </a>を一通りやったことがあるのですが、だいぶ忘れていました…</p>
+
+<p>awsはweb上にドキュメントがしこたまあるのですが、やっぱり手を動かさないとピンとこないことが多いです。</p>
+
+<p>参加者との交流ができなかったので、ちょっとさみしかったです。</p>
+
+<p><a href="http://jaws-ug.jp/bc/hiroshima/">JAWS-UG 広島支部</a>では次回のハンズオンや勉強会を予定しているとの事だったので、また参加したいと思います。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#67に参加しました]]></title>

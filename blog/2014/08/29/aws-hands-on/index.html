@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>新しくブログを始めました - blogはweb logの略</title>
+  <title>【広島】AWSハンズオンに参加しました - blogはweb logの略</title>
   <meta name="author" content="m.kwgch">
 
   
@@ -14,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kwgch.github.io/blog/2014/08/26/blog">
+  <link rel="canonical" href="http://kwgch.github.io/blog/2014/08/29/aws-hands-on">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="blogはweb logの略" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://kwgch.github.io/blog/2014/08/26/blog">
-  <meta property="og:title" content="新しくブログを始めました - blogはweb logの略">
+  <meta property="og:url" content="http://kwgch.github.io/blog/2014/08/29/aws-hands-on">
+  <meta property="og:title" content="【広島】AWSハンズオンに参加しました - blogはweb logの略">
   
 
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
@@ -120,34 +120,70 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-08-26T22:41:45+09:00"  data-updated="true" itemprop="datePublished dateCreated"></time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-08-29T15:03:39+09:00"  data-updated="true" itemprop="datePublished dateCreated"></time>
         
       </p>
     
     
     <h1 class="entry-title" itemprop="name headline">
-        新しくブログを始めました
+        【広島】AWSハンズオンに参加しました
         
     </h1>
     
   </header>
 
 
-<div class="entry-content clearfix" itemprop="articleBody description"><h2>新しくブログを始めた理由</h2>
+<div class="entry-content clearfix" itemprop="articleBody description"><p>午後休をとって、<a href="https://atnd.org/events/55286">【広島】AWSハンズオン</a>というのに参加してきました。</p>
 
-<p>新しくブログを始めました。</p>
+<h1>やったこと</h1>
 
-<p>はじめは、<a href="https://pages.github.com/">GitHub Pages</a>が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、</p>
+<h3>VPC（仮想プライベートクラウド）</h3>
 
-<p>ググってると<a href="http://jekyllrb.com/">Jekyll</a>（ジキルと読む）を使うとブログが簡単に構築できると知りました。</p>
+<ul>
+<li>VPCを作成</li>
+<li>Internet Gatewaysを設定</li>
+<li>Subnetsでサブネットを設定</li>
+<li>RoutTablesで上記VPCをAttatch</li>
+<li>Security GroupsのInbound RulesでSSHを許可</li>
+</ul>
 
-<p>さらにググると<a href="http://octopress.org/">Octopress</a>というものがあり、さらに簡単にブログを構築できると知りました。</p>
 
-<p>テーマというのを入れると見た目を簡単に変えられるようなので、<a href="https://github.com/kAworu/octostrap3">octostrap3</a>というのを入れました。</p>
+<h3>EC2（仮想サーバー）</h3>
 
-<p>意外と簡単にできたので、blogを書いてみることにしました。</p>
+<ul>
+<li>Key Pairsを作成、pemファイル保存</li>
+<li>Amazon Linux AMIをt2.microで作成</li>
+<li>TeraTermでローカルからSSH接続（上記pemファイルを使用）</li>
+<li>apacheのインストールと立ち上げ</li>
+<li>ローカルのブラウザからアクセス</li>
+</ul>
 
-<p><a href="http://daringfireball.net/projects/markdown/">markdown</a>で書けるので、その練習も兼ねてしばらくこれで書こうと思います。</p>
+
+<h3>RDS（マネージドRDBサービス）</h3>
+
+<ul>
+<li>mysqlを立ち上げ</li>
+<li>EC2側Security GroupsのInbound Rulesでmysqlを許可</li>
+<li>EC2からアクセス</li>
+</ul>
+
+
+<h3>あとかたづけ</h3>
+
+<ul>
+<li>各種インスタンスの廃棄</li>
+</ul>
+
+
+<h1>感想</h1>
+
+<p>以前、ドットインストールの<a href="http://dotinstall.com/lessons/basic_aws">Amazon Web Services入門 </a>を一通りやったことがあるのですが、だいぶ忘れていました…</p>
+
+<p>awsはweb上にドキュメントがしこたまあるのですが、やっぱり手を動かさないとピンとこないことが多いです。</p>
+
+<p>参加者との交流ができなかったので、ちょっとさみしかったです。</p>
+
+<p><a href="http://jaws-ug.jp/bc/hiroshima/">JAWS-UG 広島支部</a>では次回のハンズオンや勉強会を予定しているとの事だったので、また参加したいと思います。</p>
 </div>
 
 
@@ -171,7 +207,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-08-26T22:41:45+09:00"  data-updated="true" itemprop="datePublished dateCreated"></time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-08-29T15:03:39+09:00"  data-updated="true" itemprop="datePublished dateCreated"></time>
           
 
 
@@ -179,7 +215,7 @@
         
           <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://kwgch.github.io/blog/2014/08/26/blog/" data-via="ducky19999" data-counturl="http://kwgch.github.io/blog/2014/08/26/blog/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://kwgch.github.io/blog/2014/08/29/aws-hands-on/" data-via="ducky19999" data-counturl="http://kwgch.github.io/blog/2014/08/29/aws-hands-on/" >Tweet</a>
   
   
   
@@ -191,8 +227,8 @@
         
           <ul class="meta text-muted pager">
             
+            <li class="previous"><a href="/blog/2014/08/27/blog/" title="Previous Post: すごい広島#67に参加しました">&laquo; すごい広島#67に参加しました</a></li>
             
-            <li class="next"><a href="/blog/2014/08/27/blog/" title="Next Post: すごい広島#67に参加しました">すごい広島#67に参加しました &raquo;</a></li>
             
           </ul>
         
@@ -217,11 +253,11 @@
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2014/08/29/aws-hands-on/">【広島】AWSハンズオンに参加しました</a>
+    <a class="list-group-item active" href="/blog/2014/08/29/aws-hands-on/">【広島】AWSハンズオンに参加しました</a>
     
     <a class="list-group-item " href="/blog/2014/08/27/blog/">すごい広島#67に参加しました</a>
     
-    <a class="list-group-item active" href="/blog/2014/08/26/blog/">新しくブログを始めました</a>
+    <a class="list-group-item " href="/blog/2014/08/26/blog/">新しくブログを始めました</a>
     
   </div>
 </section>
@@ -352,8 +388,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://kwgch.github.io/blog/2014/08/26/blog/';
-        var disqus_url = 'http://kwgch.github.io/blog/2014/08/26/blog/';
+        var disqus_identifier = 'http://kwgch.github.io/blog/2014/08/29/aws-hands-on/';
+        var disqus_url = 'http://kwgch.github.io/blog/2014/08/29/aws-hands-on/';
         var disqus_script = 'embed.js';
       
     (function () {
