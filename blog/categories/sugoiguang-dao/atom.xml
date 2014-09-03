@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: すごい広島 | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-09-04T01:37:18+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#68に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/03/blog/"/>
+    <updated>2014-09-03T23:46:58+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/03/blog</id>
+    <content type="html"><![CDATA[<h1>参加方式</h1>
+
+<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加しました。</p>
+
+<p>といってもエア参加です。</p>
+
+<p>そうです。なんとすごい広島は、会場に行かなくても、エア参加ができるのです。</p>
+
+<p>なぜエア参加をしたのか?</p>
+
+<p>パソコンを忘れたのです。</p>
+
+<p>なので、ネットカフェから参加しました。</p>
+
+<p>ネカフェで開発ができるのです。すごい時代です。</p>
+
+<p>ちなみに<a href="https://www.nitrous.io">nitrous.io</a>を使いました。</p>
+
+<p>ナイトラスと読むらしいです。</p>
+
+<h1>今日やること</h1>
+
+<p><a href="https://github.com/great-h/great-h.github.io/issues/1190">今日はやることにしたのは２つ。</a></p>
+
+<p>１つは、issueにチェックボックスをつける。</p>
+
+<p>他の人のIssueを見ると、チェックボックスがついています。</p>
+
+<p>いいな。何だそれ。どうやるんだ。</p>
+
+<p><a href="https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments">ここに書いてありました。</a></p>
+
+<p>こんな感じで書けばいいみたいです。</p>
+
+<pre><code>- [ ] a task list item
+</code></pre>
+
+<p>これはすぐできました。</p>
+
+<p>もう１つは、<a href="https://github.com/intridea/omniauth">omniauth</a>を使ってGitHubでログインする機能を実装する、というのものです。</p>
+
+<p>詳細は<a href="/blog/2014/09/03/rails/">別エントリ</a>にします。</p>
+]]></content>
+  </entry>
+  
+</feed>

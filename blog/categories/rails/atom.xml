@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rails | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-09-04T01:37:18+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[【rails】Githubアカウントでのログインを実装する]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/03/rails/"/>
+    <updated>2014-09-03T23:47:27+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/03/rails</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/great-h/great-h.github.io/issues/1190">omniauthを使ってGitHubでログインする機能を実装する</a>と宣言したのですが、omniauthは<a href="https://github.com/plataformatec/devise">devise</a>に入ってました。</p>
+
+<p>なのでdeviseを使いました。</p>
+
+<h1>準備</h1>
+
+<p>まずアプリ作成（てきとう）
+<code>bash
+$ rails new github_login_sample
+$ cd github_login_sample
+$ rails g scaffold Blog title body:text
+</code></p>
+
+<p>Gemfileに下記を追加</p>
+
+<pre><code class="ruby">gem 'devise'
+gem 'omniauth-github'
+gem "figaro"
+</code></pre>
+
+<p>deviseのinstall等</p>
+
+<pre><code class="bash">$ bundle
+$ rails g devise:install
+$ rails g devise User
+$ rails g migration AddColumnsToUsers provider uid
+$ rake db:migrate
+$ rails g figaro:install
+</code></pre>
+
+<h1>figaro</h1>
+
+<p>figaroをインストールすると <code>config/application.yml</code> が作成され、<code>.gitignore</code> に下記が追加されます</p>
+
+<pre><code>/config/application.yml
+</code></pre>
+
+<p><code>application.yml</code> には下記のように<code>APP_ID</code>と<code>APP_SECRET</code>を書きます。</p>
+
+<pre><code>APP_ID: xxxxxxxxxxxxxxxxxxxx
+APP_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+</code></pre>
+
+<p>あ、これはGithubの Settings/Apprications/Register new application でアプリを登録すると発行されます。</p>
+
+<p>そして <code>config/initializers/devise.rb</code> へ</p>
+
+<pre><code class="ruby">  config.omniauth :github, ENV["APP_ID"], ENV["APP_SECRET"], scope: 'user,public_repo'
+</code></pre>
+
+<p>と書くわけです。<code>application.yml</code> に書いた名称と同じなら、<code>APP_ID</code>とかじゃなくても、何でもいいです。</p>
+
+<p><code>application.yml</code> がgit管理対象外になっているので、githubに上げても<code>APP_ID</code>と<code>APP_SECRET</code>が知られなくていいですね。（privateリポジトリなら関係ないけど）</p>
+
+<h1>routes</h1>
+
+<p>次は<code>config/routes.rb</code> へ下記を追加。callbackのルーティングです。</p>
+
+<pre><code class="ruby">  root 'blogs#index'
+  get 'blogs/index'
+  devise_for :users, :controllers =&gt; { :omniauth_callbacks =&gt; "users/omniauth_callbacks" }
+  devise_scope :user do
+    get 'sign_out', :to =&gt; 'devise/sessions#destroy', :as =&gt; :destroy_user_session
+  end
+</code></pre>
+
+<h1>controller</h1>
+
+<p>それから <code>app/controller/users/</code> に <code>omniauth_callbacks_controller.rb</code> を追加します。
+callback時のログイン処理です。</p>
+
+<pre><code>class Users::OmniauthCallbacksController &lt; Devise::OmniauthCallbacksController
+  def github
+    @user = User.find_or_create_by(user_params)
+
+    if @user.persisted?
+      sign_in_and_redirect @user, :event =&gt; :authentication
+      set_flash_message(:notice, :success, :kind =&gt; "Github") if is_navigational_format?
+    else
+      session["devise.github_data"] = request.env["omniauth.auth"]
+      redirect_to new_user_registration_url
+    end
+  end
+
+  private
+  def user_params
+    request.env["omniauth.auth"].slice(:provider, :uid).to_h
+  end
+end
+</code></pre>
+
+<h1>model</h1>
+
+<p><code>app/models/user.rb</code> に下記を追加。もうちょっとです。</p>
+
+<pre><code class="ruby">class User &lt; ActiveRecord::Base
+  devise :omniauthable
+end
+</code></pre>
+
+<h1>view</h1>
+
+<p>viewにSign in、Sign outを追加します。</p>
+
+<pre><code class="erb">&lt;% if user_signed_in? %&gt;
+    &lt;%= link_to "Sign out", destroy_user_session_path %&gt;
+&lt;% else %&gt;
+    &lt;%= link_to "Sign in with Github", user_omniauth_authorize_path(:github) %&gt;
+&lt;% end %&gt;
+</code></pre>
+
+<h1>そして</h1>
+
+<p>あとはログイン後に表示する箇所を</p>
+
+<pre><code class="erb">&lt;% if user_signed_in? %&gt;
+
+&lt;% end %&gt;
+</code></pre>
+
+<p>でくくるとか、controllerで認証処理を書けばいいわけです。</p>
+
+<hr />
+
+<h1>参考</h1>
+
+<p>参考にさせていただきました。
+<a href="http://qiita.com/soramugi/items/5b2ed46e8c8b6157e7cc">devise gemを使ってtwitter認証の設定</a></p>
+]]></content>
+  </entry>
+  
+</feed>
