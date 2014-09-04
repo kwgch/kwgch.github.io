@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-04T01:37:18+09:00</updated>
+  <updated>2014-09-05T00:10:26+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ステッカーのサンプルを買ってみた]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/04/blog/"/>
+    <updated>2014-09-04T22:15:31+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/04/blog</id>
+    <content type="html"><![CDATA[<h1>ステッカー</h1>
+
+<p>少し前にMacBook AirのCMで、<a href="https://www.youtube.com/watch?v=gP9G4EKB6Pw">色んなステッカーを貼るやつ</a>が流れてたんですけど、BGMが<a href="https://www.youtube.com/watch?v=ydZUb8q6KIs">Hudson MohawkeのChimes</a>で懐かしかったです。</p>
+
+<p>それとは全く関係なく、ぼくもステッカー貼ってみようかな、と何となく思いました。</p>
+
+<h1>探してみた</h1>
+
+<p><a href="https://github.myshopify.com/products/die-cut-github-stickers">github</a>、
+<a href="https://www.google-store.com/webcontents/ProductDetails.aspx?request=vLqCI7Ha+5SpKplrcP1t5/V4jfmJkcbyudVLLWxi00CxRyaiR5t0yQ==">android</a>、
+<a href="https://hatena.stores.jp/#!/items/51edfea69de2f0557c0002ac">はてな</a>、
+<a href="http://shop.qiita.com/items/173021">qiita</a>
+は売ってるのを見つけました。まだ買ってません。</p>
+
+<h1>stickermule</h1>
+
+<p>他にないかなーと思ってたら、
+<a href="http://www.stickermule.com/">stickermule</a>というサイトを見つけました。tech系もいろいろありそうです。</p>
+
+<p><a href="http://www.stickermule.com/marketplace/409-code-climate-badge">code climate</a>、
+<a href="http://www.stickermule.com/marketplace/1487-git-logo-stickers">git</a>、
+<a href="http://www.stickermule.com/marketplace/295-html5-stickers">HTML5</a>、
+<a href="http://www.stickermule.com/marketplace/1663-angular-js-badge-stickers">angular.js</a>
+を見つけました。他にもあるみたいです。</p>
+
+<p>あ、<a href="http://www.stickermule.com/marketplace/1026-docker-stickers">docker</a>を見つけました！</p>
+
+<h1>サンプル</h1>
+
+<p>おや、<a href="http://www.stickermule.com/products/sample-pack">$1で９枚サンプルが買えるみたいです。</a></p>
+
+<p>Google Chrome, Twitter, GitHub, New Relicなんかがあるみたいです。</p>
+
+<h1>頼んでみた</h1>
+
+<p>日本で頼むと、送料が$6かかりました…</p>
+
+<p>１週間ほどで届きました。</p>
+
+<p><img src="http://kwgch.github.io/images/envelope.jpg" alt="envelope" /></p>
+
+<p>中身はこんな感じでした。</p>
+
+<p><img src="http://kwgch.github.io/images/sticker.jpg" alt="stecker" /></p>
+
+<p>普通に買ったら1つ$５くらいするみたいなので、お得なんじゃないでしょうか。</p>
+
+<h1>他にも欲しい人は</h1>
+
+<p><a href="https://www.stickermule.com/unlock?ref_id=7959260701">ここから申し込むと</a>$10ぶんステッカーが手に入れられるみたいです。</p>
+
+<p>ぼくにも$10ぶん加算されるしくみです、たぶん。ステッカーしか買えないけど。</p>
+
+<h1>unixstickers</h1>
+
+<p>明日早いので寝ようと思ってたら<a href="http://www.unixstickers.com/">unixstickers</a>というのを見つけてしました…</p>
+
+<p>プログラマの人なんかは、こっちのほうが欲しいのありそうです。</p>
+
+<p>golangとかhaskellとかあるみたいです。</p>
+
+<p>あ、明日早いので寝ます。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[【rails】Githubアカウントでのログインを実装する]]></title>
