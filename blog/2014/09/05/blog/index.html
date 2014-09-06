@@ -418,6 +418,13 @@
 
 
 <p>来年もいこう。</p>
+
+<script language="javaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
+
 </div>
 
 
