@@ -50,6 +50,7 @@
 </head>
 
   <body   >
+    
     <div id="wrap">
       <header role="banner">
         <nav class="navbar navbar-default" role="navigation">
@@ -220,6 +221,22 @@
   
 </div>
 
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kwgch.github.io/blog/2014/09/07/lt/" data-via="ducky19999" data-counturl="http://kwgch.github.io/blog/2014/09/07/lt/" >Tweet</a>
+  
+  
+  <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button"
+      data-hatena-bookmark-layout="standard"
+      data-hatena-bookmark-url="http://kwgch.github.io/blog/2014/09/07/lt/">
+    <img src="http://b.st-hatena.com/images/entry-button/button-only.gif"
+        alt="このエントリーをはてなブックマークに追加" width="20" height="20"
+        style="border: none">
+  </a>
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
         
         
           <ul class="meta text-muted pager">
@@ -243,30 +260,66 @@
   
   <aside class="sidebar col-md-3">
     
-      <section class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Recent Posts</h3>
+      
+<section>
+<!--
+// Octopress custom aside 'gravatar.html'
+// version: 1.0 (Dec 24, 2013)
+// (c) alalwww [https://github.com/alalwww/gravatar-aside/]
+-->
+  <h1>Author</h1>
+  <div id="gravatar-aside-profile" style="clear:both">
+    <div style="height:2em"><span style="color:#ccc;font-size:small">loading profile from gravatar...</span></div>
   </div>
-  
-  <div id="recent_posts" class="list-group">
-    
-    <a class="list-group-item active" href="/blog/2014/09/07/lt/">LT駆動開発07に参加しました</a>
-    
-    <a class="list-group-item " href="/blog/2014/09/05/blog/">デブサミ関西2014に参加してきました</a>
-    
-    <a class="list-group-item " href="/blog/2014/09/04/blog/">ステッカーのサンプルを買ってみた</a>
-    
-    <a class="list-group-item " href="/blog/2014/09/03/rails/">【rails】Githubアカウントでのログインを実装する</a>
-    
-    <a class="list-group-item " href="/blog/2014/09/03/blog/">すごい広島#68に参加しました</a>
-    
-  </div>
+  <div style="clear:both"></div>
+  <script type="text/javascript">
+    $(function(){
+      var url = "http://www.gravatar.com/5c7c9479b5501040e662877612ed50bd.json?callback=?";
+      var $box = $("#gravatar-aside-profile")
+      var $msg = $box.children().children()
+
+      var blink = function(a){a.fadeOut(400).fadeIn(400)};
+      var intervalID = window.setInterval(blink, 1500, $msg)
+
+      var setupProfile = function(data) {
+        var entry = data.entry[0]
+        $box
+          .empty()
+          .css("padding-top", 5)
+          .append($("<img>")
+            .attr("src", entry.thumbnailUrl)
+            .attr("alt", "thumbnail from Gravatar")
+            .css("float", "left")
+            .css("margin-right", 5)
+          )
+          .append($("<div>")
+            .css("padding", "5px 0px")
+            .append($("<h2>")
+              .css("margin-bottom", 5)
+              .append(entry.displayName + "(<a href='" + entry.profileUrl + "'>@" + entry.preferredUsername + "</a>)")
+            )
+            .append($("<p>")
+              .css("padding-left",90)
+              .css("margin", 0)
+              .css("font-size", "90%")
+              .html(entry.aboutMe.replace(/\n/g, "<br/>"))
+            )
+          )
+      }
+
+      var clearInterval = function(){window.clearInterval(intervalID)}
+      var updateMessageToError = function(){$msg.stop().fadeOut().text("profile load failed.").fadeIn()}
+
+      jQuery.getJSON(url)
+        .always(clearInterval)
+        .done(setupProfile)
+        .fail(updateMessageToError)
+    })
+  </script>
 </section>
-<a class="twitter-timeline" href="https://twitter.com/ducky19999" data-widget-id="504754566751989760">@ducky19999 からのツイート</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <section>
-  <h1>About Me</h1>
+<!--   <h1>About Me</h1> -->
   <div id="twitter-profile" style="margin-top:0.5em;">
     <p>
       <strong>m.kwgch</strong> 
@@ -302,6 +355,32 @@
   </script>
 </section>
 
+
+<a class="twitter-timeline" href="https://twitter.com/ducky19999" data-widget-id="504754566751989760">@ducky19999 からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+    <a class="list-group-item active" href="/blog/2014/09/07/lt/">LT駆動開発07に参加しました</a>
+    
+    <a class="list-group-item " href="/blog/2014/09/05/blog/">デブサミ関西2014に参加してきました</a>
+    
+    <a class="list-group-item " href="/blog/2014/09/04/blog/">ステッカーのサンプルを買ってみた</a>
+    
+    <a class="list-group-item " href="/blog/2014/09/03/rails/">【rails】Githubアカウントでのログインを実装する</a>
+    
+    <a class="list-group-item " href="/blog/2014/09/03/blog/">すごい広島#68に参加しました</a>
+    
+  </div>
+</section>
+<a class="qiita-timeline" href="https://qiita.com/users/kwgch" data-qiita-username="kwgch">kwgchのtips</a>
+<script src="//qiita-widget.suin.org/widget.js"></script>
+<section>
+<div class="fb-like-box" data-href="http://www.facebook.com/MyPage" data-width="260" data-show-faces="true" data-stream="true" data-header=""   ></div>
+</section>
 
 <section class="panel panel-default clearfix">
   <div class="panel-heading">
@@ -380,6 +459,23 @@
   </small>
 </p>
 
+<!-- ローカライズ -->
+<script>
+(function(w,d){
+    var c,e=d.createDocumentFragment(),f=d.getElementsByTagName("script")[0],
+    a=function(a,b){if(!d.getElementById(b)){c=d.createElement("script");
+    c.src=a;c.id=b||null;c.async=true;e.appendChild(c);}};
+
+
+    a("//platform.twitter.com/widgets.js");
+
+
+    a("//connect.facebook.net/en_US/all.js#xfbml=1","facebook-jssdk");
+
+    a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
+    f.parentNode.insertBefore(e,f);
+})(this,document);
+</script>
 </div>
 </footer>
     
