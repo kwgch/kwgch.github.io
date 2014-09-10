@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-10T18:57:11+09:00</updated>
+  <updated>2014-09-11T02:26:47+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#69に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/10/great-h/"/>
+    <updated>2014-09-10T19:02:00+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/10/great-h</id>
+    <content type="html"><![CDATA[<p>どうも。kwgchです。</p>
+
+<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
+
+<h1><a href="https://github.com/great-h/great-h.github.io/issues/1215">今日やったこと</a></h1>
+
+<h2>ブログにfeedlyボタンつける</h2>
+
+<p>なんということでしょう。</p>
+
+<p>ここ→<a href="http://www.feedly.com/factory.html">Feedly button</a>でHTMLを生成して貼付けるだけです。以上。</p>
+
+<h2>AWSのIAMユーザーつくる</h2>
+
+<p>ここ→<a href="http://qiita.com/yoshidashingo/items/cd206daca0596659b440">AWSアカウント作ったらこれだけはやっとけ！IAMユーザーとAuthyを使ったMFAで2段階認証</a></p>
+
+<p>を参考にIAMユーザーつくりませう。</p>
+
+<p>…なんということでしょう。</p>
+
+<p>ダッシュボードからIAMを選択すると、ユーザーとグループが既に登録されているではありませんか。</p>
+
+<p>１ヶ月ちょっと前に登録したようです。</p>
+
+<p>全く覚えていません。</p>
+
+<p>最近どうかしています。</p>
+
+<blockquote class="twitter-tweet"><p>自宅用のTシャツと靴下で出勤してた、どうかしてる</p>&mdash; みの太 (@ducky19999) <a href="https://twitter.com/ducky19999/status/508817740476321792">September 8, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>気を取り直して、MFAで2段階認証を設定します。</p>
+
+<p>iPhoneに<a href="https://itunes.apple.com/jp/app/google-authenticator/id388497605?mt=8">Google Authenticator</a>を入れていましたが、</p>
+
+<p>内部のデータがセキュアにバックアップされるため、いざiPhoneが壊れた場合にも、登録した電話番号とパスワードで復旧が可能であるとの事なので<a href="https://itunes.apple.com/jp/app/authy/id494168017?mt=8">Authy</a>を入れました。</p>
+
+<p>他の人が書いた事を２回かいてもアレなので、ここ→<a href="http://qiita.com/yoshidashingo/items/cd206daca0596659b440">AWSアカウント作ったらこれだけはやっとけ！IAMユーザーとAuthyを使ったMFAで2段階認証</a>を見て下さい。</p>
+
+<h1>他には</h1>
+
+<ul>
+<li><p>javaな人とチャットしてたら Springboot や dropwizard っていうので遊んでるってききました。</p></li>
+<li><p>今行ってる職場がフィルタかけててgmail使えないので、カっとなって<a href="https://www.cloze.com/">cloze</a>に登録しました。これで使えるといいな。</p></li>
+<li><p>deviseとかwardenの事を調べようと思ったのですが、時間となりました。</p></li>
+</ul>
+
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LT駆動開発07に参加しました]]></title>
