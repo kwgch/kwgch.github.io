@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-13T02:05:30+09:00</updated>
+  <updated>2014-09-16T16:40:22+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -225,6 +225,8 @@
     <updated>2014-09-07T17:49:58+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/09/07/lt</id>
     <content type="html"><![CDATA[<p>2014/09/06、<a href="http://ltdd.doorkeeper.jp/events/13948">第７回 LT駆動開発</a>に参加してきました。</p>
+
+<p><img src="https://raw.githubusercontent.com/LTDD/Logo/master/logo_lt2.png" alt="ltdd_logo" /></p>
 
 <h1>LT駆動開発とは</h1>
 
@@ -901,6 +903,8 @@ callback時のログイン処理です。</p>
     <id>http://kwgch.github.io/blog/2014/08/29/aws-hands-on</id>
     <content type="html"><![CDATA[<p>午後休をとって、<a href="https://atnd.org/events/55286">【広島】AWSハンズオン</a>というのに参加してきました。</p>
 
+<p><img src="http://d3f9fl2jz5bc2k.cloudfront.net/wp-content/uploads/2014/08/jaws-ug_hiroshima.png" alt="jawsug_hr_logo" /></p>
+
 <h1>やったこと</h1>
 
 <h3>VPC（仮想プライベートクラウド）</h3>
@@ -959,6 +963,8 @@ callback時のログイン処理です。</p>
     <updated>2014-08-27T22:41:45+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/08/27/blog</id>
     <content type="html"><![CDATA[<h2>すごい広島について</h2>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
 
 <p><a href="http://great-h.github.io/">すごい広島</a>というのは、広島市内でやっているミートアップ的なもので、１年以上やっているようです。</p>
 
