@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-16T16:40:22+09:00</updated>
+  <updated>2014-09-16T17:08:39+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -88,7 +88,7 @@
 
 <p>理想の働き方とは？ 「モチベーション > 不満因子」と言っていました。ずいぶん控えめな言い方のような…</p>
 
-<p>広島でITがいけてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
+<p>広島のエンジニアの技術力は高い。広島でITがイケてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
 
 <blockquote class="twitter-tweet"><p>ファナファクト大林さん <a href="https://twitter.com/hashtag/%E3%83%AC%E3%83%83%E3%83%89%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3?src=hash">#レッドハッカソン</a> <a href="http://t.co/8FGMn1ahQv">pic.twitter.com/8FGMn1ahQv</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/510369498742808579">September 12, 2014</a></blockquote>
 
@@ -463,6 +463,13 @@
 <p>「デザイン上の理由」を根拠を持って説明、可能な限り客観的なデータを用意</p>
 
 <p>ペーパープロトタイピング、モック作成、ユーザーテストの手法を導入</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/esukei/creating-a-ui-design-culture">Creating a UI Design culture</a></p>
+
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
 
 <h2>感想</h2>
 
