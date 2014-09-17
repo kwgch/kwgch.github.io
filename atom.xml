@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-17T17:03:30+09:00</updated>
+  <updated>2014-09-18T05:49:04+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,144 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#70にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/17/great-h/"/>
+    <updated>2014-09-17T00:00:00+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/17/great-h</id>
+    <content type="html"><![CDATA[<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
+
+<p>今回もエア参加です。</p>
+
+<!-- more -->
+
+
+<h1>simple_formで多重送信をふせぐ</h1>
+
+<p>railsでsimple_formというのを使ってみたのですが、更新ボタンを連打したらデータがたくさんできました。</p>
+
+<p>どうしよう。</p>
+
+<p><a href="http://qiita.com/kakipo/items/d3fb5595ccfa7250f3eb">ちょうどいい記事を発見しました。</a></p>
+
+<p>これで解決です。やったね！おや？</p>
+
+<blockquote class="twitter-tweet"><p>iPhone息してない</p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/512186392101654528">September 17, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>どうしたというのでしょう。</p>
+
+<p>iPhoneが黒い画面です。とりあえずおうちに帰ろう。</p>
+
+<h1>macの容量がない</h1>
+
+<p>MacBook AirにつないでとりあえずiTunesで復元しようとしました。あ、写真のバックアップをしとこう。</p>
+
+<p>すると「ディスク容量がいっぱいやねん」の旨メッセージが。</p>
+
+<p>ぼくのmbaは11インチのいちばんやすいやつです。128Gしかありません。</p>
+
+<p>この時点でストレージが残り２G。</p>
+
+<p>これはあかん。とり急ぎ下記を実行。</p>
+
+<ul>
+<li><p>ゴミ箱の中身を削除</p></li>
+<li><p>ブラウザのキャッシュを削除</p></li>
+<li><p>Downloadsのファイルを削除</p></li>
+<li><p>VirtualBox VMsのファイルを削除</p></li>
+</ul>
+
+
+<p>これでもう2G確保。</p>
+
+<p><img src="http://kwgch.github.io/images/2014-09-17_22.24.37.png" alt="screen shot" /></p>
+
+<p>さてどうしよう。ggrks。すると、ある記事に、こんなことが書いてありました。</p>
+
+<h1>/coresの下を全部削除しろ</h1>
+
+<p>見たけど空っぽでした。</p>
+
+<h1>shiftキーを押しながら起動してみろ</h1>
+
+<p><a href="http://tukaikta.blog135.fc2.com/blog-entry-217.html">Mac歴5年の私が実施してるMacの簡単メンテナンス</a>　</p>
+
+<p>↑の記事にあったのですが、shiftキーを押しながら起動するだけ。</p>
+
+<p>なんと、これだけで12G確保できました！</p>
+
+<p><img src="http://kwgch.github.io/images/2014-09-17_22.50.58.png" alt="screen shot" /></p>
+
+<p>でもファイルの種類が全部黄色（その他）になった…何故だ…</p>
+
+<h1>ターミナルから大きいファイルを確認しろ</h1>
+
+<p><a href="https://discussionsjapan.apple.com/docs/DOC-1081">ハードディスクの空き容量が極端に少なくなる場合の対処方法</a></p>
+
+<p>↑ここの「[4] 容量の大きいフォルダを確認」にあるコマンドを実行</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo du -g -x -d <span class="m">5</span> / <span class="p">|</span> awk <span class="s1">&#39;$1 &gt;= 5{print}&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>その結果がこれ。</p>
+
+<p><img src="http://kwgch.github.io/images/2014-09-17_23.05.00.png" alt="screen shot" /></p>
+
+<p>adt-bundle-mac-x86_64って何だっけ…</p>
+
+<p>Android Development Tools?</p>
+
+<p>あ、macでkindle見るために、Android動かそうとした気がする。</p>
+
+<p>使ってないので削除。5G確保。</p>
+
+<p>android-sdksも削除。2G確保。</p>
+
+<p><img src="http://kwgch.github.io/images/2014-09-17_23.45.04.png" alt="screen shot" /></p>
+
+<p>とりあえず、20G以上確保できました。</p>
+
+<h1>今後</h1>
+
+<p>根本的な解決としてはmac買い替えだと思いますが、おかねがありません。</p>
+
+<p>他に手がないか、ちょっと調べました。</p>
+
+<h3>SDカード</h3>
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00I59UMW4" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<p>これは見た感じ、刺してるのが分からないらしいです。</p>
+
+<p>128GのmicroSDでも刺せばいいかなと思ったら、11インチmbaはSDカードのスロットすらありませんでした。</p>
+
+<h3>外付けHDD</h3>
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00D1I2I0I" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<p>ポータブルHDDなら2Tで1万5千円。今度これ買おうかな。</p>
+
+<h3>外付けSSD</h3>
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B008OE0S56" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+<p>SSDは128Gで1万前後くらいの相場なのかな。よくわかりません。</p>
+
+<p>あ、iPhoneの処置がまだでした。</p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[【広島】レッドハッカソン プレイベントに参加してきました]]></title>
