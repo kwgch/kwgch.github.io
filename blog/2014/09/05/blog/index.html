@@ -142,6 +142,9 @@
 
 <p>ダッシュで基調講演に間に合った。</p>
 
+<!-- more -->
+
+
 <h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/550/">基調講演</a></h1>
 
 <p>最初はクックパッドの<a href="https://twitter.com/yoshiori">庄司嘉織さん</a>。</p>
@@ -427,13 +430,6 @@
 
 
 <p>来年もいこう。</p>
-
-<script language="javaScript">
-$(document).ready( function () {
-   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
-})
-</script>
-
 </div>
 
 
@@ -675,6 +671,26 @@ $(document).ready( function () {
 
 
 
+<section class="well">
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
+  <div id="coderwall_badges"></div>
+  <a href="http://coderwall.com/kwgch">@kwgch</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("http://coderwall.com/kwgch.json?callback=?", function(data){
+        for(var i = 0; i < data.data.badges.length ; i++){
+          var badge = data.data.badges[i];
+          var badge_tag = $("<img />");
+          badge_tag.attr("src",badge.badge);
+          badge_tag.css("width","50%");
+          $("#coderwall_badges").append(badge_tag);
+        }
+      });
+    });
+  </script>
+</section>
     
   </aside>
   
@@ -724,6 +740,11 @@ $(document).ready( function () {
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/javascripts/modernizr-2.0.js"></script>
 
+<script language="javaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
 
   </body>
 </html>

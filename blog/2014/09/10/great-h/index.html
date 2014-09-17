@@ -137,6 +137,9 @@
 
 <p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
 
+<!-- more -->
+
+
 <h1><a href="https://github.com/great-h/great-h.github.io/issues/1215">今日やったこと</a></h1>
 
 <h2>ブログにfeedlyボタンつける</h2>
@@ -432,6 +435,26 @@
 
 
 
+<section class="well">
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
+  <div id="coderwall_badges"></div>
+  <a href="http://coderwall.com/kwgch">@kwgch</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("http://coderwall.com/kwgch.json?callback=?", function(data){
+        for(var i = 0; i < data.data.badges.length ; i++){
+          var badge = data.data.badges[i];
+          var badge_tag = $("<img />");
+          badge_tag.attr("src",badge.badge);
+          badge_tag.css("width","50%");
+          $("#coderwall_badges").append(badge_tag);
+        }
+      });
+    });
+  </script>
+</section>
     
   </aside>
   
@@ -481,6 +504,11 @@
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/javascripts/modernizr-2.0.js"></script>
 
+<script language="javaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
 
   </body>
 </html>

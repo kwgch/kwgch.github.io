@@ -137,6 +137,9 @@
 
 <p><img src="https://raw.githubusercontent.com/LTDD/Logo/master/logo_lt2.png" alt="ltdd_logo" /></p>
 
+<!-- more -->
+
+
 <h1>LT駆動開発とは</h1>
 
 <p>”LT駆動開発"は、定期的にライトニングトーク（Lightning Talks、略してLT）をする機会をつくり、LTをするという前提で普段から開発しよう、という勉強会との事です。</p>
@@ -424,6 +427,26 @@
 
 
 
+<section class="well">
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
+  <div id="coderwall_badges"></div>
+  <a href="http://coderwall.com/kwgch">@kwgch</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("http://coderwall.com/kwgch.json?callback=?", function(data){
+        for(var i = 0; i < data.data.badges.length ; i++){
+          var badge = data.data.badges[i];
+          var badge_tag = $("<img />");
+          badge_tag.attr("src",badge.badge);
+          badge_tag.css("width","50%");
+          $("#coderwall_badges").append(badge_tag);
+        }
+      });
+    });
+  </script>
+</section>
     
   </aside>
   
@@ -473,6 +496,11 @@
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/javascripts/modernizr-2.0.js"></script>
 
+<script language="javaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
 
   </body>
 </html>

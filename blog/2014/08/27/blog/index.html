@@ -141,6 +141,9 @@
 
 <p>（調べたら2013-05-22が初回でした）</p>
 
+<!-- more -->
+
+
 <p><a href="https://github.com/eiel">ひむらさん</a>という人が主催しています。広島のいろいろな勉強会やイベントの主催、もしくは裏で何かやっているようです。</p>
 
 <p>すごい広島という名前は、<a href="http://www.amazon.co.jp/dp/4274068854">すごいH本</a>の影響のようです。なんてHなんだ。</p>
@@ -428,6 +431,26 @@
 
 
 
+<section class="well">
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
+  <div id="coderwall_badges"></div>
+  <a href="http://coderwall.com/kwgch">@kwgch</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("http://coderwall.com/kwgch.json?callback=?", function(data){
+        for(var i = 0; i < data.data.badges.length ; i++){
+          var badge = data.data.badges[i];
+          var badge_tag = $("<img />");
+          badge_tag.attr("src",badge.badge);
+          badge_tag.css("width","50%");
+          $("#coderwall_badges").append(badge_tag);
+        }
+      });
+    });
+  </script>
+</section>
     
   </aside>
   
@@ -477,6 +500,11 @@
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/javascripts/modernizr-2.0.js"></script>
 
+<script language="javaScript">
+$(document).ready( function () {
+   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+})
+</script>
 
   </body>
 </html>

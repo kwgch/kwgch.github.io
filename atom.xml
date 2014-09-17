@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-17T09:24:41+09:00</updated>
+  <updated>2014-09-17T17:03:30+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima」Pre-Event" /></p>
 
 <p><a href="https://www.pu-hiroshima.ac.jp/site/satellite/">サテライトキャンパスひろしま</a>というところで行われた、「Red Hackathon Hiroshima」のプレイベントというものに参加してきました。無料だったので。</p>
+
+<!-- more -->
+
 
 <h1>概要</h1>
 
@@ -162,6 +165,9 @@
 
 <p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
 
+<!-- more -->
+
+
 <h1><a href="https://github.com/great-h/great-h.github.io/issues/1215">今日やったこと</a></h1>
 
 <h2>ブログにfeedlyボタンつける</h2>
@@ -228,6 +234,9 @@
 
 <p><img src="https://raw.githubusercontent.com/LTDD/Logo/master/logo_lt2.png" alt="ltdd_logo" /></p>
 
+<!-- more -->
+
+
 <h1>LT駆動開発とは</h1>
 
 <p>”LT駆動開発&#8221;は、定期的にライトニングトーク（Lightning Talks、略してLT）をする機会をつくり、LTをするという前提で普段から開発しよう、という勉強会との事です。</p>
@@ -290,6 +299,9 @@
 今年はスーツの人ばっかりだなぁと思ったら、近くでやっていた<a href="http://www.kobemesse.com/">国際フロンティア産業メッセ2014</a>の会場に行ってしまいました。</p>
 
 <p>ダッシュで基調講演に間に合った。</p>
+
+<!-- more -->
+
 
 <h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/550/">基調講演</a></h1>
 
@@ -576,13 +588,6 @@
 
 
 <p>来年もいこう。</p>
-
-<script language="javaScript">
-$(document).ready( function () {
-   $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
-})
-</script>
-
 ]]></content>
   </entry>
   
@@ -596,6 +601,9 @@ $(document).ready( function () {
 <p>少し前にMacBook AirのCMで、<a href="https://www.youtube.com/watch?v=gP9G4EKB6Pw">色んなステッカーを貼るやつ</a>が流れてたんですけど、BGMが<a href="https://www.youtube.com/watch?v=ydZUb8q6KIs">Hudson MohawkeのChimes</a>で懐かしかったです。</p>
 
 <p>それとは全く関係なく、ぼくもステッカー貼ってみようかな、と何となく思いました。</p>
+
+<!-- more -->
+
 
 <h1>探してみた</h1>
 
@@ -666,6 +674,9 @@ $(document).ready( function () {
 <p>なのでdeviseを使いました。</p>
 
 <p><img src="https://camo.githubusercontent.com/b1c21cc10f2f94857dea5135fe55f2e4d451e028/68747470733a2f2f7261772e6769746875622e636f6d2f706c617461666f726d617465632f6465766973652f6d61737465722f6465766973652e706e67" alt="devise" /></p>
+
+<!-- more -->
+
 
 <h1>準備</h1>
 
@@ -869,6 +880,9 @@ callback時のログイン処理です。</p>
 
 <p>そうです。なんとすごい広島は、会場に行かなくても、エア参加ができるのです。</p>
 
+<!-- more -->
+
+
 <p>なぜエア参加をしたのか?</p>
 
 <p>パソコンを忘れたのです。</p>
@@ -915,6 +929,9 @@ callback時のログイン処理です。</p>
     <content type="html"><![CDATA[<p>午後休をとって、<a href="https://atnd.org/events/55286">【広島】AWSハンズオン</a>というのに参加してきました。</p>
 
 <p><img src="http://d3f9fl2jz5bc2k.cloudfront.net/wp-content/uploads/2014/08/jaws-ug_hiroshima.png" alt="jawsug_hr_logo" /></p>
+
+<!-- more -->
+
 
 <h1>やったこと</h1>
 
@@ -981,6 +998,9 @@ callback時のログイン処理です。</p>
 
 <p>（調べたら2013-05-22が初回でした）</p>
 
+<!-- more -->
+
+
 <p><a href="https://github.com/eiel">ひむらさん</a>という人が主催しています。広島のいろいろな勉強会やイベントの主催、もしくは裏で何かやっているようです。</p>
 
 <p>すごい広島という名前は、<a href="http://www.amazon.co.jp/dp/4274068854">すごいH本</a>の影響のようです。なんてHなんだ。</p>
@@ -1038,6 +1058,9 @@ callback時のログイン処理です。</p>
     <content type="html"><![CDATA[<h2>新しくブログを始めた理由</h2>
 
 <p>新しくブログを始めました。</p>
+
+<!-- more -->
+
 
 <p>はじめは、<a href="https://pages.github.com/">GitHub Pages</a>が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、</p>
 
