@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-18T06:41:53+09:00</updated>
+  <updated>2014-09-20T14:39:41+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,102 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第22回 CloudStackユーザー会 in 広島に参加してみました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/19/event/"/>
+    <updated>2014-09-19T18:39:34+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/19/event</id>
+    <content type="html"><![CDATA[<p><a href="https://atnd.org/events/55097">CloudStackユーザー会</a>に参加してみました。</p>
+
+<p>普段仕事でインフラを触ることはない私ですが、なんとなく行ってみました。</p>
+
+<p><img src="http://cloudstack.apache.org/images/monkey.png" alt="cloudstack_image" /></p>
+
+<!-- more -->
+
+
+<h1>印象に残ったこと</h1>
+
+<h3>CloudStack概要・再入門～いまさら聞けない！？CloudStackとは～</h3>
+
+<p><a href="https://twitter.com/smzksts/">島崎聡史さん</a></p>
+
+<p>CloudStackとは？</p>
+
+<ul>
+<li>管理サーバとシステムVMが連携してiaasクラウド環境を提供</li>
+<li>利用者はインスタンスと仮想ネットワークをオンデマンドで利用</li>
+<li>管理者はインフラ、アカウント、サービスを管理</li>
+</ul>
+
+
+<h3>CloudStack入門以前 (広島サーバユーザ友の会)</h3>
+
+<p><a href="https://twitter.com/takatayoshitake">tktさん</a></p>
+
+<p>2013年に<a href="https://atnd.org/events/45041">Cloudstackをみんなでつくってみよう！</a>を開催</p>
+
+<p>和室で９時間…！？</p>
+
+<h3>CloudStack4.4最新情報</h3>
+
+<p><a href="https://twitter.com/star76popin">大削緑さん</a></p>
+
+<p><a href="http://www.amazon.co.jp/dp/4844395920">CloudStack実践ガイド</a>を執筆された。</p>
+
+<p><a href="http://www.lpi.or.jp/news/press/page/20140912_01/">LPI-Japan、『CloudStack技術者認定試験』を2015年2月初旬に配信開始</a></p>
+
+<p>人柱として4.4を入れてみた。いろいろとハマりどころあり。</p>
+
+<h3>CloudStack用ハイパーバイザーの選び方</h3>
+
+<p><a href="https://twitter.com/smzksts/">島崎聡史さん</a></p>
+
+<p>マルチハイパーバイザー対応だけど手間もある</p>
+
+<p>コスト</p>
+
+<ul>
+<li>XenServer > KVM > Hyper-v > vSphere</li>
+</ul>
+
+
+<p>機能拡張の追従</p>
+
+<ul>
+<li>XenServer >= KVM > vSphere > Hyper</li>
+</ul>
+
+
+<p>対応ゲストの多さ</p>
+
+<ul>
+<li>vSphere > KVM > XenServer >= Hyper</li>
+</ul>
+
+
+<p>XenServerがいちばん楽。アクティベーションがいらない</p>
+
+<h3>CloudStackに触れてみよう!(Citrix CloudPlatformラボ環境)</h3>
+
+<p>実際に動かしてみました。</p>
+
+<p>時間が少ないので、スクリプトで自動的に環境を構築しました。</p>
+
+<h1>感想</h1>
+
+<p>ほぼJavaと、少しのPythonでできた、オープンソースの、awsのダッシュボード的なものだと理解しました。</p>
+
+<p>知らない技術の勉強会にいくときは、予習しとこう。</p>
+
+<blockquote class="twitter-tweet"><p>予習してくればよかったな（何もわかってない）<a href="https://twitter.com/hashtag/csstudy22?src=hash">#csstudy22</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/512907713701883906">September 19, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#70にエア参加しました]]></title>
