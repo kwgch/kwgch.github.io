@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-21T21:05:38+09:00</updated>
+  <updated>2014-09-25T13:23:40+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,58 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#71に参加しました＆<br>AWS Black Belt Tech Webinarに参加してみました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/24/great-h/"/>
+    <updated>2014-09-24T18:58:44+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/24/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<!-- more -->
+
+
+<h1>18:00～19:00</h1>
+
+<p>AWS Black Belt Tech Webinarに参加してみました。</p>
+
+<h3>AWS Black Belt Tech Webinarって何？</h3>
+
+<p>amazonがやっている無料オンラインセミナーです。</p>
+
+<h3>Webinarって何？何て読むの？</h3>
+
+<p><a href="http://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%93%E3%83%8A%E3%83%BC">ウェビナー</a>と読むみたいです。</p>
+
+<p>ウェブ(Web)とセミナー(Seminar)を組み合わせた造語らしいです。</p>
+
+<h3>どうやって参加するの？</h3>
+
+<p><a href="http://aws.amazon.com/jp/webinar-flow/">参加方法はこちら。</a></p>
+
+<p><a href="http://www.gotomeeting.com/">GoToMeeting</a>というサービスを使っているみたいです。</p>
+
+<h3>どんなコースがあるの？</h3>
+
+<p>ぼくが受けたのはRoute53の回でした。</p>
+
+<p><a href="http://aws.amazon.com/jp/event_schedule/">スケジュールはこちら。</a></p>
+
+<h3><a href="http://www.slideshare.net/AmazonWebServicesJapan">Slideshareで公開されてる資料</a>読めばいいんじゃないの？</h3>
+
+<p>読めばいいんじゃないですかね。</p>
+
+<p>ただ、受講してると講師の人がスライドに書いてないTips的なことを話してくれたりします。</p>
+
+<p>あと、聞きながら質問を書き込んでおくと、最後に答えてくれるみたいです。</p>
+
+<h1>19:00～</h1>
+
+<p><a href="https://github.com/great-h/great-h.github.io/issues/1250">やること宣言</a>と全然ちがうことしてました。</p>
+
+<p><strong><a href="http://qiita.com/kwgch/items/33e4db02abf4c2dcad70">railsでデータを登録、更新したユーザーの情報がほしい</a></strong></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[オープンソースカンファレンス2014 Hiroshimaに参加しました]]></title>
