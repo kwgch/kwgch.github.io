@@ -9,6 +9,8 @@ categories:
 
 新しくブログを始めました。
 
+<!-- more -->
+
 はじめは、[GitHub Pages](https://pages.github.com/)が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、
 
 ググってると[Jekyll](http://jekyllrb.com/)（ジキルと読む）を使うとブログが簡単に構築できると知りました。

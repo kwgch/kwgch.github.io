@@ -7,13 +7,13 @@ title: blogはweb logの略
 subtitle: kwgchさんのblog
 author: m.kwgch
 simple_search: https://www.google.com/search
-description: A blog (a truncation of the expression web log) is a discussion or informational site published on the World Wide Web and consisting of discrete entries ("posts") typically displayed in reverse chronological order (the most recent post appears first).
+description: Ruby on Railsの勉強をしています。Hiroshima, Japan
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
+date_format: "%Y/%m/%d"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -34,6 +34,7 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
+# markdown: redcarpet
 rdiscount:
   extensions:
     - autolink
@@ -44,14 +45,14 @@ highlighter: pygments # default python pygments have been replaced by pygments.r
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "もっと読む"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, custom/asides/octo-about-me-from-twitter/aboutmetwitter.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [custom/asides/feedly.html, custom/asides/gravatar.html, custom/asides/octo-about-me-from-twitter/aboutmetwitter.html, asides/recent_posts.html, custom/asides/qiita.html, custom/asides/likebox.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, custom/asides/coderwall.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -87,11 +88,11 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user: kwgch
+delicious_user: 
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: kwgch
+disqus_short_name: 
 disqus_show_comment_count: false
 
 # Google Analytics
@@ -99,3 +100,16 @@ google_analytics_tracking_id: UA-54265167-1
 
 # Facebook Like
 facebook_like: true
+
+# Gravatar email hash
+gravatar_hash: 5c7c9479b5501040e662877612ed50bd
+
+# Facebook likebox (for pages)
+facebook_pagename: MyPage
+facebook_showfaces: true
+facebook_showstream: true
+facebook_width: 260
+
+# Coderwall badges
+coderwall_user: kwgch
+

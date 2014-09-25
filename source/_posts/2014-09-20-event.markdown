@@ -1,0 +1,150 @@
+---
+layout: post
+title: "オープンソースカンファレンス2014 Hiroshimaに参加しました"
+date: 2014-09-20 11:38:33 +0900
+comments: true
+categories: oss, event
+---
+[オープンソースカンファレンス2014 Hiroshima](https://www.ospn.jp/osc2014-hiroshima/)に遊びにいってきました。
+
+![osc2014-hi](https://www.ospn.jp/osc2014-hiroshima/pdf/OSC2014_Hiroshima_flyer_web.jpg)
+
+<!-- more -->
+
+## LT駆動開発 ベストセッションズ – 凪のライトニングトーク
+
+eiel - LT駆動開発とは
+
+- [LT駆動開発とはなにか](http://ltdd.doorkeeper.jp/)がよくわかりました。
+
+Nyoho - 原典にあたったら英語も勉強できた話 〜 Git編 〜
+
+- commit-ish：コミットのようなもの、tree-ish：ツリーのようなもの、[ということがわかりました。](http://www.slideshare.net/YukinoriKitadai/osc-2014-hiroshima-reading-original-git-and-english)
+
+majosystems - ジョーク駆動
+
+- 像を冷蔵庫に入れる方法がわかりました。あとキリンも。
+
+k2works - ソフトウェア開発で最も影響を受けた本
+
+- [UNIXという考え方](http://www.amazon.co.jp/dp/4274064069)に書かれていることは、agileやmicroservicesなど、現代にも通じることがわかりました。
+
+tsuda_ahr - 全角チルダ問題
+
+- [全角チルダ問題](http://www.slideshare.net/tsudaa/ss-36658329)は根が深くて、文字コードわけわからんことがわかりました。
+
+kwgch - ひどいサービスのつくりかた
+
+- ひどいサービスのつくりかた[がわかりました。](http://www.slideshare.net/ducky19999/osch2014)
+
+eiel - すごいHiroshimaの本のここがヒドい
+
+- [すごいHの本](http://great-h-book.eiel.info/)をつくったことがわかりました。
+
+## DNS初めの一歩とダイナミックDNSの今＆GVCによるオープンハード・オープンソースでの遠隔操作の紹介
+
+[T.Kabuさん](https://twitter.com/disco_v8)
+
+DNSわかりませんが見に行きました。
+
+PowerDNSというのがPostgreSQLを使ってるとか、知らないことばかりで面白かったです。
+
+リンク切れの場合にエラーページに飛ばしてAdSense貼っとく話とか、なるほどと思いました。
+
+## Apache CloudStack概要
+
+[大削 緑さん](https://twitter.com/star76popin)
+
+昨日CloudStackの勉強会に参加したので、復習にいきました。とてもわかりやすかったです。
+
+### 講演資料
+
+{% oembed http://www.slideshare.net/star76/20140920-osc %}
+
+## OSS技術者が変わる10の習慣
+
+[恒川 裕康さん](https://www.facebook.com/hiroyasu.tsunekawa)
+
+[ドラッカーさんに教わったIT技術者が変わる50の習慣](http://www.amazon.co.jp/dp/4798040363)という本を出されて、先日5刷になったそうです
+
+### 印象に残ったことば
+
+- 協調の原則、部品の原則はデメリットにもなる→組み合わせが複雑になる
+- OSSでもコミュ力重要→コーチングの資格をとった
+- 間違いを見つけるための仕組みを作る、運用しながら改善していく
+- 行った事を記録する→再現性こそ重要 
+- テクニックではなく原理や標準を学ぶ→組み合わせてこそOSSが生きる
+- 一緒に進歩する→変化についていく 
+
+{% oembed https://twitter.com/ducky19999/status/513210529435746304 %}
+
+## LPICレベル１技術解説セミナー
+
+杉原 正起さん
+
+[LPIC1](http://www.lpi.or.jp/examination/level1.shtml)レベルの初歩コマンド解説でした。よくわかりました。
+
+{% oembed https://twitter.com/ducky19999/status/513196209243029505 %}
+
+## あのサービスもさくら！？「さくらのクラウド」でサービスローンチしてみよう～広島編～
+
+[鷲北 賢](https://twitter.com/ken_washikita)さん
+
+SmartNewsの事例。AWSを利用していたが、負荷対策、コスト対策として、コンテンツのエッジサーバーを「さくらのクラウド」上に置くというハイブリッド構造にしたそうです。
+
+[関連記事：SmartNewsを支える「さくらのクラウド」](http://knowledge.sakura.ad.jp/case-study/1664/)
+
+{% oembed https://twitter.com/ducky19999/status/513160435109879809 %}
+
+# ライトニングトーク＆閉会式
+
+### ルーターの作り方
+
+[ねむねむさん](https://twitter.com/nemumupoyo)
+
+L2で操作したい、独自のプロトコル作りたい、RFC関係ない！
+
+### 普通の大学生がハニーポットやってみた
+
+[もりたさん](http://great-h.doorkeeper.jp/events/15183)
+
+vagrantで構築！ハニーポット楽しい!! ✌('ω'✌ )三✌('ω')✌三( ✌'ω')✌ 
+
+### 速さは力
+
+[T.Kabuさん](https://twitter.com/disco_v8)
+
+PowerDNSでGSLBできるよ！IPv6のスキャン？アドレスいくつあると思ってるんですか？（340澗）
+
+###（参加者置き去り上等）Golang Cafeの歴史とサイドストーリーを語る
+
+[横山 隆司さん](https://plus.google.com/u/0/+TakashiYokoyama)
+
+日本のgo言語コミュニティはヒカルのGoとかGoコンとか名前おかしい
+
+### やります!!広島でハッカソン
+
+山崎 弘学さん
+
+[10/11にハッカソンやります](http://www.pasonatech.co.jp/search/features_plan/RHhiroshima.jsp)
+
+### RaspERのDevな日常
+
+宮城 正伸さん
+
+RaspberyPiとminecraftたのしい✌('ω'✌ )三✌('ω')✌三( ✌'ω')✌ 
+
+### すごい合同勉強会をしたい
+[ひむら ともひこさん](https://github.com/eiel)
+
+[すごい合同勉強会2014 in 広島 - すごいLOVE同好会E本LT駆動GDGa-blogスクラムNVDAEmacsFunctionalλ++.rb.hx](http://great-study.doorkeeper.jp/events/13215)やります。名前おかしい。
+
+### じゃんけん大会
+
+{% oembed https://twitter.com/ducky19999/status/513237523212935168 %}
+
+# まとめ
+
+[まとめてありました](http://togetter.com/li/666584)
+
+たのしかったです。来年もいこうと思います。

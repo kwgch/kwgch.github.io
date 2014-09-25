@@ -1,0 +1,149 @@
+---
+layout: post
+title: "【rails】Githubアカウントでのログインを実装する"
+date: 2014-09-03 23:47:27 +0900
+comments: true
+categories: rails
+---
+
+[omniauthを使ってGitHubでログインする機能を実装する](https://github.com/great-h/great-h.github.io/issues/1190)と宣言したのですが、omniauthは[devise](https://github.com/plataformatec/devise)に入ってました。
+
+なのでdeviseを使いました。
+
+![devise](https://camo.githubusercontent.com/b1c21cc10f2f94857dea5135fe55f2e4d451e028/68747470733a2f2f7261772e6769746875622e636f6d2f706c617461666f726d617465632f6465766973652f6d61737465722f6465766973652e706e67)
+
+<!-- more -->
+
+#準備
+
+まずアプリ作成（てきとう）
+```bash
+$ rails new github_login_sample
+$ cd github_login_sample
+$ rails g scaffold Blog title body:text
+```
+
+Gemfileに下記を追加
+
+```ruby
+gem 'devise'
+gem 'omniauth-github'
+gem "figaro"
+```
+
+deviseのinstall等
+
+```bash
+$ bundle
+$ rails g devise:install
+$ rails g devise User
+$ rails g migration AddColumnsToUsers provider uid
+$ rake db:migrate
+$ rails g figaro:install
+```
+
+#figaro
+
+figaroをインストールすると ``config/application.yml`` が作成され、``.gitignore`` に下記が追加されます
+
+```
+/config/application.yml
+```
+
+``application.yml`` には下記のように``APP_ID``と``APP_SECRET``を書きます。
+
+```
+APP_ID: xxxxxxxxxxxxxxxxxxxx
+APP_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+あ、これはGithubの Settings/Apprications/Register new application でアプリを登録すると発行されます。
+
+そして ``config/initializers/devise.rb`` へ
+
+```ruby
+  config.omniauth :github, ENV["APP_ID"], ENV["APP_SECRET"], scope: 'user,public_repo'
+```
+
+と書くわけです。``application.yml`` に書いた名称と同じなら、``APP_ID``とかじゃなくても、何でもいいです。
+
+``application.yml`` がgit管理対象外になっているので、githubに上げても``APP_ID``と``APP_SECRET``が知られなくていいですね。（privateリポジトリなら関係ないけど）
+
+#routes
+
+次は``config/routes.rb`` へ下記を追加。callbackのルーティングです。
+
+```ruby
+  root 'blogs#index'
+  get 'blogs/index'
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
+  devise_scope :user do
+    get 'sign_out', :to => 'devise/sessions#destroy', :as => :destroy_user_session
+  end
+```
+
+#controller
+
+それから ``app/controller/users/`` に ``omniauth_callbacks_controller.rb`` を追加します。
+callback時のログイン処理です。
+
+```
+class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
+  def github
+    @user = User.find_or_create_by(user_params)
+
+    if @user.persisted?
+      sign_in_and_redirect @user, :event => :authentication
+      set_flash_message(:notice, :success, :kind => "Github") if is_navigational_format?
+    else
+      session["devise.github_data"] = request.env["omniauth.auth"]
+      redirect_to new_user_registration_url
+    end
+  end
+
+  private
+  def user_params
+    request.env["omniauth.auth"].slice(:provider, :uid).to_h
+  end
+end
+```
+
+# model
+
+``app/models/user.rb`` に下記を追加。もうちょっとです。
+
+```ruby
+class User < ActiveRecord::Base
+  devise :omniauthable
+end
+```
+
+# view
+
+viewにSign in、Sign outを追加します。
+
+```erb
+<% if user_signed_in? %>
+    <%= link_to "Sign out", destroy_user_session_path %>
+<% else %>
+    <%= link_to "Sign in with Github", user_omniauth_authorize_path(:github) %>
+<% end %>
+```
+
+# そして
+
+あとはログイン後に表示する箇所を
+
+```erb
+<% if user_signed_in? %>
+
+<% end %>
+```
+
+でくくるとか、controllerで認証処理を書けばいいわけです。
+
+---
+# 参考
+参考にさせていただきました。
+[devise gemを使ってtwitter認証の設定](http://qiita.com/soramugi/items/5b2ed46e8c8b6157e7cc)
+

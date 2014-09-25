@@ -1,0 +1,253 @@
+---
+layout: post
+title: "デブサミ関西2014に参加してきました"
+date: 2014-09-05 23:49:00 +0900
+comments: true
+categories: 
+---
+
+Developers Summit 2014 In Kansai というイベントに参加してきました。
+
+![devsumi](http://event.shoeisha.jp/static/images/event/213/images/devsum_logo.png)
+
+一昨年ぶりの参加です。
+今年はスーツの人ばっかりだなぁと思ったら、近くでやっていた[国際フロンティア産業メッセ2014](http://www.kobemesse.com/)の会場に行ってしまいました。
+
+ダッシュで基調講演に間に合った。
+
+<!-- more -->
+
+#[基調講演](http://event.shoeisha.jp/devsumi/20140905/session/550/)
+最初はクックパッドの[庄司嘉織さん](https://twitter.com/yoshiori)。
+
+「この『物語』は、ぼくが歩き出す物語だ。肉体が……という意味ではなく、エンジニアとしてという意味で……」というタイトル。
+
+熱い講演で、会場は終止爆笑に包まれました。
+
+##印象に残ったこと
+
+###経歴
+意外なことに、25才でプログラミング経験なし、高卒で情報系の知識なしでプログラマになったそうです。
+
+30才でプログラマになった高卒の私は、勝手に勇気をもらいました。
+
+### いちばんの"へたくそ"でいよう
+[情熱プログラマー](http://www.amazon.co.jp/gp/product/4274067939?ie=UTF8&camp=1207&creative=8411&creativeASIN=4274067939&linkCode=shr&tag=ducky19999-22&qid=1409962171)という本に出てくる言葉です。
+
+自分が"へたくそ"になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。
+
+そのほうが面白いとの事。なるほどその通り。
+
+### もっと怒ろう
+{% oembed https://twitter.com/ngtyk/status/461046929389285376 %}
+
+おかしい仕様に対しては怒ろう。
+
+おかしいと思うことはおかしいと言おう。
+
+[怒られても死なない。](http://news.livedoor.com/article/detail/6330406/)
+
+git使いたい→足元にサーバを立てた→怒られた→じゃあGitHub Enterpriseを導入させてください→[全社導入](http://doda.jp/engineer/it/guide/001/19b.html#geek_main)→みんなが幸せになった
+
+### やりたいことをやろう
+
+[AWSで動画配信やりたい](http://techlife.cookpad.com/entry/2014/06/17/160905)→AWS Summit Tokyo 2014の基調講演で取り上げてもらえた
+
+お客さんにも喜んでもらえた→多分、エンジニアがみんなやりたい事をやったほうが世の中はよくなる気がする
+
+”やりたくないことをするには僕の人生は短すぎる"
+
+## 講演資料
+<a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/yoshiori/18-till-i-die">18 till i die</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+## 感想
+[yoshiori](https://twitter.com/yoshiori)さんがjava-ja立ち上げた人なの忘れて、懇親会で「rubyたのしいです！javaあきました」と言ってしまい、「javaも好きだけど」と言われる失態を晒しました。（感想じゃない）
+
+---
+
+#午後の部
+デブサミ関西2014は、開発プロセストラック、Web＆Cloudトラック、Mobileトラックの３つに分かれていました。
+
+私はWeb＆Cloudトラックにずっといました。
+
+---
+
+# [Webデザインと開発の未来](http://event.shoeisha.jp/devsumi/20140905/session/556/)
+
+[こもりまさあき](https://twitter.com/cipher)さん。
+
+## 印象に残ったこと
+
+[デバイスの使われ方がどんどん変わってきている](http://think.withgoogle.com/databoard/#lang=en-us&study=18&topic=71)。ずっとwebに繋がっている。
+
+[Androidを搭載したデバイス、18,000+](http://opensignal.com/reports/2014/android-fragmentation/#frag_reloaded)。やばい。
+
+[webとは何か？](http://bradfrostweb.com/blog/post/this-is-the-web/)家電、車もwebに。画面も四角とは限らない。
+
+変化に対応するのは正直大変…適応する？そのままでいる？
+
+ビジネスのスピードは加速プロセスしているのに、開発プロセスはどんどん増えている。つらい。
+
+ツール、手法、エコシステムをうまく使おう。やらないと変わらない。
+
+## 講演資料
+{% oembed http://www.slideshare.net/gaspanik/web-38740756 %}
+
+## 感想
+
+ここ最近の大きな流れがよくわかりました。
+
+[本のタイトルにリーンってつければ売れる](http://www.amazon.co.jp/s/ref=sr_st_relevancerank?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&qid=1409968214&rh=n%3A465392%2Ck%3A%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&sort=relevancerank)んだと思いました。
+
+---
+
+# [Web技術で開発するエンタープライズモバイルアプリ](http://event.shoeisha.jp/devsumi/20140905/session/557/)
+
+[アシアル](http://www.asial.co.jp/)の田中正裕さん。
+
+## 印象に残ったこと
+
+企業もモバイルファースト、モバイルを使った業務アプリがもっと増えてくる。
+
+企業向けモバイルの適用には、HTML5を活用した「ハイブリットアプリ開発」が中核となる。
+
+iOSやAndroidなどの各種プラットフォーム向けネイティブコードによる実行時のフレームワークを提供するのがCordova。
+
+CordovaをつかっているものにPhoneGap,Monaca,IBM Worklight,Senchaがある。
+
+で、アシアルが提供しているのが[Monaca](http://monaca.mobi/ja/)。
+
+前にちょっと触ったのですが、iOSもAndroidもわかんないけど、簡単にアプリが動いてスゲーって思った覚えがあります。
+
+## 感想
+iOSアプリもAndroidアプリも作ったことがないのでアレですが、業務アプリのモバイル化はもっと進むだろうし、実際お客様の企業でもやっています。
+
+このへんの技術も押さえられたら需要あるんだろうな～と思いました。
+
+---
+
+#[チームもサービスもグローバルへ～世界を目指すヌーラボの素顔に迫る！～](http://event.shoeisha.jp/devsumi/20140905/session/558/)
+[ヌーラボ](http://nulab-inc.com/ja/)の[染田貴志](https://twitter.com/tksmd)さん。
+
+## 印象に残ったこと
+
+[cacoo](https://cacoo.com/lang/ja/)は世界に130万のユーザーがいる！
+
+cacooという名前は、街で外国人に聞いて回ってつけた。名前重要。
+
+WordCampに挑戦→lifehackerとかで取り上げられた→サーバが唸る→awsへ
+
+[backlog](http://www.backlog.jp/)は、受託の傍ら粘りよく作り続けた。こういうの聞くと勇気づけられる。
+
+[サルでもわかるGit入門](http://www.backlog.jp/git-guide/)も多言語対応しており、ここから他サービスへの流入もある。
+
+## 講演資料
+<a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/nulabinc/timumosabisumogurobaruhe-shi-jie-womu-zhi-sunurabofalsesu-yan-nipo-ru">チームもサービスもグローバルへ 〜 世界を目指すヌーラボの素顔に迫る！〜</a>
+<script>(function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b;d.async=true;d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}})(document);</script>
+
+## 感想
+もっと英語がんばろう。
+
+---
+
+#[インフラ企業で働くフロントエンドエンジニアの挑戦](http://event.shoeisha.jp/devsumi/20140905/session/559/)
+さくらインターネットの[河原覚](https://twitter.com/esukei)さん。
+
+## 印象に残ったこと
+
+しょぼいコントロールパネルを自分の感覚でデザインすることに
+
+そもそも組織にUIデザインの文化がなかった…
+
+その時々で誰かが頑張って作る→知見が蓄積さない、技術が更新されない
+
+UIはユーザーがサービスを利用する際に触るものである→UIの品質向上がサービス体験の向上と訴え続けた
+
+「デザイン上の理由」を根拠を持って説明、可能な限り客観的なデータを用意
+
+ペーパープロトタイピング、モック作成、ユーザーテストの手法を導入
+
+## 講演資料
+<a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/esukei/creating-a-ui-design-culture">Creating a UI Design culture</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+## 感想
+
+組織に新しい文化を導入する、まさにフロントエンドエンジニアの挑戦でした。
+
+{% oembed https://twitter.com/ducky19999/status/507792461377183744 %}
+
+---
+
+# [関西で働くという生き方](http://event.shoeisha.jp/devsumi/20140905/session/555/)
+
+３名の講演がありました。
+
+---
+
+## ソニックガーデンの[伊藤淳](https://twitter.com/jnchito)一さん
+
+### 印象に残ったこと
+
+リモートワークを成功させるポイント
+
+- 仕事部屋を用意する
+
+- KPTふりかえりをメンバーと行う
+
+個人 ＜ 組織文化 
+
+### 講演資料
+{% oembed http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi %}
+
+### 感想
+田舎は広い！ドラムセット置ける！
+
+---
+
+## サイバーエージェントの[川畑雄補](https://twitter.com/ku_suke)さん
+
+### 印象に残ったこと
+カオスマップ
+{% oembed http://www.slideshare.net/HiroshiKondo/chaosmap-2013 %}
+
+テクノロジーの理解なしにマーケティング活動ができない
+
+データドリブンでマーティングできる→マーケティングエンジニアの時代 
+
+東京のWEB系開発はとにかく特化しないと勝てない
+
+大阪のWEB系開発は総合対応力がもとめられる→なんでもやらせてもらえる
+
+### 感想
+エンジニアの私は色んな「きぐるみ」 をまとおう
+
+---
+
+## ヤフーの[山本学](https://twitter.com/yamamoto_manabu)さん
+
+### 印象に残ったこと
+Yahooが大阪に開発拠点を作り、現地採用→チャンス 
+
+新しいメンバーで新しい文化をつくるチャンスだと思った
+
+で、[yahoo!クラウドソーシング](http://crowdsourcing.yahoo.co.jp/)をつくった
+
+人口比でいえば、大阪の勉強会の数は東京に負けてない
+
+### 感想
+関西にはチャンスがある
+
+---
+
+# まとめ
+
+↓ここにまとめてありました。
+
+[「デブサミ関西2014」開催、講演関連資料まとめ](http://codezine.jp/article/detail/8085)
+
+# おわりに
+{% oembed https://twitter.com/ducky19999/status/507811473830064128 %}
+
+来年もいこう。
