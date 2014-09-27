@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-26T09:36:53+09:00</updated>
+  <updated>2014-09-27T10:30:30+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -81,49 +81,49 @@
 
 <h2>LT駆動開発 ベストセッションズ – 凪のライトニングトーク</h2>
 
-<p>eiel - LT駆動開発とは</p>
+<p><a href="http://eiel.info/">eiel</a> - LT駆動開発とは(再) - <a href="https://speakerdeck.com/eiel/ltqu-dong-kai-fa-zai">スライド</a> - <a href="http://blog.eiel.info/blog/2014/09/20/osc-2014/">解説</a></p>
 
 <ul>
-<li><a href="http://ltdd.doorkeeper.jp/">LT駆動開発とはなにか</a>がよくわかりました。</li>
+<li>LT駆動開発とはなにかがよくわかりました。</li>
 </ul>
 
 
-<p>Nyoho - 原典にあたったら英語も勉強できた話 〜 Git編 〜</p>
+<p><a href="http://nyoho.jp">Nyoho</a> - 原典にあたったら英語も勉強できた話 〜 Git編 〜 - <a href="http://www.slideshare.net/YukinoriKitadai/osc-2014-hiroshima-reading-original-git-and-english">スライド</a></p>
 
 <ul>
-<li>commit-ish：コミットのようなもの、tree-ish：ツリーのようなもの、<a href="http://www.slideshare.net/YukinoriKitadai/osc-2014-hiroshima-reading-original-git-and-english">ということがわかりました。</a></li>
+<li>commit-ish：コミットのようなもの、tree-ish：ツリーのようなもの、ということがわかりました。</li>
 </ul>
 
 
-<p>majosystems - ジョーク駆動</p>
+<p><a href="http://github.com/majosystems">majosystems</a> - Joke駆動LT - <a href="http://www.slideshare.net/nisyu/joke-35596836">スライド</a></p>
 
 <ul>
-<li>像を冷蔵庫に入れる方法がわかりました。あとキリンも。</li>
+<li>像を冷蔵庫に入れる方法がわかりました。</li>
 </ul>
 
 
-<p>k2works - ソフトウェア開発で最も影響を受けた本</p>
+<p><a href="https://github.com/k2works">k2works</a> - ソフトウェア開発で最も影響を受けた本 - <a href="http://www.slideshare.net/kakimomokuri/2014-39450085">スライド</a></p>
 
 <ul>
 <li><a href="http://www.amazon.co.jp/dp/4274064069">UNIXという考え方</a>に書かれていることは、agileやmicroservicesなど、現代にも通じることがわかりました。</li>
 </ul>
 
 
-<p>tsuda_ahr - 全角チルダ問題</p>
+<p><a href="https://twitter.com/tsuda_ahr">tsuda_ahr</a> - 全角チルダ問題 - <a href="http://www.slideshare.net/tsudaa/ss-36658329">スライド</a></p>
 
 <ul>
-<li><a href="http://www.slideshare.net/tsudaa/ss-36658329">全角チルダ問題</a>は根が深くて、文字コードわけわからんことがわかりました。</li>
+<li>文字コードわけわからんことがわかりました。</li>
 </ul>
 
 
-<p>kwgch - ひどいサービスのつくりかた</p>
+<p><a href="https://github.com/kwgch">kwgch</a> - ひどいサービスのつくりかた - <a href="http://www.slideshare.net/ducky19999/osch2014">スライド</a></p>
 
 <ul>
-<li>ひどいサービスのつくりかた<a href="http://www.slideshare.net/ducky19999/osch2014">がわかりました。</a></li>
+<li>ひどいサービスのつくりかたがわかりました。</li>
 </ul>
 
 
-<p>eiel - すごいHiroshimaの本のここがヒドい</p>
+<p><a href="http://eiel.info/">eiel</a> - すごいHiroshimaの本のここがヒドい - <a href="https://speakerdeck.com/eiel/sugoihiroshimafalseben-falsekokogahidoi">スライド</a> - <a href="http://blog.eiel.info/blog/2014/09/21/great-h-book-osc-2014-and-wtm71/">解説</a></p>
 
 <ul>
 <li><a href="http://great-h-book.eiel.info/">すごいHの本</a>をつくったことがわかりました。</li>
