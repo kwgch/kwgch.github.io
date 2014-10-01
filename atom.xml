@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-09-27T10:30:30+09:00</updated>
+  <updated>2014-10-02T00:20:29+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,80 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すくすくスクラム広島#7に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/28/scrum/"/>
+    <updated>2014-09-28T23:04:53+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/28/scrum</id>
+    <content type="html"><![CDATA[<p>すくすくスクラム広島第7回「リーンキャンバスって？」に参加しました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1759_normal_1383665389_momiji_orange_large.gif" alt="sukusuku-scrum-hiroshima" /></p>
+
+<!-- more -->
+
+
+<h3>すくすくスクラム広島ってなに？</h3>
+
+<p><a href="https://www.facebook.com/Sukusuku.Scrum.Hiroshima">広島のすくすくスクラムです。</a></p>
+
+<p>今回で１周年でした。</p>
+
+<h3>すくすくスクラムってなに？</h3>
+
+<p><a href="http://sukusuku-scrum.org/">スクラムの勉強会です。</a></p>
+
+<h3>スクラムってなに？</h3>
+
+<p><a href="http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA)">新製品開発のためのフレームワークです。</a></p>
+
+<h3>リーンキャンバスってなに？</h3>
+
+<p>リーンスタートアップ向けに開発された戦略モデル</p>
+
+<p>顧客開発モデル → ビジネスモデルキャンバス → リーンキャンバス</p>
+
+<p>と進化してきたものだそうです。</p>
+
+<p>※当日の資料（<a href="https://github.com/k2works">Kakigi Katuyukiさん</a>）</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/39629182" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kakimomokuri/ss-39629182" title="リーンスタートアップの奇妙な冒険" target="_blank">リーンスタートアップの奇妙な冒険</a> </strong> from <strong><a href="http://www.slideshare.net/kakimomokuri" target="_blank">Kakigi Katuyuki</a></strong> </div></p>
+
+<h3>リーンってなに？</h3>
+
+<p><a href="http://dictionary.goo.ne.jp/leaf/jn2/230485/m0u/">リーン【lean】［形動］《やせた、引き締まった、などの意》生産方式や企業で、無駄を排したさま。「力強い―な会社」</a></p>
+
+<h3>何をしたの？</h3>
+
+<blockquote class="twitter-tweet"><p>すくすくスクラム広島でリーンキャンバスを体験します <a href="http://t.co/aOXiKtLyxG">pic.twitter.com/aOXiKtLyxG</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/516124642734399488">September 28, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>課題：昼飯食ったあと眠くなる</p></li>
+<li><p>顧客セグメント：座って仕事する人</p></li>
+<li><p>独自の価値提案：寝てもいい状態にする</p></li>
+<li><p>ソリューション：ウェアラブル機器で眠気データ収集 → 生産性を可視化</p></li>
+<li><p>収益の流れ：1万社 × 10万円/年 = 10億円/年</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>リーンキャンバス、完成前に時間となりました <a href="http://t.co/ytyqByXFQ4">pic.twitter.com/ytyqByXFQ4</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/516152039789694976">September 28, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>まとめ</h3>
+
+<p>11月はぼくが担当です。よろしくお願いします。（まとめてない）</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#71に参加しました＆<br>AWS Black Belt Tech Webinarに参加してみました]]></title>
@@ -213,7 +287,7 @@
 
 <h3>普通の大学生がハニーポットやってみた</h3>
 
-<p><a href="http://great-h.doorkeeper.jp/events/15183">もりたさん</a></p>
+<p><a href="https://twitter.com/mrtc0">もりたさん</a></p>
 
 <p>vagrantで構築！ハニーポット楽しい!! ✌(&lsquo;ω&#8217;✌ )三✌(&#8216;ω&rsquo;)✌三( ✌&#8217;ω&#8217;)✌</p>
 
