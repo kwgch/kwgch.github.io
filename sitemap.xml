@@ -3,6 +3,14 @@
   
   
   <url>
+    <loc>http://kwgch.github.io/blog/2014/10/01/great-h/</loc>
+    
+    <lastmod>2014-10-01T23:23:23+09:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://kwgch.github.io/blog/2014/09/28/scrum/</loc>
     
     <lastmod>2014-09-28T23:04:53+09:00</lastmod>
@@ -125,14 +133,14 @@
   
   <url>
     <loc>http://kwgch.github.io/</loc>
-    <lastmod>2014-10-02T00:20:29+09:00</lastmod>
+    <lastmod>2014-10-02T17:13:34+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://kwgch.github.io/blog/archives/</loc>
-    <lastmod>2014-10-02T00:20:29+09:00</lastmod>
+    <lastmod>2014-10-02T17:13:34+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

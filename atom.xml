@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-02T00:20:29+09:00</updated>
+  <updated>2014-10-02T17:13:34+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#72にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/01/great-h/"/>
+    <updated>2014-10-01T23:23:23+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/01/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<h1>18:00～19:00</h1>
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマはEMRでした。</p>
+
+<h3>EMRってなに？</h3>
+
+<p>Elastic Map Reduceの略です。</p>
+
+<p>※当日の資料</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/39746532" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr" title="AWS Black Belt Techシリーズ Amazon EMR" target="_blank">AWS Black Belt Techシリーズ Amazon EMR</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<h1>19:00~</h1>
+
+<p>10/19に情報処理技術者試験があるので、ITストラテジストの勉強をしました。</p>
+
+<p>論文事例集を読んでいたのですが、</p>
+
+<blockquote class="twitter-tweet"><p>3000円も払ったサンプル論文集に「至上命題」なんてデタラメな日本語が出てきて憤慨している <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/517274660027650048">October 1, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>「すべからく」と並んで誤用日本語の定番である「至上命題」が平然と使われていました。</p>
+
+<p>普段は別に何とも思わないのですが、</p>
+
+<p>文章売って金もらっている人間が、平然と使っているのが許せんのですよ。</p>
+
+<p>しかも論文事例集ですよ！</p>
+
+<p>編集の人も何も思ってないわけですよね。</p>
+
+<p>…まぁ、どうでもいいんですけどね（どっちやねん）</p>
+
+<p>以前もプロマネ論文集で見た気がします。</p>
+
+<p>たのんますよ、アイテックさん。</p>
+
+<h3>その他</h3>
+
+<p><a href="http://qiita.com/kwgch/items/a8dcbe9503d847902af3">bootstrap-material-designをさわってみました。</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すくすくスクラム広島#7に参加しました]]></title>
@@ -59,6 +122,8 @@
 <p><a href="http://dictionary.goo.ne.jp/leaf/jn2/230485/m0u/">リーン【lean】［形動］《やせた、引き締まった、などの意》生産方式や企業で、無駄を排したさま。「力強い―な会社」</a></p>
 
 <h3>何をしたの？</h3>
+
+<p>5人 × 2チームくらいで実際にリーンキャンバスを作成しました。</p>
 
 <blockquote class="twitter-tweet"><p>すくすくスクラム広島でリーンキャンバスを体験します <a href="http://t.co/aOXiKtLyxG">pic.twitter.com/aOXiKtLyxG</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/516124642734399488">September 28, 2014</a></blockquote>
 
