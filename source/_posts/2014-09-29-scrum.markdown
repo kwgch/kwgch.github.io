@@ -1,0 +1,66 @@
+---
+layout: post
+title: "すくすくスクラム広島#7に参加しました"
+date: 2014-09-28 23:04:53 +0900
+comments: true
+categories: 
+---
+
+すくすくスクラム広島第7回「リーンキャンバスって？」に参加しました。
+
+![sukusuku-scrum-hiroshima](https://dzpp79ucibp5a.cloudfront.net/groups_logos/1759_normal_1383665389_momiji_orange_large.gif)
+
+<!-- more -->
+
+### すくすくスクラム広島ってなに？
+
+[広島のすくすくスクラムです。](https://www.facebook.com/Sukusuku.Scrum.Hiroshima)
+
+今回で１周年でした。
+
+### すくすくスクラムってなに？
+
+[スクラムの勉強会です。](http://sukusuku-scrum.org/)
+
+### スクラムってなに？
+
+[新製品開発のためのフレームワークです。](http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))
+
+### リーンキャンバスってなに？
+
+リーンスタートアップ向けに開発された戦略モデル
+
+顧客開発モデル → ビジネスモデルキャンバス → リーンキャンバス
+
+と進化してきたものだそうです。
+
+※当日の資料（[Kakigi Katuyukiさん](https://github.com/k2works)）
+
+{% oembed http://www.slideshare.net/kakimomokuri/ss-39629182 %}
+
+### リーンってなに？
+
+[リーン【lean】［形動］《やせた、引き締まった、などの意》生産方式や企業で、無駄を排したさま。「力強い―な会社」](http://dictionary.goo.ne.jp/leaf/jn2/230485/m0u/)
+
+### 何をしたの？
+
+5人 × 2チームくらいで実際にリーンキャンバスを作成しました。
+
+{% oembed https://twitter.com/ducky19999/status/516124642734399488 %}
+
+- 課題：昼飯食ったあと眠くなる
+
+- 顧客セグメント：座って仕事する人
+
+- 独自の価値提案：寝てもいい状態にする
+
+- ソリューション：ウェアラブル機器で眠気データ収集 → 生産性を可視化
+
+- 収益の流れ：1万社 × 10万円/年 = 10億円/年
+
+{% oembed https://twitter.com/ducky19999/status/516152039789694976 %}
+
+### まとめ
+
+11月はぼくが担当です。よろしくお願いします。（まとめてない）
+

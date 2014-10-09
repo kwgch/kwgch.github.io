@@ -13,31 +13,31 @@ categories: oss, event
 
 ## LT駆動開発 ベストセッションズ – 凪のライトニングトーク
 
-eiel - LT駆動開発とは
+[eiel](http://eiel.info/) - LT駆動開発とは(再) - [スライド](https://speakerdeck.com/eiel/ltqu-dong-kai-fa-zai) - [解説](http://blog.eiel.info/blog/2014/09/20/osc-2014/)
 
-- [LT駆動開発とはなにか](http://ltdd.doorkeeper.jp/)がよくわかりました。
+- LT駆動開発とはなにかがよくわかりました。
 
-Nyoho - 原典にあたったら英語も勉強できた話 〜 Git編 〜
+[Nyoho](http://nyoho.jp) - 原典にあたったら英語も勉強できた話 〜 Git編 〜 - [スライド](http://www.slideshare.net/YukinoriKitadai/osc-2014-hiroshima-reading-original-git-and-english)
 
-- commit-ish：コミットのようなもの、tree-ish：ツリーのようなもの、[ということがわかりました。](http://www.slideshare.net/YukinoriKitadai/osc-2014-hiroshima-reading-original-git-and-english)
+- commit-ish：コミットのようなもの、tree-ish：ツリーのようなもの、ということがわかりました。
 
-majosystems - ジョーク駆動
+[majosystems](http://github.com/majosystems) - Joke駆動LT - [スライド](http://www.slideshare.net/nisyu/joke-35596836)
 
-- 像を冷蔵庫に入れる方法がわかりました。あとキリンも。
+- 像を冷蔵庫に入れる方法がわかりました。
 
-k2works - ソフトウェア開発で最も影響を受けた本
+[k2works](https://github.com/k2works) - ソフトウェア開発で最も影響を受けた本 - [スライド](http://www.slideshare.net/kakimomokuri/2014-39450085)
 
 - [UNIXという考え方](http://www.amazon.co.jp/dp/4274064069)に書かれていることは、agileやmicroservicesなど、現代にも通じることがわかりました。
 
-tsuda_ahr - 全角チルダ問題
+[tsuda_ahr](https://twitter.com/tsuda_ahr) - 全角チルダ問題 - [スライド](http://www.slideshare.net/tsudaa/ss-36658329)
 
-- [全角チルダ問題](http://www.slideshare.net/tsudaa/ss-36658329)は根が深くて、文字コードわけわからんことがわかりました。
+- 文字コードわけわからんことがわかりました。
 
-kwgch - ひどいサービスのつくりかた
+[kwgch](https://github.com/kwgch) - ひどいサービスのつくりかた - [スライド](http://www.slideshare.net/ducky19999/osch2014)
 
-- ひどいサービスのつくりかた[がわかりました。](http://www.slideshare.net/ducky19999/osch2014)
+- ひどいサービスのつくりかたがわかりました。
 
-eiel - すごいHiroshimaの本のここがヒドい
+[eiel](http://eiel.info/) - すごいHiroshimaの本のここがヒドい - [スライド](https://speakerdeck.com/eiel/sugoihiroshimafalseben-falsekokogahidoi) - [解説](http://blog.eiel.info/blog/2014/09/21/great-h-book-osc-2014-and-wtm71/)
 
 - [すごいHの本](http://great-h-book.eiel.info/)をつくったことがわかりました。
 
@@ -106,7 +106,7 @@ L2で操作したい、独自のプロトコル作りたい、RFC関係ない！
 
 ### 普通の大学生がハニーポットやってみた
 
-[もりたさん](http://great-h.doorkeeper.jp/events/15183)
+[もりたさん](https://twitter.com/mrtc0)
 
 vagrantで構築！ハニーポット楽しい!! ✌('ω'✌ )三✌('ω')✌三( ✌'ω')✌ 
 
