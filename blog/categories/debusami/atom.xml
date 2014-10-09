@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: デブサミ | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/debusami/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-10-09T21:42:56+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[デブサミ関西2014に参加してきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/05/blog/"/>
+    <updated>2014-09-05T23:49:00+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/05/blog</id>
+    <content type="html"><![CDATA[<p>Developers Summit 2014 In Kansai というイベントに参加してきました。</p>
+
+<p><img src="http://event.shoeisha.jp/static/images/event/213/images/devsum_logo.png" alt="devsumi" /></p>
+
+<p>一昨年ぶりの参加です。
+今年はスーツの人ばっかりだなぁと思ったら、近くでやっていた<a href="http://www.kobemesse.com/">国際フロンティア産業メッセ2014</a>の会場に行ってしまいました。</p>
+
+<p>ダッシュで基調講演に間に合った。</p>
+
+<!-- more -->
+
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/550/">基調講演</a></h1>
+
+<p>最初はクックパッドの<a href="https://twitter.com/yoshiori">庄司嘉織さん</a>。</p>
+
+<p>「この『物語』は、ぼくが歩き出す物語だ。肉体が……という意味ではなく、エンジニアとしてという意味で……」というタイトル。</p>
+
+<p>熱い講演で、会場は終止爆笑に包まれました。</p>
+
+<h2>印象に残ったこと</h2>
+
+<h3>経歴</h3>
+
+<p>意外なことに、25才でプログラミング経験なし、高卒で情報系の知識なしでプログラマになったそうです。</p>
+
+<p>30才でプログラマになった高卒の私は、勝手に勇気をもらいました。</p>
+
+<h3>いちばんの&#8221;へたくそ&#8221;でいよう</h3>
+
+<p><a href="http://www.amazon.co.jp/gp/product/4274067939?ie=UTF8&amp;camp=1207&amp;creative=8411&amp;creativeASIN=4274067939&amp;linkCode=shr&amp;tag=ducky19999-22&amp;qid=1409962171">情熱プログラマー</a>という本に出てくる言葉です。</p>
+
+<p>自分が&#8221;へたくそ&#8221;になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。</p>
+
+<p>そのほうが面白いとの事。なるほどその通り。</p>
+
+<h3>もっと怒ろう</h3>
+
+<p><a href="https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a>">https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a></a></p>
+
+<p>おかしい仕様に対しては怒ろう。</p>
+
+<p>おかしいと思うことはおかしいと言おう。</p>
+
+<p><a href="http://news.livedoor.com/article/detail/6330406/">怒られても死なない。</a></p>
+
+<p>git使いたい→足元にサーバを立てた→怒られた→じゃあGitHub Enterpriseを導入させてください→<a href="http://doda.jp/engineer/it/guide/001/19b.html#geek_main">全社導入</a>→みんなが幸せになった</p>
+
+<h3>やりたいことをやろう</h3>
+
+<p><a href="http://techlife.cookpad.com/entry/2014/06/17/160905">AWSで動画配信やりたい</a>→AWS Summit Tokyo 2014の基調講演で取り上げてもらえた</p>
+
+<p>お客さんにも喜んでもらえた→多分、エンジニアがみんなやりたい事をやったほうが世の中はよくなる気がする</p>
+
+<p>”やりたくないことをするには僕の人生は短すぎる&#8221;</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/yoshiori/18-till-i-die">18 till i die</a></p>
+
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+
+<h2>感想</h2>
+
+<p><a href="https://twitter.com/yoshiori">yoshiori</a>さんがjava-ja立ち上げた人なの忘れて、懇親会で「rubyたのしいです！javaあきました」と言ってしまい、「javaも好きだけど」と言われる失態を晒しました。（感想じゃない）</p>
+
+<hr />
+
+<h1>午後の部</h1>
+
+<p>デブサミ関西2014は、開発プロセストラック、Web＆Cloudトラック、Mobileトラックの３つに分かれていました。</p>
+
+<p>私はWeb＆Cloudトラックにずっといました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/556/">Webデザインと開発の未来</a></h1>
+
+<p><a href="https://twitter.com/cipher">こもりまさあき</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p><a href="http://think.withgoogle.com/databoard/#lang=en-us&amp;study=18&amp;topic=71">デバイスの使われ方がどんどん変わってきている</a>。ずっとwebに繋がっている。</p>
+
+<p><a href="http://opensignal.com/reports/2014/android-fragmentation/#frag_reloaded">Androidを搭載したデバイス、18,000+</a>。やばい。</p>
+
+<p><a href="http://bradfrostweb.com/blog/post/this-is-the-web/">webとは何か？</a>家電、車もwebに。画面も四角とは限らない。</p>
+
+<p>変化に対応するのは正直大変…適応する？そのままでいる？</p>
+
+<p>ビジネスのスピードは加速プロセスしているのに、開発プロセスはどんどん増えている。つらい。</p>
+
+<p>ツール、手法、エコシステムをうまく使おう。やらないと変わらない。</p>
+
+<h2>講演資料</h2>
+
+<p><a href="http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a>">http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a></a></p>
+
+<h2>感想</h2>
+
+<p>ここ最近の大きな流れがよくわかりました。</p>
+
+<p><a href="http://www.amazon.co.jp/s/ref=sr_st_relevancerank?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;qid=1409968214&amp;rh=n%3A465392%2Ck%3A%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;sort=relevancerank">本のタイトルにリーンってつければ売れる</a>んだと思いました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/557/">Web技術で開発するエンタープライズモバイルアプリ</a></h1>
+
+<p><a href="http://www.asial.co.jp/">アシアル</a>の田中正裕さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p>企業もモバイルファースト、モバイルを使った業務アプリがもっと増えてくる。</p>
+
+<p>企業向けモバイルの適用には、HTML5を活用した「ハイブリットアプリ開発」が中核となる。</p>
+
+<p>iOSやAndroidなどの各種プラットフォーム向けネイティブコードによる実行時のフレームワークを提供するのがCordova。</p>
+
+<p>CordovaをつかっているものにPhoneGap,Monaca,IBM Worklight,Senchaがある。</p>
+
+<p>で、アシアルが提供しているのが<a href="http://monaca.mobi/ja/">Monaca</a>。</p>
+
+<p>前にちょっと触ったのですが、iOSもAndroidもわかんないけど、簡単にアプリが動いてスゲーって思った覚えがあります。</p>
+
+<h2>感想</h2>
+
+<p>iOSアプリもAndroidアプリも作ったことがないのでアレですが、業務アプリのモバイル化はもっと進むだろうし、実際お客様の企業でもやっています。</p>
+
+<p>このへんの技術も押さえられたら需要あるんだろうな～と思いました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/558/">チームもサービスもグローバルへ～世界を目指すヌーラボの素顔に迫る！～</a></h1>
+
+<p><a href="http://nulab-inc.com/ja/">ヌーラボ</a>の<a href="https://twitter.com/tksmd">染田貴志</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p><a href="https://cacoo.com/lang/ja/">cacoo</a>は世界に130万のユーザーがいる！</p>
+
+<p>cacooという名前は、街で外国人に聞いて回ってつけた。名前重要。</p>
+
+<p>WordCampに挑戦→lifehackerとかで取り上げられた→サーバが唸る→awsへ</p>
+
+<p><a href="http://www.backlog.jp/">backlog</a>は、受託の傍ら粘りよく作り続けた。こういうの聞くと勇気づけられる。</p>
+
+<p><a href="http://www.backlog.jp/git-guide/">サルでもわかるGit入門</a>も多言語対応しており、ここから他サービスへの流入もある。</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/nulabinc/timumosabisumogurobaruhe-shi-jie-womu-zhi-sunurabofalsesu-yan-nipo-ru">チームもサービスもグローバルへ 〜 世界を目指すヌーラボの素顔に迫る！〜</a></p>
+
+<script>(function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b;d.async=true;d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}})(document);</script>
+
+
+<h2>感想</h2>
+
+<p>もっと英語がんばろう。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/559/">インフラ企業で働くフロントエンドエンジニアの挑戦</a></h1>
+
+<p>さくらインターネットの<a href="https://twitter.com/esukei">河原覚</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p>しょぼいコントロールパネルを自分の感覚でデザインすることに</p>
+
+<p>そもそも組織にUIデザインの文化がなかった…</p>
+
+<p>その時々で誰かが頑張って作る→知見が蓄積さない、技術が更新されない</p>
+
+<p>UIはユーザーがサービスを利用する際に触るものである→UIの品質向上がサービス体験の向上と訴え続けた</p>
+
+<p>「デザイン上の理由」を根拠を持って説明、可能な限り客観的なデータを用意</p>
+
+<p>ペーパープロトタイピング、モック作成、ユーザーテストの手法を導入</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/esukei/creating-a-ui-design-culture">Creating a UI Design culture</a></p>
+
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+
+<h2>感想</h2>
+
+<p>組織に新しい文化を導入する、まさにフロントエンドエンジニアの挑戦でした。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a>">https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a></a></p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/555/">関西で働くという生き方</a></h1>
+
+<p>３名の講演がありました。</p>
+
+<hr />
+
+<h2>ソニックガーデンの<a href="https://twitter.com/jnchito">伊藤淳</a>一さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>リモートワークを成功させるポイント</p>
+
+<ul>
+<li><p>仕事部屋を用意する</p></li>
+<li><p>KPTふりかえりをメンバーと行う</p></li>
+</ul>
+
+
+<p>個人 ＜ 組織文化</p>
+
+<h3>講演資料</h3>
+
+<p><a href="http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a>">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a></a></p>
+
+<h3>感想</h3>
+
+<p>田舎は広い！ドラムセット置ける！</p>
+
+<hr />
+
+<h2>サイバーエージェントの<a href="https://twitter.com/ku_suke">川畑雄補</a>さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>カオスマップ
+<a href="http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a>">http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a></a></p>
+
+<p>テクノロジーの理解なしにマーケティング活動ができない</p>
+
+<p>データドリブンでマーティングできる→マーケティングエンジニアの時代</p>
+
+<p>東京のWEB系開発はとにかく特化しないと勝てない</p>
+
+<p>大阪のWEB系開発は総合対応力がもとめられる→なんでもやらせてもらえる</p>
+
+<h3>感想</h3>
+
+<p>エンジニアの私は色んな「きぐるみ」 をまとおう</p>
+
+<hr />
+
+<h2>ヤフーの<a href="https://twitter.com/yamamoto_manabu">山本学</a>さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>Yahooが大阪に開発拠点を作り、現地採用→チャンス</p>
+
+<p>新しいメンバーで新しい文化をつくるチャンスだと思った</p>
+
+<p>で、<a href="http://crowdsourcing.yahoo.co.jp/">yahoo!クラウドソーシング</a>をつくった</p>
+
+<p>人口比でいえば、大阪の勉強会の数は東京に負けてない</p>
+
+<h3>感想</h3>
+
+<p>関西にはチャンスがある</p>
+
+<hr />
+
+<h1>まとめ</h1>
+
+<p>↓ここにまとめてありました。</p>
+
+<p><a href="http://codezine.jp/article/detail/8085">「デブサミ関西2014」開催、講演関連資料まとめ</a></p>
+
+<h1>おわりに</h1>
+
+<p><a href="https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a>">https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a></a></p>
+
+<p>来年もいこう。</p>
+]]></content>
+  </entry>
+  
+</feed>

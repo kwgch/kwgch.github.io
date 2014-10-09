@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Event | blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/blog/categories/event/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-09T16:51:15+09:00</updated>
+  <updated>2014-10-09T21:42:56+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -187,6 +187,412 @@
 <p><a href="http://togetter.com/li/666584">まとめてありました</a></p>
 
 <p>たのしかったです。来年もいこうと思います。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【広島】レッドハッカソン プレイベントに参加してきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/12/redhackathon/"/>
+    <updated>2014-09-12T23:26:51+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/12/redhackathon</id>
+    <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima」Pre-Event" /></p>
+
+<p><a href="https://www.pu-hiroshima.ac.jp/site/satellite/">サテライトキャンパスひろしま</a>というところで行われた、「Red Hackathon Hiroshima」のプレイベントというものに参加してきました。無料だったので。</p>
+
+<!-- more -->
+
+
+<h1>概要</h1>
+
+<p><a href="https://www.pref.hiroshima.lg.jp/site/innovation/hackathon.html">広島県の「起業、新規ビジネス創出支援」の一環として行われたものです。</a></p>
+
+<p><a href="http://www.pasonatech.co.jp/search/features_plan/hackathon_hiroshima.jsp">パソナテックが受託し、「新規事業を目指す企業や個人を対象に、Webサービス開発技術やハッカソンの魅力を伝えるイベント」として開催されました。</a></p>
+
+<h1>ハッカソンとは</h1>
+
+<blockquote><p>ハッカソン（英語: hackathon、別名:hack day,hackfest,codefest）とはソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に共同作業をするソフトウェア関連プロジェクトのイベントである。時にはハードウェアコンポーネントが扱われることもある。ハッカソンは一般的に最低限1日から一週間の期間で開催される。いくつかのハッカソンは単に教育や社会的な目的を意図に開催されるが、多くの場合使用に耐えるソフトウェアの開発や既存のソフトウェアを改善することを目標としている。また、使用プログラミング言語、オペレーティングシステム、アプリケーション、API、主題や参加プログラマーの人数を定める傾向にある。</p>
+
+<p>引用元: <cite><a href="http://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3">Wikipedia</a></cite></p></blockquote>
+
+<h1>構成</h1>
+
+<p>第１部がパネルディスカッション、第２部がアイデアソンでした。</p>
+
+<h2>パネルディスカッション</h2>
+
+<h3><a href="http://www.pasonatech.co.jp/">パソナテック</a>の<a href="https://www.facebook.com/akihiro.habuchi">羽渕　彰博</a>さん</h3>
+
+<p>ファシリテーター役をしていました。StartupWeekendTokyoやGoogleハッカソン（！），コスプレソン等，色々なハッカソンのファシリテーターをしているらしいです。</p>
+
+<p><img src="/images/20140912-1.JPG" alt="envelope" /></p>
+
+<h3><a href="https://www.facebook.com/hisashikatsuya/about">勝屋　久</a>さん</h3>
+
+<p>何か人と人をつなげるのが仕事らしいです。</p>
+
+<p>ものすごいテンションでしゃべるので、何だこの人…と思ったら、未踏のPMやってたりしたらしい。謎だ…</p>
+
+<p><a href="https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a>">https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a></a></p>
+
+<h3><a href="http://www.soneru.com/">ソネル</a>の和田　純平さん</h3>
+
+<p>iOSアプリの<a href="http://fingerpiano.net/FingerPianoPlus/">FingerPiano</a>というのを作った人です。</p>
+
+<p>600万ダウンロードとか言ってた気がするので、たぶんもう働かなくていいんじゃないでしょうか。</p>
+
+<p>最近はゲームとかたくさん作ってるらしいです。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a>">https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a></a></p>
+
+<h3><a href="http://www.systemfriend.co.jp/corporate_profile/summary">システムフレンド</a>の岡本　敏秀さん</h3>
+
+<p>社長さんですが、社員をハッカソンに参加させているそうです!</p>
+
+<p>「広島のIT企業はもっと自立する必要がある。他の企業の景気に左右されないようにならないと」という意見には同感。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a>">https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a></a></p>
+
+<h3><a href="http://funaffect.jp/">ファナフェクト</a>の<a href="https://twitter.com/moobay9">大林　正典</a>さん</h3>
+
+<p>理想の働き方とは？ 「モチベーション > 不満因子」と言っていました。ずいぶん控えめな言い方のような…</p>
+
+<p>広島のエンジニアの技術力は高い。広島でITがイケてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a>">https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a></a></p>
+
+<h3>総論</h3>
+
+<p>全体としては、好き嫌いをはっきりさせることが大事で、好きな事、やりたい事をどんどんやるべきである。という話だったと思います。</p>
+
+<h2>アイデアソン</h2>
+
+<h3>アイデアソンとは</h3>
+
+<blockquote><p>アイデアソン（Ideathon）はアイデア（Idea）とマラソン（Marathon）を組み合わせた造語である。特定のテーマに興味を持つ人が集まり、課題解決につながるアイデアを出し合い、それをまとめていくワークショップ形式のイベントである。半日～1日で行われることが多く、テーマに対する関心があれば誰でも参加できることもあり、参加のハードルは比較的低い。そのため、さまざまな方が参加することで、課題に対する多様な見方、特定分野に縛られない自由度の高いアイデアが生まれやすいことが魅力である。また、多様な立場の方と意見交換をすることから、参加者自身の考えや活動に対しての気づきが得られることや、今後の活動につながるネットワークの広がりという面でも意味がある。アイデアソンは成果物としてのアイデアだけでなく、そのプロセスに重要な意味を持つ。</p>
+
+<p>引用元：<cite><a href="http://mag.sendenkaigi.com/senden/201405/ad-topics/002101.php">宣伝会議</a></cite></p></blockquote>
+
+<h3>やったこと</h3>
+
+<p>20分でwebアプリの企画を考えて、1分で発表（エレベーターピッチ！）するというもの。</p>
+
+<p>要は<a href="http://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0">プレスト</a>です。4~6人で、12チームくらいあったと思います。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a>">https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a></a></p>
+
+<p>結果としては</p>
+
+<ul>
+<li><p>広島変態図鑑</p></li>
+<li><p>海外旅行者に世界最先端の日本のトイレを楽しんでもらう</p></li>
+<li><p>カープを勝たせるサービス</p></li>
+</ul>
+
+
+<p>などなど、全チームちゃんとアイデアをまとめていて、すごいなぁと思いました。</p>
+
+<p>僕が参加したチームは「国外カープ女子の育て方」というサービスを考えました。</p>
+
+<p>ここだけ聞くと何だそれ。</p>
+
+<p>カープ関連のサービスが３つくらい出ました。</p>
+
+<p>広島はカープ愛が強いです。（僕は広島出身ではないのです）</p>
+
+<h1>次回</h1>
+
+<p>今回はプレイベントなので、本イベントがあります。</p>
+
+<p>1日でWEBサービスを実際につくると思います。たぶん。</p>
+
+<p>次回は10/11にあるそうです。12月にもあるらしいので、どちらか参加してみようと思います。</p>
+
+<h1>まとめ</h1>
+
+<p><a href="http://togetter.com/li/718441">まとめました。</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[デブサミ関西2014に参加してきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/05/blog/"/>
+    <updated>2014-09-05T23:49:00+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/05/blog</id>
+    <content type="html"><![CDATA[<p>Developers Summit 2014 In Kansai というイベントに参加してきました。</p>
+
+<p><img src="http://event.shoeisha.jp/static/images/event/213/images/devsum_logo.png" alt="devsumi" /></p>
+
+<p>一昨年ぶりの参加です。
+今年はスーツの人ばっかりだなぁと思ったら、近くでやっていた<a href="http://www.kobemesse.com/">国際フロンティア産業メッセ2014</a>の会場に行ってしまいました。</p>
+
+<p>ダッシュで基調講演に間に合った。</p>
+
+<!-- more -->
+
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/550/">基調講演</a></h1>
+
+<p>最初はクックパッドの<a href="https://twitter.com/yoshiori">庄司嘉織さん</a>。</p>
+
+<p>「この『物語』は、ぼくが歩き出す物語だ。肉体が……という意味ではなく、エンジニアとしてという意味で……」というタイトル。</p>
+
+<p>熱い講演で、会場は終止爆笑に包まれました。</p>
+
+<h2>印象に残ったこと</h2>
+
+<h3>経歴</h3>
+
+<p>意外なことに、25才でプログラミング経験なし、高卒で情報系の知識なしでプログラマになったそうです。</p>
+
+<p>30才でプログラマになった高卒の私は、勝手に勇気をもらいました。</p>
+
+<h3>いちばんの&#8221;へたくそ&#8221;でいよう</h3>
+
+<p><a href="http://www.amazon.co.jp/gp/product/4274067939?ie=UTF8&amp;camp=1207&amp;creative=8411&amp;creativeASIN=4274067939&amp;linkCode=shr&amp;tag=ducky19999-22&amp;qid=1409962171">情熱プログラマー</a>という本に出てくる言葉です。</p>
+
+<p>自分が&#8221;へたくそ&#8221;になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。</p>
+
+<p>そのほうが面白いとの事。なるほどその通り。</p>
+
+<h3>もっと怒ろう</h3>
+
+<p><a href="https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a>">https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a></a></p>
+
+<p>おかしい仕様に対しては怒ろう。</p>
+
+<p>おかしいと思うことはおかしいと言おう。</p>
+
+<p><a href="http://news.livedoor.com/article/detail/6330406/">怒られても死なない。</a></p>
+
+<p>git使いたい→足元にサーバを立てた→怒られた→じゃあGitHub Enterpriseを導入させてください→<a href="http://doda.jp/engineer/it/guide/001/19b.html#geek_main">全社導入</a>→みんなが幸せになった</p>
+
+<h3>やりたいことをやろう</h3>
+
+<p><a href="http://techlife.cookpad.com/entry/2014/06/17/160905">AWSで動画配信やりたい</a>→AWS Summit Tokyo 2014の基調講演で取り上げてもらえた</p>
+
+<p>お客さんにも喜んでもらえた→多分、エンジニアがみんなやりたい事をやったほうが世の中はよくなる気がする</p>
+
+<p>”やりたくないことをするには僕の人生は短すぎる&#8221;</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/yoshiori/18-till-i-die">18 till i die</a></p>
+
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+
+<h2>感想</h2>
+
+<p><a href="https://twitter.com/yoshiori">yoshiori</a>さんがjava-ja立ち上げた人なの忘れて、懇親会で「rubyたのしいです！javaあきました」と言ってしまい、「javaも好きだけど」と言われる失態を晒しました。（感想じゃない）</p>
+
+<hr />
+
+<h1>午後の部</h1>
+
+<p>デブサミ関西2014は、開発プロセストラック、Web＆Cloudトラック、Mobileトラックの３つに分かれていました。</p>
+
+<p>私はWeb＆Cloudトラックにずっといました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/556/">Webデザインと開発の未来</a></h1>
+
+<p><a href="https://twitter.com/cipher">こもりまさあき</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p><a href="http://think.withgoogle.com/databoard/#lang=en-us&amp;study=18&amp;topic=71">デバイスの使われ方がどんどん変わってきている</a>。ずっとwebに繋がっている。</p>
+
+<p><a href="http://opensignal.com/reports/2014/android-fragmentation/#frag_reloaded">Androidを搭載したデバイス、18,000+</a>。やばい。</p>
+
+<p><a href="http://bradfrostweb.com/blog/post/this-is-the-web/">webとは何か？</a>家電、車もwebに。画面も四角とは限らない。</p>
+
+<p>変化に対応するのは正直大変…適応する？そのままでいる？</p>
+
+<p>ビジネスのスピードは加速プロセスしているのに、開発プロセスはどんどん増えている。つらい。</p>
+
+<p>ツール、手法、エコシステムをうまく使おう。やらないと変わらない。</p>
+
+<h2>講演資料</h2>
+
+<p><a href="http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a>">http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a></a></p>
+
+<h2>感想</h2>
+
+<p>ここ最近の大きな流れがよくわかりました。</p>
+
+<p><a href="http://www.amazon.co.jp/s/ref=sr_st_relevancerank?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;qid=1409968214&amp;rh=n%3A465392%2Ck%3A%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;sort=relevancerank">本のタイトルにリーンってつければ売れる</a>んだと思いました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/557/">Web技術で開発するエンタープライズモバイルアプリ</a></h1>
+
+<p><a href="http://www.asial.co.jp/">アシアル</a>の田中正裕さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p>企業もモバイルファースト、モバイルを使った業務アプリがもっと増えてくる。</p>
+
+<p>企業向けモバイルの適用には、HTML5を活用した「ハイブリットアプリ開発」が中核となる。</p>
+
+<p>iOSやAndroidなどの各種プラットフォーム向けネイティブコードによる実行時のフレームワークを提供するのがCordova。</p>
+
+<p>CordovaをつかっているものにPhoneGap,Monaca,IBM Worklight,Senchaがある。</p>
+
+<p>で、アシアルが提供しているのが<a href="http://monaca.mobi/ja/">Monaca</a>。</p>
+
+<p>前にちょっと触ったのですが、iOSもAndroidもわかんないけど、簡単にアプリが動いてスゲーって思った覚えがあります。</p>
+
+<h2>感想</h2>
+
+<p>iOSアプリもAndroidアプリも作ったことがないのでアレですが、業務アプリのモバイル化はもっと進むだろうし、実際お客様の企業でもやっています。</p>
+
+<p>このへんの技術も押さえられたら需要あるんだろうな～と思いました。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/558/">チームもサービスもグローバルへ～世界を目指すヌーラボの素顔に迫る！～</a></h1>
+
+<p><a href="http://nulab-inc.com/ja/">ヌーラボ</a>の<a href="https://twitter.com/tksmd">染田貴志</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p><a href="https://cacoo.com/lang/ja/">cacoo</a>は世界に130万のユーザーがいる！</p>
+
+<p>cacooという名前は、街で外国人に聞いて回ってつけた。名前重要。</p>
+
+<p>WordCampに挑戦→lifehackerとかで取り上げられた→サーバが唸る→awsへ</p>
+
+<p><a href="http://www.backlog.jp/">backlog</a>は、受託の傍ら粘りよく作り続けた。こういうの聞くと勇気づけられる。</p>
+
+<p><a href="http://www.backlog.jp/git-guide/">サルでもわかるGit入門</a>も多言語対応しており、ここから他サービスへの流入もある。</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/nulabinc/timumosabisumogurobaruhe-shi-jie-womu-zhi-sunurabofalsesu-yan-nipo-ru">チームもサービスもグローバルへ 〜 世界を目指すヌーラボの素顔に迫る！〜</a></p>
+
+<script>(function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b;d.async=true;d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}})(document);</script>
+
+
+<h2>感想</h2>
+
+<p>もっと英語がんばろう。</p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/559/">インフラ企業で働くフロントエンドエンジニアの挑戦</a></h1>
+
+<p>さくらインターネットの<a href="https://twitter.com/esukei">河原覚</a>さん。</p>
+
+<h2>印象に残ったこと</h2>
+
+<p>しょぼいコントロールパネルを自分の感覚でデザインすることに</p>
+
+<p>そもそも組織にUIデザインの文化がなかった…</p>
+
+<p>その時々で誰かが頑張って作る→知見が蓄積さない、技術が更新されない</p>
+
+<p>UIはユーザーがサービスを利用する際に触るものである→UIの品質向上がサービス体験の向上と訴え続けた</p>
+
+<p>「デザイン上の理由」を根拠を持って説明、可能な限り客観的なデータを用意</p>
+
+<p>ペーパープロトタイピング、モック作成、ユーザーテストの手法を導入</p>
+
+<h2>講演資料</h2>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/esukei/creating-a-ui-design-culture">Creating a UI Design culture</a></p>
+
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+
+<h2>感想</h2>
+
+<p>組織に新しい文化を導入する、まさにフロントエンドエンジニアの挑戦でした。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a>">https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a></a></p>
+
+<hr />
+
+<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/555/">関西で働くという生き方</a></h1>
+
+<p>３名の講演がありました。</p>
+
+<hr />
+
+<h2>ソニックガーデンの<a href="https://twitter.com/jnchito">伊藤淳</a>一さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>リモートワークを成功させるポイント</p>
+
+<ul>
+<li><p>仕事部屋を用意する</p></li>
+<li><p>KPTふりかえりをメンバーと行う</p></li>
+</ul>
+
+
+<p>個人 ＜ 組織文化</p>
+
+<h3>講演資料</h3>
+
+<p><a href="http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a>">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a></a></p>
+
+<h3>感想</h3>
+
+<p>田舎は広い！ドラムセット置ける！</p>
+
+<hr />
+
+<h2>サイバーエージェントの<a href="https://twitter.com/ku_suke">川畑雄補</a>さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>カオスマップ
+<a href="http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a>">http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a></a></p>
+
+<p>テクノロジーの理解なしにマーケティング活動ができない</p>
+
+<p>データドリブンでマーティングできる→マーケティングエンジニアの時代</p>
+
+<p>東京のWEB系開発はとにかく特化しないと勝てない</p>
+
+<p>大阪のWEB系開発は総合対応力がもとめられる→なんでもやらせてもらえる</p>
+
+<h3>感想</h3>
+
+<p>エンジニアの私は色んな「きぐるみ」 をまとおう</p>
+
+<hr />
+
+<h2>ヤフーの<a href="https://twitter.com/yamamoto_manabu">山本学</a>さん</h2>
+
+<h3>印象に残ったこと</h3>
+
+<p>Yahooが大阪に開発拠点を作り、現地採用→チャンス</p>
+
+<p>新しいメンバーで新しい文化をつくるチャンスだと思った</p>
+
+<p>で、<a href="http://crowdsourcing.yahoo.co.jp/">yahoo!クラウドソーシング</a>をつくった</p>
+
+<p>人口比でいえば、大阪の勉強会の数は東京に負けてない</p>
+
+<h3>感想</h3>
+
+<p>関西にはチャンスがある</p>
+
+<hr />
+
+<h1>まとめ</h1>
+
+<p>↓ここにまとめてありました。</p>
+
+<p><a href="http://codezine.jp/article/detail/8085">「デブサミ関西2014」開催、講演関連資料まとめ</a></p>
+
+<h1>おわりに</h1>
+
+<p><a href="https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a>">https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a></a></p>
+
+<p>来年もいこう。</p>
 ]]></content>
   </entry>
   

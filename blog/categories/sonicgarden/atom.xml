@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ruby,rails,sonicgarden | blogはweb logの略]]></title>
-  <link href="http://kwgch.github.io/blog/categories/ruby-rails-sonicgarden/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Sonicgarden | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/sonicgarden/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-09T16:51:15+09:00</updated>
+  <updated>2014-10-09T21:42:56+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>

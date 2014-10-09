@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-10-09T21:42:56+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[新しくブログを始めました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/08/26/blog/"/>
+    <updated>2014-08-26T22:41:45+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/08/26/blog</id>
+    <content type="html"><![CDATA[<h2>新しくブログを始めた理由</h2>
+
+<p>新しくブログを始めました。</p>
+
+<!-- more -->
+
+
+<p>はじめは、<a href="https://pages.github.com/">GitHub Pages</a>が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、</p>
+
+<p>ググってると<a href="http://jekyllrb.com/">Jekyll</a>（ジキルと読む）を使うとブログが簡単に構築できると知りました。</p>
+
+<p>さらにググると<a href="http://octopress.org/">Octopress</a>というものがあり、さらに簡単にブログを構築できると知りました。</p>
+
+<p>テーマというのを入れると見た目を簡単に変えられるようなので、<a href="https://github.com/kAworu/octostrap3">octostrap3</a>というのを入れました。</p>
+
+<p>意外と簡単にできたので、blogを書いてみることにしました。</p>
+
+<p><a href="http://daringfireball.net/projects/markdown/">markdown</a>で書けるので、その練習も兼ねてしばらくこれで書こうと思います。</p>
+]]></content>
+  </entry>
+  
+</feed>

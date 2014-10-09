@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 広島 | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/guang-dao/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-10-09T21:42:56+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[【広島】レッドハッカソン プレイベントに参加してきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/09/12/redhackathon/"/>
+    <updated>2014-09-12T23:26:51+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/09/12/redhackathon</id>
+    <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima」Pre-Event" /></p>
+
+<p><a href="https://www.pu-hiroshima.ac.jp/site/satellite/">サテライトキャンパスひろしま</a>というところで行われた、「Red Hackathon Hiroshima」のプレイベントというものに参加してきました。無料だったので。</p>
+
+<!-- more -->
+
+
+<h1>概要</h1>
+
+<p><a href="https://www.pref.hiroshima.lg.jp/site/innovation/hackathon.html">広島県の「起業、新規ビジネス創出支援」の一環として行われたものです。</a></p>
+
+<p><a href="http://www.pasonatech.co.jp/search/features_plan/hackathon_hiroshima.jsp">パソナテックが受託し、「新規事業を目指す企業や個人を対象に、Webサービス開発技術やハッカソンの魅力を伝えるイベント」として開催されました。</a></p>
+
+<h1>ハッカソンとは</h1>
+
+<blockquote><p>ハッカソン（英語: hackathon、別名:hack day,hackfest,codefest）とはソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に共同作業をするソフトウェア関連プロジェクトのイベントである。時にはハードウェアコンポーネントが扱われることもある。ハッカソンは一般的に最低限1日から一週間の期間で開催される。いくつかのハッカソンは単に教育や社会的な目的を意図に開催されるが、多くの場合使用に耐えるソフトウェアの開発や既存のソフトウェアを改善することを目標としている。また、使用プログラミング言語、オペレーティングシステム、アプリケーション、API、主題や参加プログラマーの人数を定める傾向にある。</p>
+
+<p>引用元: <cite><a href="http://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3">Wikipedia</a></cite></p></blockquote>
+
+<h1>構成</h1>
+
+<p>第１部がパネルディスカッション、第２部がアイデアソンでした。</p>
+
+<h2>パネルディスカッション</h2>
+
+<h3><a href="http://www.pasonatech.co.jp/">パソナテック</a>の<a href="https://www.facebook.com/akihiro.habuchi">羽渕　彰博</a>さん</h3>
+
+<p>ファシリテーター役をしていました。StartupWeekendTokyoやGoogleハッカソン（！），コスプレソン等，色々なハッカソンのファシリテーターをしているらしいです。</p>
+
+<p><img src="/images/20140912-1.JPG" alt="envelope" /></p>
+
+<h3><a href="https://www.facebook.com/hisashikatsuya/about">勝屋　久</a>さん</h3>
+
+<p>何か人と人をつなげるのが仕事らしいです。</p>
+
+<p>ものすごいテンションでしゃべるので、何だこの人…と思ったら、未踏のPMやってたりしたらしい。謎だ…</p>
+
+<p><a href="https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a>">https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a></a></p>
+
+<h3><a href="http://www.soneru.com/">ソネル</a>の和田　純平さん</h3>
+
+<p>iOSアプリの<a href="http://fingerpiano.net/FingerPianoPlus/">FingerPiano</a>というのを作った人です。</p>
+
+<p>600万ダウンロードとか言ってた気がするので、たぶんもう働かなくていいんじゃないでしょうか。</p>
+
+<p>最近はゲームとかたくさん作ってるらしいです。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a>">https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a></a></p>
+
+<h3><a href="http://www.systemfriend.co.jp/corporate_profile/summary">システムフレンド</a>の岡本　敏秀さん</h3>
+
+<p>社長さんですが、社員をハッカソンに参加させているそうです!</p>
+
+<p>「広島のIT企業はもっと自立する必要がある。他の企業の景気に左右されないようにならないと」という意見には同感。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a>">https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a></a></p>
+
+<h3><a href="http://funaffect.jp/">ファナフェクト</a>の<a href="https://twitter.com/moobay9">大林　正典</a>さん</h3>
+
+<p>理想の働き方とは？ 「モチベーション > 不満因子」と言っていました。ずいぶん控えめな言い方のような…</p>
+
+<p>広島のエンジニアの技術力は高い。広島でITがイケてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a>">https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a></a></p>
+
+<h3>総論</h3>
+
+<p>全体としては、好き嫌いをはっきりさせることが大事で、好きな事、やりたい事をどんどんやるべきである。という話だったと思います。</p>
+
+<h2>アイデアソン</h2>
+
+<h3>アイデアソンとは</h3>
+
+<blockquote><p>アイデアソン（Ideathon）はアイデア（Idea）とマラソン（Marathon）を組み合わせた造語である。特定のテーマに興味を持つ人が集まり、課題解決につながるアイデアを出し合い、それをまとめていくワークショップ形式のイベントである。半日～1日で行われることが多く、テーマに対する関心があれば誰でも参加できることもあり、参加のハードルは比較的低い。そのため、さまざまな方が参加することで、課題に対する多様な見方、特定分野に縛られない自由度の高いアイデアが生まれやすいことが魅力である。また、多様な立場の方と意見交換をすることから、参加者自身の考えや活動に対しての気づきが得られることや、今後の活動につながるネットワークの広がりという面でも意味がある。アイデアソンは成果物としてのアイデアだけでなく、そのプロセスに重要な意味を持つ。</p>
+
+<p>引用元：<cite><a href="http://mag.sendenkaigi.com/senden/201405/ad-topics/002101.php">宣伝会議</a></cite></p></blockquote>
+
+<h3>やったこと</h3>
+
+<p>20分でwebアプリの企画を考えて、1分で発表（エレベーターピッチ！）するというもの。</p>
+
+<p>要は<a href="http://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0">プレスト</a>です。4~6人で、12チームくらいあったと思います。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a>">https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a></a></p>
+
+<p>結果としては</p>
+
+<ul>
+<li><p>広島変態図鑑</p></li>
+<li><p>海外旅行者に世界最先端の日本のトイレを楽しんでもらう</p></li>
+<li><p>カープを勝たせるサービス</p></li>
+</ul>
+
+
+<p>などなど、全チームちゃんとアイデアをまとめていて、すごいなぁと思いました。</p>
+
+<p>僕が参加したチームは「国外カープ女子の育て方」というサービスを考えました。</p>
+
+<p>ここだけ聞くと何だそれ。</p>
+
+<p>カープ関連のサービスが３つくらい出ました。</p>
+
+<p>広島はカープ愛が強いです。（僕は広島出身ではないのです）</p>
+
+<h1>次回</h1>
+
+<p>今回はプレイベントなので、本イベントがあります。</p>
+
+<p>1日でWEBサービスを実際につくると思います。たぶん。</p>
+
+<p>次回は10/11にあるそうです。12月にもあるらしいので、どちらか参加してみようと思います。</p>
+
+<h1>まとめ</h1>
+
+<p><a href="http://togetter.com/li/718441">まとめました。</a></p>
+]]></content>
+  </entry>
+  
+</feed>
