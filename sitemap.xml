@@ -3,6 +3,22 @@
   
   
   <url>
+    <loc>http://kwgch.github.io/blog/2014/10/08/sg-learning/</loc>
+    
+    <lastmod>2014-10-08T12:03:37+09:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://kwgch.github.io/blog/2014/10/08/great-h/</loc>
+    
+    <lastmod>2014-10-08T05:32:34+09:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://kwgch.github.io/blog/2014/10/01/great-h/</loc>
     
     <lastmod>2014-10-01T23:23:23+09:00</lastmod>
@@ -133,18 +149,30 @@
   
   <url>
     <loc>http://kwgch.github.io/</loc>
-    <lastmod>2014-10-03T11:27:08+09:00</lastmod>
+    <lastmod>2014-10-09T16:51:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://kwgch.github.io/blog/archives/</loc>
-    <lastmod>2014-10-03T11:27:08+09:00</lastmod>
+    <lastmod>2014-10-09T16:51:15+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
+  
+  <url>
+    <loc>http://kwgch.github.io/assets/bootstrap-material-design/template/index.html</loc>
+    <lastmod>2014-10-03T11:50:10Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://kwgch.github.io/assets/bootstrap-material-design/demo/index.html</loc>
+    <lastmod>2014-10-03T11:50:10Z</lastmod>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>

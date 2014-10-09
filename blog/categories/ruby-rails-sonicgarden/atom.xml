@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby,rails,sonicgarden | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/ruby-rails-sonicgarden/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-10-09T16:51:15+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SonicGardenコードレビュー勉強会#2 に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/08/sg-learning/"/>
+    <updated>2014-10-08T12:03:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/08/sg-learning</id>
+    <content type="html"><![CDATA[<p>広島からリモートで、SonicGardenコードレビュー勉強会#2 に参加しました。</p>
+
+<p><img src="http://www.sonicgarden.jp/assets/logo-535075f3e242d36af1a349451b6bdabf.png" alt="sonic_garden" /></p>
+
+<!-- more -->
+
+
+<h1>何をしたか</h1>
+
+<p><a href="http://www.sonicgarden.jp/">SonicGarden</a>さんの主催する、コードレビュー勉強会に参加しました。</p>
+
+<p>Ruby on Railsのソースコードレビューになります。</p>
+
+<p>今回で２回目です。10名の参加でした。</p>
+
+<h1>なぜ参加したのか</h1>
+
+<p>実は、私はSonicGardenさんの<a href="http://www.sonicgarden.jp/guild">ソニックガーデンギルド</a>に挑戦中なのです。</p>
+
+<p>その一環としてコードレビューを受けるのですが、ほかの人のコードレビューにも参加して、学習を加速させるというわけです。</p>
+
+<h1>どうやったのか</h1>
+
+<p><a href="http://www.google.com/intl/ja/+/learnmore/hangouts/onair.html">Google Hangouts on Air</a>というサービスを利用して参加しました。</p>
+
+<p>これは、ライブ配信を行いながらビデオ通話やチャットができ、配信を終了するとYoutubeに動画として登録される、というものです。すごい！</p>
+
+<p>レビューアはCTOの松村さんです。</p>
+
+<h1>困ったこと</h1>
+
+<p>はじめのうち、音声がハウリングしてしまい、よく聞き取れなくなりました。</p>
+
+<p>レビューアとレビューイ以外がマイクをOFFにするといい具合になったので、チャット等で質問を投げる形式ですすめました。</p>
+
+<h1>感想</h1>
+
+<p>コードレビューをリアルタイムで視聴して、その場で質問できるというのは、すごくよい勉強になると思いました。</p>
+
+<p>今回は見ながら考えてばかりで、質問投げれなかったのですが…</p>
+
+<h1>学んだこと</h1>
+
+<p>今回も含め、過去のレビュー動画を見て学んだことを、列挙してみます。</p>
+
+<h3>全般</h3>
+
+<ul>
+<li>極力コードが短くなるようにする</li>
+<li>ひとつのメソッドにひとつの仕事を書く</li>
+<li>セッションに大きなデータ入れない</li>
+<li>Ruby1.9以降のhashシンタックスを使ってコードを短く書く</li>
+</ul>
+
+
+<h3>controller</h3>
+
+<ul>
+<li>ロジックはconrollerではなくmodelに書く</li>
+<li>scaffoldくらいの量のcontrollerで機能を実現できるのが理想</li>
+<li>表示に関する処理は、controllerではなくviewやhelperに書く</li>
+<li>共通した処理はbefore_actionなどのフィルターにまとめる</li>
+<li>find!メソッドでデータ取れなければ、例外で404ページに飛ばせる</li>
+</ul>
+
+
+<h3>model</h3>
+
+<ul>
+<li>正しいリレーションにする （belongs_toを書く）</li>
+<li>scopeでModelに検索条件を定義できる</li>
+<li><a href="https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md#sexy-validations">&ldquo;sexy&rdquo; validations</a> を利用する</li>
+<li>ActiveRecordのメソッドチェインを使って流れるように書く</li>
+<li>after_saveなど、ActiveRecordのコールバックを効果的に使う</li>
+<li>アソシエーションしたモデルは、直接操作しない</li>
+<li>親オブジェクトからメソッドチェイン的にbuildを呼び出すと、引数忘れがない</li>
+<li>find_or_create_by便利</li>
+<li>1対多のモデルで<a href="http://blog.livedoor.jp/sasata299/archives/51931176.html">accepts_nested_attributes_for</a>を使うとコードがすっきりする</li>
+<li>has_manyなモデルはviewで<a href="http://railsdoc.com/references/fields_for">fields_for</a>を使う</li>
+<li><a href="https://github.com/FooBarWidget/default_value_for">default_value_for</a>を使うと、modelにデフォルト値が簡単に書ける</li>
+</ul>
+
+
+<h3>view</h3>
+
+<ul>
+<li>helperを使ってDRYにする</li>
+<li>erbで文字列に変数を連結するときは、+でつなげるより、#{ 変数 } を使う</li>
+<li><a href="https://github.com/plataformatec/simple_form">simple_form</a>を使うと、シンプルなフォームなら早く作れる（デザインが凝った画面は大変かも）</li>
+<li>パンくずリストは<a href="https://github.com/lassebunk/gretel">gretel</a>を使うとよい</li>
+<li>hamlでインデントつけてもHTML通りにならない。<a href="http://railsdoc.com/references/content_tag_for">content_tag_for</a>を使う(これは好み)</li>
+</ul>
+
+
+<h3>routes</h3>
+
+<ul>
+<li>routesのresourcesブロックでmember（単票系）やcollection（一覧系）が使える</li>
+<li>リソースを入れ子にして、親を only:[ ] だけにすると、子供のURLのみ生成</li>
+<li>モデルのカーディナリティを意識したURL設計をする</li>
+</ul>
+
+
+<h3>そのほか</h3>
+
+<ul>
+<li>githubでURLをcompare/&lt;ハッシュ>&hellip;masterと打てばコンペアできる</li>
+<li><a href="https://github.com/plataformatec/devise">devise</a>と<a href="https://github.com/intridea/omniauth">omniauth</a>で、Twitterとgithubアカウントでのログインを可能に</li>
+<li><a href="https://github.com/charliesome/better_errors">better_errors</a>、<a href="https://github.com/banister/binding_of_caller">binding_of_caller</a>を入れて、エラー画面でreplできる</li>
+<li><a href="https://github.com/intridea/hashie">hashie</a>を使って、ハッシュにドットでアクセスできる</li>
+<li><a href="https://github.com/brainspec/enumerize">enumerize</a>を使うと列挙が扱える</li>
+</ul>
+
+
+<h1>まとめ</h1>
+
+<p>とても勉強になります！また参加したいです。</p>
+
+<p>ちなみにSonicGardenさんでは<a href="http://www.sonicgarden.jp/guild">ギルド参加者を募集しています</a>。</p>
+
+<p><a href="http://www.sonicgarden.jp/category/concept/">納品のない受託開発</a>に興味のあるエンジニアは、申し込んでみるとよいのではないでしょうか。</p>
+]]></content>
+  </entry>
+  
+</feed>
