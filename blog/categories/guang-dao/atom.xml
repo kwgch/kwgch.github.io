@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 広島 | blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/blog/categories/guang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-10T06:04:03+09:00</updated>
+  <updated>2014-10-13T03:48:55+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -14,11 +14,181 @@
 
   
   <entry>
+    <title type="html"><![CDATA[【広島】レッドハッカソンに参加してきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/11/redhackathon/"/>
+    <updated>2014-10-11T10:13:21+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/11/redhackathon</id>
+    <content type="html"><![CDATA[<p><img src="http://www.pasonatech.co.jp/search/features_plan/img/RHhiroshima.jpg" alt="Red Hackathon Hiroshima" /></p>
+
+<p>レッドハッカソンというイベントに参加してきました。</p>
+
+<!-- more -->
+
+
+<h1>概要</h1>
+
+<p>広島県・商工労働局では、「イノベーション立県」の実現に向けた基盤づくりの一環として，多様な人材が組織の枠組を超えて交流し，アイデアが創出されるような「場」の構築に取り組んでいます。</p>
+
+<p>その一環で「クリエイター、デザイナー、エンジニアの交流によって新しいWEBアプリを開発する」イベントとして開催されました。</p>
+
+<p>テーマは『広島を盛り上げるWebサービス』 です。</p>
+
+<h3>場所</h3>
+
+<p><a href="http://www.port-inc.jp/index.html">起業・創業サポートオフィス port.inc</a></p>
+
+<h3>チーム編成</h3>
+
+<p>4〜５人で１チーム × 5チームの参加でした。</p>
+
+<p>エンジニアは画面などを作成し、それ以外の人はアイデア出しのブレインストーミングやプレゼン資料の作成等を行いました。</p>
+
+<h3>進め方</h3>
+
+<ul>
+<li><p>午前：チーム編成、アイデアソン、コンセプトの検討</p></li>
+<li><p>午後：実際の開発（希望者にはWEBサイト構築講習）</p></li>
+<li><p>プレゼンテーション(デモ発表)</p></li>
+</ul>
+
+
+<h1>午前</h1>
+
+<h3>自己紹介</h3>
+
+<p>偏愛マップ（自分の好きなものをマインドマップにしたようなもの）を書いて、お互いに紹介しました。</p>
+
+<p>例：
+<img src="/images/henaimap.jpg" alt="henai" /></p>
+
+<h3>アイデアソン</h3>
+
+<p>アイデア＋マラソン＝アイデアソンです。</p>
+
+<p>普通のアイデアをどんどん出して、そのあと逆の発想でアイデアを出すとう手法があるらしいです。</p>
+
+<p>『広島を盛り上げるWebサービス』 についてみんなでアイデア出しをしました。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/520757399339016192">https://twitter.com/ducky19999/status/520757399339016192</a>">https://twitter.com/ducky19999/status/520757399339016192">https://twitter.com/ducky19999/status/520757399339016192</a></a></p>
+
+<p>私の参加したチームは「瀬戸内の超ニッチな情報を発信する」という感じの方向になりました。</p>
+
+<p>チーム名、サービス名ともkomai(小さい)+islands(島々)で「komaislands」になりました。</p>
+
+<h3>お昼前の発表</h3>
+
+<ul>
+<li>広電が遅いことを逆手にとる</li>
+<li>広島おもしろMAP</li>
+<li>神楽のマッチング</li>
+<li>「KAWAYA」外国人観光客向けトイレマップサービス</li>
+<li>瀬戸内の情報</li>
+</ul>
+
+
+<h1>午後</h1>
+
+<h3>要件</h3>
+
+<p>午前中に、つくるもののイメージまではっきり決まらなかったので、昼食中も話をしていました。</p>
+
+<p>漁師さんが知っている島の絶景スポットをシェアして、プロカメラマンが撮りに行けるようなサービス、という感じで固まっていきました。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/520783887840985088">https://twitter.com/ducky19999/status/520783887840985088</a>">https://twitter.com/ducky19999/status/520783887840985088">https://twitter.com/ducky19999/status/520783887840985088</a></a></p>
+
+<h3>開発</h3>
+
+<p>実際の開発ですが、ぼくの参加したチームはRuby on Railsで行いました。</p>
+
+<p><a href="https://github.com/eiel">ひむひむ先生</a>がいたので、下記全て用意していただきました。おんぶにだっこです。</p>
+
+<ul>
+<li>Githubリポジトリ</li>
+<li>CI環境</li>
+<li>実行環境(heroku)</li>
+<li>テンプレート</li>
+</ul>
+
+
+<p>私はといえば</p>
+
+<ul>
+<li>bundle installでこける！</li>
+<li>githubにpushできない！</li>
+<li>ゴミまでpushしてしまった！</li>
+<li>レイアウト崩れたyo!</li>
+</ul>
+
+
+<p>等、存分にチームの足を引っ張りました。</p>
+
+<p>git力が足りなすぎました。申し訳ありません。</p>
+
+<h1>プレゼンテーション(デモ発表)</h1>
+
+<p><a href="https://twitter.com/ducky19999/status/520860506345590785/">https://twitter.com/ducky19999/status/520860506345590785/</a>">https://twitter.com/ducky19999/status/520860506345590785/">https://twitter.com/ducky19999/status/520860506345590785/</a></a>
+<a href="https://twitter.com/ducky19999/status/520864156451217411/">https://twitter.com/ducky19999/status/520864156451217411/</a>">https://twitter.com/ducky19999/status/520864156451217411/">https://twitter.com/ducky19999/status/520864156451217411/</a></a>
+<a href="https://twitter.com/ducky19999/status/520867284030468096/">https://twitter.com/ducky19999/status/520867284030468096/</a>">https://twitter.com/ducky19999/status/520867284030468096/">https://twitter.com/ducky19999/status/520867284030468096/</a></a>
+<a href="https://twitter.com/ducky19999/status/520868648945070080/">https://twitter.com/ducky19999/status/520868648945070080/</a>">https://twitter.com/ducky19999/status/520868648945070080/">https://twitter.com/ducky19999/status/520868648945070080/</a></a>
+<a href="https://twitter.com/ducky19999/status/520871401960378369/">https://twitter.com/ducky19999/status/520871401960378369/</a>">https://twitter.com/ducky19999/status/520871401960378369/">https://twitter.com/ducky19999/status/520871401960378369/</a></a></p>
+
+<h3>審査</h3>
+
+<p>下記の判断基準で、審査員が審査しました。</p>
+
+<ul>
+<li>ユーザー：ターゲティング、訴求力</li>
+<li>プロダクト：企画書、ランディングページ、サービスができているか</li>
+<li>独創性：オリジナリティ</li>
+</ul>
+
+
+<h1>結果発表</h1>
+
+<p>参加者が１票づつ投票して、オーディエンス賞が選ばれました。</p>
+
+<p>外国人観光客向けトイレ探索サービス「KAWAYA」でした！</p>
+
+<p><a href="https://twitter.com/ducky19999/status/520876794124050432">https://twitter.com/ducky19999/status/520876794124050432</a>">https://twitter.com/ducky19999/status/520876794124050432">https://twitter.com/ducky19999/status/520876794124050432</a></a></p>
+
+<p>審査員の選んだ最優秀賞は、神楽マッチングサービス「カグリク！」でした。</p>
+
+<p>ちなみにカグリクは時間内にFacebookページを用意して、アンケートまでとっていました。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/520878642251849728">https://twitter.com/ducky19999/status/520878642251849728</a>">https://twitter.com/ducky19999/status/520878642251849728">https://twitter.com/ducky19999/status/520878642251849728</a></a></p>
+
+<h1>感想</h1>
+
+<p>全てのチームで、デモサイトが作成されていました。</p>
+
+<p>みなさんのレベルの高さにびっくりしました。</p>
+
+<p>よくあの時間で、まともに発表できるものが用意できたな〜と思いました。</p>
+
+<p>ただよくみると、他チームのurlはほぼ「localhost」になっていました。</p>
+
+<p>当チームはひむひむ先生のご尽力により、masterへcommitされたら本番環境へデプロイされて、<a href="http://komaislands.herokuapp.com/">実際にwebに公開される</a>ところまで自動化されており、サービスの公開/運営まで見据えた本気度は１番だったのではないかと思います。</p>
+
+<p>他に、AWSにデプロイしてA/Bテストまで仕込んだチームがあったようですが…</p>
+
+<p>（広島おもしろMAPの<a href="https://github.com/k2works">k2worksさん</a>です。やり過ぎです。）</p>
+
+<h1>まとめ</h1>
+
+<p><a href="http://togetter.com/li/730511">まとめました。</a></p>
+
+<p>12/6には２回目のハッカソンがあるみたいです。</p>
+
+<p>懲りずに参加しようと思います！</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[【広島】レッドハッカソン プレイベントに参加してきました]]></title>
     <link href="http://kwgch.github.io/blog/2014/09/12/redhackathon/"/>
     <updated>2014-09-12T23:26:51+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/09/12/redhackathon</id>
-    <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima」Pre-Event" /></p>
+    <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima Pre-Event" /></p>
 
 <p><a href="https://www.pu-hiroshima.ac.jp/site/satellite/">サテライトキャンパスひろしま</a>というところで行われた、「Red Hackathon Hiroshima」のプレイベントというものに参加してきました。無料だったので。</p>
 

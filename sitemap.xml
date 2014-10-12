@@ -3,6 +3,14 @@
   
   
   <url>
+    <loc>http://kwgch.github.io/blog/2014/10/11/redhackathon/</loc>
+    
+    <lastmod>2014-10-11T10:13:21+09:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://kwgch.github.io/blog/2014/10/08/sg-learning/</loc>
     
     <lastmod>2014-10-08T12:03:37+09:00</lastmod>
@@ -149,14 +157,14 @@
   
   <url>
     <loc>http://kwgch.github.io/</loc>
-    <lastmod>2014-10-10T06:04:03+09:00</lastmod>
+    <lastmod>2014-10-13T03:48:55+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://kwgch.github.io/blog/archives/</loc>
-    <lastmod>2014-10-10T06:04:03+09:00</lastmod>
+    <lastmod>2014-10-13T03:48:55+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
