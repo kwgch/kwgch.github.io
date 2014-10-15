@@ -4,7 +4,7 @@
   <title><![CDATA[Category: T-shirts | blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/blog/categories/t-shirts/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-15T11:41:14+09:00</updated>
+  <updated>2014-10-15T15:41:47+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -53,15 +53,13 @@
 
 <p><a href="https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a>">https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a></a></p>
 
-<p>Special Thanks：<a href="https://translate.google.com/?hl=ja#ja/en/%E7%A7%81%E3%81%AF%E6%97%A5%E6%9C%AC%E3%81%AB%E4%BD%8F%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E6%9C%89%E5%84%9F%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%99%E3%80%82%E7%A7%81%E3%81%AF%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%92%E3%82%82%E3%82%89%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F">google翻訳</a></p>
-
 <h1>Nitrous.IOって何？</h1>
 
 <p>クラウドIDEってやつです。</p>
 
 <p>参考：<a href="http://qiita.com/machu/items/0ecc5699273c18fd1cd8">WebブラウザだけではじめるRuby/Railsプログラミング</a></p>
 
-<h1>きっかけ</h1>
+<h1>使いはじめたきっかけ</h1>
 
 <h3>イベント</h3>
 
@@ -69,7 +67,7 @@
 
 <p>RubyチームとJavaチームに分かれて開発をしました。</p>
 
-<h3>Java</h3>
+<h3>Javaから</h3>
 
 <p>ぼくはjava使いなので、javaチームでした。</p>
 
@@ -77,7 +75,7 @@
 
 <p>ちなみに1日かけて作ったのが<a href="http://mkwgch.appspot.com/blog/">こちら。</a></p>
 
-<h3>Rails</h3>
+<h3>Rubyへ</h3>
 
 <p>ところがRubyチームはNitrous.IOとやらで、Railsを使ってさくさく開発しているではありませんか！</p>
 
@@ -93,7 +91,7 @@
 
 <h3>そしてNitrous.io</h3>
 
-<p>でもだんだん動きが遅くなってきたので、これはあかんと思い、<a href="https://www.nitrous.io">Nitrous.io</a>を使ってみました…</p>
+<p>でも何故か、だんだん動きが重くなってきたので、これはあかんと思い、<a href="https://www.nitrous.io">Nitrous.io</a>を使ってみました…</p>
 
 <p>…さくさく動くじゃないか！</p>
 
@@ -113,7 +111,13 @@
 
 <p><a href="https://www.nitrous.io/join/3fMgAzQW0io?utm_source=nitrous.io&amp;utm_medium=copypaste&amp;utm_campaign=referral">ぜひこのリンクから始めてみてください。</a></p>
 
-<p>ぼくにN2Oが入るしくみです。たぶん。</p>
+<p>ぼくにN2O<code>(※1)</code>が入るしくみです。</p>
+
+<p><code>※1 Nitrous.IOでメモリやストレージが増やせるポイント</code></p>
+
+<h1>Special Thanks</h1>
+
+<p><a href="https://translate.google.com/?hl=ja#ja/en/%E7%A7%81%E3%81%AF%E6%97%A5%E6%9C%AC%E3%81%AB%E4%BD%8F%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E6%9C%89%E5%84%9F%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%99%E3%80%82%E7%A7%81%E3%81%AF%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%92%E3%82%82%E3%82%89%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F">google翻訳</a></p>
 ]]></content>
   </entry>
   
