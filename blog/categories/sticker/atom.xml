@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sticker | blogはweb logの略]]></title>
+  <link href="http://kwgch.github.io/blog/categories/sticker/atom.xml" rel="self"/>
+  <link href="http://kwgch.github.io/"/>
+  <updated>2014-10-15T11:41:14+09:00</updated>
+  <id>http://kwgch.github.io/</id>
+  <author>
+    <name><![CDATA[m.kwgch]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Nitrous.IOにTシャツもらいました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/15/hobby/"/>
+    <updated>2014-10-15T00:26:43+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/15/hobby</id>
+    <content type="html"><![CDATA[<p>いつも利用している<a href="https://www.nitrous.io">Nitrous.IO</a>さんから、Tシャツとステッカーをいただきました！</p>
+
+<p><img src="https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-4b6757c3247e3c50314390ece34cdb11.png" alt="HACK" /></p>
+
+<!-- more -->
+
+
+<h1>経緯</h1>
+
+<p>こんなツイートを見かけたので</p>
+
+<p><a href="https://twitter.com/NitrousIO/status/474708467224027136">https://twitter.com/NitrousIO/status/474708467224027136</a>">https://twitter.com/NitrousIO/status/474708467224027136">https://twitter.com/NitrousIO/status/474708467224027136</a></a></p>
+
+<p>話かけてみた</p>
+
+<p><a href="https://twitter.com/ducky19999/status/511687625153863680">https://twitter.com/ducky19999/status/511687625153863680</a>">https://twitter.com/ducky19999/status/511687625153863680">https://twitter.com/ducky19999/status/511687625153863680</a></a></p>
+
+<p><a href="https://twitter.com/NitrousIO/status/511937047351660544">https://twitter.com/NitrousIO/status/511937047351660544</a>">https://twitter.com/NitrousIO/status/511937047351660544">https://twitter.com/NitrousIO/status/511937047351660544</a></a></p>
+
+<p>この後、メールで住所等をやりとり</p>
+
+<h1>届いた</h1>
+
+<p>こんなんに入っていた</p>
+
+<p><img src="/images/nitrous.io_pack.jpg" alt="nitrous.io pack" /></p>
+
+<p>Tシャツ1枚とステッカー5枚入ってました！</p>
+
+<p><img src="/images/nitrous.io_t_shits.jpg" alt="nitrous.io t-shits" /></p>
+
+<p>ありがとうございました！</p>
+
+<p><a href="https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a>">https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a></a></p>
+
+<p>Special Thanks：<a href="https://translate.google.com/?hl=ja#ja/en/%E7%A7%81%E3%81%AF%E6%97%A5%E6%9C%AC%E3%81%AB%E4%BD%8F%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E6%9C%89%E5%84%9F%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%A7%E3%81%99%E3%80%82%E7%A7%81%E3%81%AF%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%92%E3%82%82%E3%82%89%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F">google翻訳</a></p>
+
+<h1>Nitrous.IOって何？</h1>
+
+<p>クラウドIDEってやつです。</p>
+
+<p>参考：<a href="http://qiita.com/machu/items/0ecc5699273c18fd1cd8">WebブラウザだけではじめるRuby/Railsプログラミング</a></p>
+
+<h1>きっかけ</h1>
+
+<h3>イベント</h3>
+
+<p> 2014-05-18に、すくすくスクラム広島のイベント<a href="http://sukusuku-scrum-hiroshima.doorkeeper.jp/events/10366">第5回「スクラムやってみる」</a>とうのに参加し、1日スクラム開発体験をしました。</p>
+
+<p>RubyチームとJavaチームに分かれて開発をしました。</p>
+
+<h3>Java</h3>
+
+<p>ぼくはjava使いなので、javaチームでした。</p>
+
+<p>開発環境を揃える手間を省く為に、クラウドIDEである<a href="https://codenvy.com/">Codenvy</a>を使ってみたのですが、修正 -> 動作確認に時間がかかって、なかなかツラいものがありました…</p>
+
+<p>ちなみに1日かけて作ったのが<a href="http://mkwgch.appspot.com/blog/">こちら。</a></p>
+
+<h3>Rails</h3>
+
+<p>ところがRubyチームはNitrous.IOとやらで、Railsを使ってさくさく開発しているではありませんか！</p>
+
+<p>ショックを受けた私は後日、気がつくと<a href="http://railstutorial.jp/">Ruby on Rails チュートリアル</a>のページを開いていました…</p>
+
+<h3>Cloud9</h3>
+
+<p>昼休みとかにチュートリアル進めたいなーと思ったのですが、派遣先のPCには勝手にRubyをインストールできません。</p>
+
+<p>そうだ、クラウドIDEがあるじゃないか！</p>
+
+<p>でも、ただRubyチームの真似するのも癪なので、<a href="https://c9.io">Cloud9</a>を使っていました。</p>
+
+<h3>そしてNitrous.io</h3>
+
+<p>でもだんだん動きが遅くなってきたので、これはあかんと思い、<a href="https://www.nitrous.io">Nitrous.io</a>を使ってみました…</p>
+
+<p>…さくさく動くじゃないか！</p>
+
+<p>チュートリアルはNitrous.ioで終わらせました。</p>
+
+<h3>余談</h3>
+
+<p><a href="https://codeanywhere.com">Codeanywhere</a>も使ってみましたが、個人的にはNitrous.ioのほうが使いやすかったです。</p>
+
+<p>paid userになってBOXが落ちないようにしてるので、tmux attachすれば、会社でも自宅でもネカフェでも即開発の続きができるようにしています。</p>
+
+<p><a href="http://twitter-tools.herokuapp.com">例のアレ</a>もNitrous.ioでつくって、<a href="https://bitbucket.org/">Bitbucket</a>でソース管理して、<a href="https://www.heroku.com/">heroku</a>で動かして、<a href="http://newrelic.com/">Newrelic</a>で監視しています。ブラウザの中で完結します。</p>
+
+<p>（NewrelicはなぜTシャツをくれないのだろう…）</p>
+
+<h1>気になった人は</h1>
+
+<p><a href="https://www.nitrous.io/join/3fMgAzQW0io?utm_source=nitrous.io&amp;utm_medium=copypaste&amp;utm_campaign=referral">ぜひこのリンクから始めてみてください。</a></p>
+
+<p>ぼくにN2Oが入るしくみです。たぶん。</p>
+]]></content>
+  </entry>
+  
+</feed>
