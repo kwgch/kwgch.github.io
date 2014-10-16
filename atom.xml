@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-15T15:41:47+09:00</updated>
+  <updated>2014-10-17T00:50:13+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#74にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/15/great-h/"/>
+    <updated>2014-10-15T22:48:39+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/15/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマはCLIでした。</p>
+
+<h3>CLIってなに？</h3>
+
+<p>Command Line Interfaceの略です。</p>
+
+<p>※当日の資料がUPされたら貼ります</p>
+
+<p>各種OS（windows,mac,linux）のコマンドラインからAWSの色々なサービスを操作できるツールです。</p>
+
+<p>pythonでできています。</p>
+
+<p>ソースは公開されています。</p>
+
+<p><a href="https://github.com/aws/aws-cli">aws/aws-cli</a></p>
+
+<p>Amazon Linux AMIにはあらかじめインストールされています。</p>
+
+<h3>JMESPath</h3>
+
+<blockquote class="twitter-tweet"><p>jmespathって何や <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/522318121709740032">October 15, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>JMESPathとはJSON Matching Expression pathsの略らしいです。</p>
+
+<p>&ndash;queryオプションとクエリを書く事で、各種コマンドの結果出力を絞り込んだりできます。</p>
+
+<p>選択とか射影とか結合とかできるみたいです。</p>
+
+<p>集計もできるらしいです。</p>
+
+<ul>
+<li>全インスタンスのうち一番Private IPが多い場合の数</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ aws ec2 describe-instances --output json \
+</span><span class='line'>--query 'max(Reservations[].Instances[].NetworkInterfaces[].length(PrivateIpAddresses))'</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>全インスタンスのPrivate IPの数の平均</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ aws ec2 describe-instances --output json \
+</span><span class='line'>--query 'avg(Reservations[].Instances[].NetworkInterfaces[].length(PrivateIpAddresses))'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>参考：<a href="http://dev.classmethod.jp/cloud/awscli-enhanced-query-opt-snipets/">Python版AWS CLI 1.3の強化されたqueryオプションを使いこなすスニペット4つ</a></p>
+
+<p>ではまた</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nitrous.IOにTシャツもらいました]]></title>
@@ -81,7 +157,7 @@
 
 <h3>イベント</h3>
 
-<p> 2014-05-18に、すくすくスクラム広島のイベント<a href="http://sukusuku-scrum-hiroshima.doorkeeper.jp/events/10366">第5回「スクラムやってみる」</a>とうのに参加し、1日スクラム開発体験をしました。</p>
+<p> 2014-05-18に、すくすくスクラム広島のイベント<a href="http://sukusuku-scrum-hiroshima.doorkeeper.jp/events/10366">第5回「スクラムやってみる」</a>に参加し、1日スクラム開発体験をしました。</p>
 
 <p>RubyチームとJavaチームに分かれて開発をしました。</p>
 
@@ -506,7 +582,12 @@
 
 <p>メールの歴史はスパムとの戦いの歴史だと思いました。</p>
 
-<p>※TODO 当日の資料をのせる</p>
+<p>※当日の資料</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/40094427" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses" title="AWS Black Belt Techシリーズ Amazon SES" target="_blank">AWS Black Belt Techシリーズ Amazon SES</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
 
 <h1>19:30~</h1>
 
@@ -2175,32 +2256,6 @@ callback時のログイン処理です。</p>
 
 <p>初めて参加したのもあり、正直どんなノリかよくわからなかったのですが、ひたすら作業に没頭してしまいました。
 すごい広島は毎週水曜18:00〜でやってるようなので、また遊びに行こうと思いました。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[新しくブログを始めました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/08/26/blog/"/>
-    <updated>2014-08-26T22:41:45+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/08/26/blog</id>
-    <content type="html"><![CDATA[<h2>新しくブログを始めた理由</h2>
-
-<p>新しくブログを始めました。</p>
-
-<!-- more -->
-
-
-<p>はじめは、<a href="https://pages.github.com/">GitHub Pages</a>が、Webサイトを公開するには簡単だと聞き、試そうと思ったのですが、</p>
-
-<p>ググってると<a href="http://jekyllrb.com/">Jekyll</a>（ジキルと読む）を使うとブログが簡単に構築できると知りました。</p>
-
-<p>さらにググると<a href="http://octopress.org/">Octopress</a>というものがあり、さらに簡単にブログを構築できると知りました。</p>
-
-<p>テーマというのを入れると見た目を簡単に変えられるようなので、<a href="https://github.com/kAworu/octostrap3">octostrap3</a>というのを入れました。</p>
-
-<p>意外と簡単にできたので、blogを書いてみることにしました。</p>
-
-<p><a href="http://daringfireball.net/projects/markdown/">markdown</a>で書けるので、その練習も兼ねてしばらくこれで書こうと思います。</p>
 ]]></content>
   </entry>
   
