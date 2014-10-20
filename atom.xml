@@ -4,7 +4,7 @@
   <title><![CDATA[blogはweb logの略]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-17T00:50:13+09:00</updated>
+  <updated>2014-10-21T00:27:26+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,146 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[情報処理技術者試験を受けてきました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/19/qualification/"/>
+    <updated>2014-10-19T23:44:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/19/qualification</id>
+    <content type="html"><![CDATA[<p>10/19に秋季情報処理技術者試験を受けてきました。</p>
+
+<!-- more -->
+
+
+<p>試験区分はITストラテジストを選択しました。</p>
+
+<h1>ITストラテジストって何？</h1>
+
+<p>企業のITのストラテジを考える人です。</p>
+
+<p>ストラテジは戦略です。</p>
+
+<p>戦争用語です。</p>
+
+<h1>情報処理試験とかwww</h1>
+
+<p>意味あるんすかwwwブフォwww</p>
+
+<p>とか言う人いますよね。意味あるかといえば、その人次第だと思います。</p>
+
+<p>受験料が五千円、参考書を買えば三千円くらい。</p>
+
+<p>合格すれば、うちの会社は、お釣りがくるくらいは報奨金が出ます。</p>
+
+<p>あと勉強する過程で、その分野の基礎知識くらいは知る事ができます。</p>
+
+<p>でも日曜日が１日つぶれます。</p>
+
+<p>試験勉強の時間も必要です。</p>
+
+<p>自分はそれでも得るものがあるかなーと思って受けています。</p>
+
+<h1>受けてみて</h1>
+
+<p>午後1時間半の筆記と、2時間の論文があるので、結構な量の文章を手で書きます。</p>
+
+<p>論文は一応最後まで書ききりました。</p>
+
+<p>手を慣らしていなかったので、終わったときには手がプルプルしていました。</p>
+
+<h1>高度試験</h1>
+
+<p>高度試験をいくつか合格することができたので、それについて書いてみようと思います。</p>
+
+<p>これまで下記を取得しました。</p>
+
+<ul>
+<li>ネットワークスペシャリスト</li>
+<li>データベーススペシャリスト</li>
+<li>情報セキュリティスペシャリスト</li>
+<li>プロジェクトマネージャ</li>
+<li>システムアーキテクト</li>
+<li>システム監査技術者</li>
+</ul>
+
+
+<p>私は普段は主に下請けとか派遣でのお仕事で、画面キャプチャをExcelに貼り付ける作業等をしているので、これらの役割の人が実際のところ何をしているのかは知りません。</p>
+
+<p>ですが過去問をやって、妄想力を働かせれば、取得できます。</p>
+
+<h1>論文の書き方</h1>
+
+<p>午後2は論文を書く試験がありますが、3000字くらいの文章を書きます。</p>
+
+<p>最初はどうやって書くのかさっぱりわかりませんでした。</p>
+
+<p>でも、論文サンプルが書いてある参考書を読めば，何となく感じがつかめます。</p>
+
+<h3>手をならす</h3>
+
+<p>普段2時間で3000千字以上字を手書きするような事が無い人のほうが多いと思うのですが、ある程度慣らしておいたほうがいいです。</p>
+
+<p>試験前に何回か、論文サンプルを写経するといいと思います。</p>
+
+<p><img src="http://kwgch.github.io/images/memo1.jpg" alt="memo1" /></p>
+
+<p>問題文が何を問うているか理解するために、図に描いてみたり、マインドマップにしてみてもいいと思います。</p>
+
+<p><img src="http://kwgch.github.io/images/memo2.jpg" alt="memo2" /></p>
+
+<h3>フレーズをストックする</h3>
+
+<p>論文サンプルなんかを読みながら、使えそうな言い回しをストックしておくといいです。</p>
+
+<p>例えば、</p>
+
+<p>「私は当プロジェクトの○○という特徴を踏まえて、□□が重要な課題であると考えた」</p>
+
+<p>「以上の案を比較検討した結果、☆☆を採用し、＠＠方針とした。なぜならば〜」</p>
+
+<p>みたいなやつです。わかりにくいですね。。。</p>
+
+<h3>その人になりきる</h3>
+
+<p>あとは想像力です。その立場の人になりきります。</p>
+
+<p>プロマネだったら「スコープクリープやばい。デスマる前にステークホルダーと話をつけよう」</p>
+
+<p>アーキテクトだったら「結構な規模だから、コーディング規約とか開発フロー先にしっかり決めとかないと後で死ぬ」</p>
+
+<p>みたいな。想像なので「こんな感じかな〜」程度でいいです。あんまり細かいとこまで詰めてると、試験が詰みます。</p>
+
+<blockquote class="twitter-tweet"><p>午後2の論文で必要なのは、咄嗟にそれらしいエピソードをでっち上げて、さも自分でやってきたみたいに書く能力です</p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/523702650101981184">October 19, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet"><p>高度情報処理技術者には造作も無い事だよ</p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/523704029256241153">October 19, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h1>これまでのこと</h1>
+
+<p>そもそも何故情報処理試験を受けようと思ったのか。</p>
+
+<p>私は30才未経験でITエンジニアに転職しました。情報系の学科？なんすかそれ。高卒です。</p>
+
+<p>その前に働いていた会社がつぶれたので、失業保険を貰いながら職業訓練校に通いました。</p>
+
+<p>嫁さんが妊娠していたのですが、失業保険がすぐもらえたのは助かりました。</p>
+
+<p>ちょうどWEBアプリケーション開発課というのが開設され、手に職をつけようと思い通いました。（今はもう無いようです）</p>
+
+<p>半年ほど通ったところで、運良く<a href="linkroad.biz">今の会社</a>に拾ってもらいました。</p>
+
+<p>で、いわゆるITエンジニアとして働きだした訳ですが、色々あって、圧倒的な知識の不足を痛感したため、とりあえずIPAの情報処理技術者試験を全て取得するのを目標に、勉強を始めました。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#74にエア参加しました]]></title>
@@ -2191,71 +2331,6 @@ callback時のログイン処理です。</p>
 <p>参加者との交流ができなかったので、ちょっとさみしかったです。</p>
 
 <p><a href="http://jaws-ug.jp/bc/hiroshima/">JAWS-UG 広島支部</a>では次回のハンズオンや勉強会を予定しているとの事だったので、また参加したいと思います。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#67に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/08/27/blog/"/>
-    <updated>2014-08-27T22:41:45+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/08/27/blog</id>
-    <content type="html"><![CDATA[<h2>すごい広島について</h2>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<p><a href="http://great-h.github.io/">すごい広島</a>というのは、広島市内でやっているミートアップ的なもので、１年以上やっているようです。</p>
-
-<p>（調べたら2013-05-22が初回でした）</p>
-
-<!-- more -->
-
-
-<p><a href="https://github.com/eiel">ひむらさん</a>という人が主催しています。広島のいろいろな勉強会やイベントの主催、もしくは裏で何かやっているようです。</p>
-
-<p>すごい広島という名前は、<a href="http://www.amazon.co.jp/dp/4274068854">すごいH本</a>の影響のようです。なんてHなんだ。</p>
-
-<p>開催しているのは以前から知っていて、そのうち遊びに行こうと思っていたのですが、なかなか参加できず、今回やっと参加しました。</p>
-
-<p>あ、今回は９人くらいの参加だったようです。各自もくもくと作業に取り組んでいました。</p>
-
-<h2>場所</h2>
-
-<p>場所は中区のコワーキングスペース<a href="http://coworking-hiroshima.com/">Movin&#8217;on</a>というところでした。フリードリンクとお菓子とWiFiと電源があって、最近できたところらしくキレイで、落ち着ける場所だと思いました。</p>
-
-<h2>しきたりと習わし</h2>
-
-<p>参加した人はブログを書いて、すごい広島のGitHub Pagesにリンクを追加して、プルリクを送るしきたりがあるようです。</p>
-
-<p>新しくブログを始めた私にとっては渡りに船ということで、ここに書かせていただきます。</p>
-
-<p>Githubの練習にもなるので、行ってよかったと思います。正直言って、日常でプルリクを送る機会がありません。</p>
-
-<p>すごい広島に参加するときは、「今日やること」をGitHubのIssueとして登録するのが、ならわしのようなので、私も登録しました。</p>
-
-<h2>予定と実績</h2>
-
-<p>その内容は<a href="https://github.com/great-h/great-h.github.io/issues/1160">Rspecでコントローラのテストコードを書く</a>というものです。</p>
-
-<p>なぜなら私は、<a href="http://www.sonicgarden.jp/">株式会社ソニックガーデン</a>さんの運営する<a href="https://learning.sonicgarden.jp/">sgLearning</a>を利用して、<a href="http://rubyonrails.org/">Ruby on Rails</a>を絶賛勉強中で、ちょうど<a href="https://learning.sonicgarden.jp/lc/practices/510_rails10">コントローラのテストコードを書けるようになる</a>という課題をやるところだったからです。</p>
-
-<p>2、３ヶ月前に<a href="http://railstutorial.jp/">Ruby on Rails チュートリアル</a>もひととおりやったし、楽勝だろうと思ったのですが、そのときの内容はすっかり忘れており、書き方がさっぱりわかりません。</p>
-
-<p>結局、すごい広島の終了時間ギリギリまでかかってしまいました。緑色にはなりましたが。</p>
-
-<p>成果は<a href="https://github.com/kwgch/blog_practice/commit/7d0dfd2cc65fc8d0ddac12136f355fbcb2ed0ee5">こちら</a>です。汚いです。</p>
-
-<p>分かっていないメソッドとか多すぎるので、<a href="https://leanpub.com/everydayrailsrspec-jp">Everyday Rails</a>なんかをしっかり読んで、はあくしたいと思いました。</p>
-
-<h2>先生現る</h2>
-
-<p>ひむらさんと話していたら、<a href="https://www.relishapp.com/rspec/rspec-core/docs/helper-methods/let-and-let">letは遅延評価、let!は実行前に評価される</a>ことや、<a href="https://relishapp.com/rspec/rspec-rails/docs/transactions">itごとにトランザクションが分かれる</a>ことなどを教えてもらいました。</p>
-
-<p>なんと彼は広島でいちばんRuby on Railsに詳しい人らしく、<a href="https://github.com/rails/rails">ソース</a>まで読んでいるというではありませんか。今度からひむら先生と呼ぼう。そして色々教えてもらおうと思いました。</p>
-
-<h2>感想</h2>
-
-<p>初めて参加したのもあり、正直どんなノリかよくわからなかったのですが、ひたすら作業に没頭してしまいました。
-すごい広島は毎週水曜18:00〜でやってるようなので、また遊びに行こうと思いました。</p>
 ]]></content>
   </entry>
   
