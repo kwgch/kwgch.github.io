@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[kwgch戦記]]></title>
+  <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-23T12:40:39+09:00</updated>
+  <updated>2014-10-23T22:40:32+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -30,8 +30,6 @@
 <p>今日のテーマはAmazon AppStreamでした。</p>
 
 <h3>Amazon AppStreamってなに？</h3>
-
-<p>※当日の資料がうpされたら貼ります</p>
 
 <p>リッチなグラフィックのゲームなど、大量のリソースを使うアプリケーションを、クラウドからストリーミングするサービスです。</p>
 
@@ -63,7 +61,16 @@
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<p>※当日の資料</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/40614445" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream" title="AWS Black Belt Techシリーズ Amazon AppStream" target="_blank">AWS Black Belt Techシリーズ Amazon AppStream</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
 <p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
+
+<p>ではまた。</p>
 ]]></content>
   </entry>
   
@@ -117,9 +124,9 @@
 
 <h1>高度試験</h1>
 
-<p>高度試験をいくつか合格することができたので、それについて書いてみようと思います。</p>
+<p>これまで高度試験をいくつか合格することができたので、それについて書いてみようと思います。</p>
 
-<p>これまで下記を取得しました。</p>
+<p>下記を取得しました。</p>
 
 <ul>
 <li>ネットワークスペシャリスト</li>
@@ -131,7 +138,7 @@
 </ul>
 
 
-<p>私は普段は主に下請けとか派遣でのお仕事で、画面キャプチャをExcelに貼り付ける作業等をしているので、これらの役割の人が実際のところ何をしているのかは知りません。</p>
+<p>私は普段は主に下請けとか派遣でのお仕事で、画面キャプチャをExcelに貼り付ける作業等をしているので、これらの役割の人が実際のところ何をしているのかはよく知りません。</p>
 
 <p>ですが過去問をやって、妄想力を働かせれば、取得できます。</p>
 
@@ -161,21 +168,29 @@
 
 <p>例えば、</p>
 
-<p>「私は当プロジェクトの○○という特徴を踏まえて、□□が重要な課題であると考えた」</p>
+<ul>
+<li><p>PM「私は当プロジェクトの○○という特徴を踏まえて、□□が重要な課題であると考えた」</p></li>
+<li><p>SA「以上の案を比較検討した結果、☆☆の技術を採用し、＠＠する方針とした。なぜならば〜」</p></li>
+<li><p>AU「…その対応策が実際に実施されているかを、実査によりチェックした」</p></li>
+</ul>
 
-<p>「以上の案を比較検討した結果、☆☆を採用し、＠＠方針とした。なぜならば〜」</p>
 
-<p>みたいなやつです。わかりにくいですね。。。</p>
+<p>みたいなやつです。</p>
 
 <h3>その人になりきる</h3>
 
 <p>あとは想像力です。その立場の人になりきります。</p>
 
-<p>プロマネだったら「スコープクリープやばい。デスマる前にステークホルダーと話をつけよう」</p>
+<ul>
+<li><p>PM「スコープクリープやばい。デスマる前にステークホルダーと話をつけよう」</p></li>
+<li><p>SA「結構な規模だから、コーディング規約とか開発フロー先にしっかり決めとかないと後で死ぬ」</p></li>
+<li><p>AU「改善勧告の提示時にはスケジュールと目標値も提示しよう。じゃないとやんねーだろこいつら」</p></li>
+</ul>
 
-<p>アーキテクトだったら「結構な規模だから、コーディング規約とか開発フロー先にしっかり決めとかないと後で死ぬ」</p>
 
-<p>みたいな。想像なので「こんな感じかな〜」程度でいいです。あんまり細かいとこまで詰めてると、試験が詰みます。</p>
+<p>みたいな。想像なので「こんな感じかな〜」程度でいいです。</p>
+
+<p>あんまり細かいとこまで詰めてると、試験が詰みます。</p>
 
 <blockquote class="twitter-tweet"><p>午後2の論文で必要なのは、咄嗟にそれらしいエピソードをでっち上げて、さも自分でやってきたみたいに書く能力です</p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/523702650101981184">October 19, 2014</a></blockquote>
 

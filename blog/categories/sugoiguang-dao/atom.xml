@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: すごい広島 | kwgch戦記]]></title>
+  <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-23T12:40:39+09:00</updated>
+  <updated>2014-10-23T22:40:32+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -31,8 +31,6 @@
 
 <h3>Amazon AppStreamってなに？</h3>
 
-<p>※当日の資料がうpされたら貼ります</p>
-
 <p>リッチなグラフィックのゲームなど、大量のリソースを使うアプリケーションを、クラウドからストリーミングするサービスです。</p>
 
 <p>ローカルデバイスでは5M程度のクライアントアプリをダウンロードすればよく、高速なGPUや大量のストレージは必要とせず動画／音声などがストリーミング配信されます。</p>
@@ -51,7 +49,13 @@
 
 <p><a href="https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a>">https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a></a></p>
 
+<p>※当日の資料</p>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a></a></p>
+
 <p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
+
+<p>ではまた。</p>
 ]]></content>
   </entry>
   
