@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[blogはweb logの略]]></title>
+  <title><![CDATA[kwgch戦記]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-21T07:17:36+09:00</updated>
+  <updated>2014-10-23T12:40:39+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#75にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/22/great-h/"/>
+    <updated>2014-10-22T21:38:13+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/22/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマはAmazon AppStreamでした。</p>
+
+<h3>Amazon AppStreamってなに？</h3>
+
+<p>※当日の資料がうpされたら貼ります</p>
+
+<p>リッチなグラフィックのゲームなど、大量のリソースを使うアプリケーションを、クラウドからストリーミングするサービスです。</p>
+
+<p>ローカルデバイスでは5M程度のクライアントアプリをダウンロードすればよく、高速なGPUや大量のストレージは必要とせず動画／音声などがストリーミング配信されます。</p>
+
+<p>処理能力の低いPCやモバイル、タブレットなど、OSやプラットフォームを選ばずにアプリケーションを利用できます。</p>
+
+<h3>ゲームに</h3>
+
+<blockquote class="twitter-tweet"><p>チート対策にAppStream <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/524851744275046401">October 22, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>通信は</h3>
+
+<blockquote class="twitter-tweet"><p>下りはUDP（H.264動画） 上りはTCP <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/524854706615488512">October 22, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>お値段</h3>
+
+<blockquote class="twitter-tweet"><p>$1.2/1hストリーム <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/524860747499577344">October 22, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[情報処理技術者試験を受けてきました]]></title>
@@ -165,7 +219,12 @@
 
 <p>Command Line Interfaceの略です。</p>
 
-<p>※当日の資料がUPされたら貼ります</p>
+<p>※当日の資料</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/40531521" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface" title="AWS Black Belt Techシリーズ AWS Command Line Interface" target="_blank">AWS Black Belt Techシリーズ AWS Command Line Interface</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
 
 <p>各種OS（windows,mac,linux）のコマンドラインからAWSの色々なサービスを操作できるツールです。</p>
 
@@ -2259,70 +2318,6 @@ callback時のログイン処理です。</p>
 <p>もう１つは、<a href="https://github.com/intridea/omniauth">omniauth</a>を使ってGitHubでログインする機能を実装する、というのものです。</p>
 
 <p>詳細は<a href="http://kwgch.github.io/blog/2014/09/03/rails/">別エントリ</a>にします。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[【広島】AWSハンズオンに参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/08/29/aws-hands-on/"/>
-    <updated>2014-08-29T15:03:39+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/08/29/aws-hands-on</id>
-    <content type="html"><![CDATA[<p>午後休をとって、<a href="https://atnd.org/events/55286">【広島】AWSハンズオン</a>というのに参加してきました。</p>
-
-<p><img src="http://d3f9fl2jz5bc2k.cloudfront.net/wp-content/uploads/2014/08/jaws-ug_hiroshima.png" alt="jawsug_hr_logo" /></p>
-
-<!-- more -->
-
-
-<h1>やったこと</h1>
-
-<h3>VPC（仮想プライベートクラウド）</h3>
-
-<ul>
-<li>VPCを作成</li>
-<li>Internet Gatewaysを設定</li>
-<li>Subnetsでサブネットを設定</li>
-<li>RoutTablesで上記VPCをAttatch</li>
-<li>Security GroupsのInbound RulesでSSHを許可</li>
-</ul>
-
-
-<h3>EC2（仮想サーバー）</h3>
-
-<ul>
-<li>Key Pairsを作成、pemファイル保存</li>
-<li>Amazon Linux AMIをt2.microで作成</li>
-<li>TeraTermでローカルからSSH接続（上記pemファイルを使用）</li>
-<li>apacheのインストールと立ち上げ</li>
-<li>ローカルのブラウザからアクセス</li>
-</ul>
-
-
-<h3>RDS（マネージドRDBサービス）</h3>
-
-<ul>
-<li>mysqlを立ち上げ</li>
-<li>EC2側Security GroupsのInbound Rulesでmysqlを許可</li>
-<li>EC2からアクセス</li>
-</ul>
-
-
-<h3>あとかたづけ</h3>
-
-<ul>
-<li>各種インスタンスの廃棄</li>
-</ul>
-
-
-<h1>感想</h1>
-
-<p>以前、ドットインストールの<a href="http://dotinstall.com/lessons/basic_aws">Amazon Web Services入門 </a>を一通りやったことがあるのですが、だいぶ忘れていました…</p>
-
-<p>awsはweb上にドキュメントがしこたまあるのですが、やっぱり手を動かさないとピンとこないことが多いです。</p>
-
-<p>参加者との交流ができなかったので、ちょっとさみしかったです。</p>
-
-<p><a href="http://jaws-ug.jp/bc/hiroshima/">JAWS-UG 広島支部</a>では次回のハンズオンや勉強会を予定しているとの事だったので、また参加したいと思います。</p>
 ]]></content>
   </entry>
   

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: すごい広島 | blogはweb logの略]]></title>
+  <title><![CDATA[Category: すごい広島 | kwgch戦記]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-21T07:17:36+09:00</updated>
+  <updated>2014-10-23T12:40:39+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#75にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/22/great-h/"/>
+    <updated>2014-10-22T21:38:13+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/22/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマはAmazon AppStreamでした。</p>
+
+<h3>Amazon AppStreamってなに？</h3>
+
+<p>※当日の資料がうpされたら貼ります</p>
+
+<p>リッチなグラフィックのゲームなど、大量のリソースを使うアプリケーションを、クラウドからストリーミングするサービスです。</p>
+
+<p>ローカルデバイスでは5M程度のクライアントアプリをダウンロードすればよく、高速なGPUや大量のストレージは必要とせず動画／音声などがストリーミング配信されます。</p>
+
+<p>処理能力の低いPCやモバイル、タブレットなど、OSやプラットフォームを選ばずにアプリケーションを利用できます。</p>
+
+<h3>ゲームに</h3>
+
+<p><a href="https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a>">https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a></a></p>
+
+<h3>通信は</h3>
+
+<p><a href="https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a>">https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a></a></p>
+
+<h3>お値段</h3>
+
+<p><a href="https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a>">https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a></a></p>
+
+<p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#74にエア参加しました]]></title>
@@ -33,7 +75,8 @@
 
 <p>Command Line Interfaceの略です。</p>
 
-<p>※当日の資料がUPされたら貼ります</p>
+<p>※当日の資料
+<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface</a></a></p>
 
 <p>各種OS（windows,mac,linux）のコマンドラインからAWSの色々なサービスを操作できるツールです。</p>
 
@@ -226,140 +269,6 @@
 <p><a href="https://github.com/great-h/great-h.github.io/issues/1250">やること宣言</a>と全然ちがうことしてました。</p>
 
 <p><strong><a href="http://qiita.com/kwgch/items/33e4db02abf4c2dcad70">railsでデータを登録、更新したユーザーの情報がほしい</a></strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#70にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/17/great-h/"/>
-    <updated>2014-09-17T00:00:00+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/17/great-h</id>
-    <content type="html"><![CDATA[<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
-
-<p>今回もエア参加です。</p>
-
-<!-- more -->
-
-
-<h1>simple_formで多重送信をふせぐ</h1>
-
-<p>railsでsimple_formというのを使ってみたのですが、更新ボタンを連打したらデータがたくさんできました。</p>
-
-<p>どうしよう。</p>
-
-<p><a href="http://qiita.com/kakipo/items/d3fb5595ccfa7250f3eb">ちょうどいい記事を発見しました。</a></p>
-
-<p>これで解決です。やったね！おや？</p>
-
-<p><a href="https://twitter.com/ducky19999/status/512186392101654528">https://twitter.com/ducky19999/status/512186392101654528</a>">https://twitter.com/ducky19999/status/512186392101654528">https://twitter.com/ducky19999/status/512186392101654528</a></a></p>
-
-<p>どうしたというのでしょう。</p>
-
-<p>iPhoneが黒い画面です。とりあえずおうちに帰ろう。</p>
-
-<p>（ちなみに5s、iOSはまだ7です）</p>
-
-<h1>macの容量がない</h1>
-
-<p>MacBook AirにつないでとりあえずiTunesで復元しようとしました。あ、写真のバックアップをしとこう。</p>
-
-<p>すると「ディスク容量がいっぱいやねん」の旨メッセージが。</p>
-
-<p>ぼくのmbaは11インチのいちばんやすいやつです。128Gしかありません。</p>
-
-<p>この時点でストレージが残り２G。</p>
-
-<p>これはあかん。とり急ぎ下記を実行。</p>
-
-<ul>
-<li><p>ゴミ箱の中身を削除</p></li>
-<li><p>ブラウザのキャッシュを削除</p></li>
-<li><p>Downloadsのファイルを削除</p></li>
-<li><p>VirtualBox VMsのファイルを削除</p></li>
-</ul>
-
-
-<p>これでもう2G確保。</p>
-
-<p><img src="/images/2014-09-17_22.24.37.png" alt="screen shot" /></p>
-
-<p>さてどうしよう。ggrks。すると、ある記事に、こんなことが書いてありました。</p>
-
-<h1>/coresの下を全部削除しろ</h1>
-
-<p>見たけど空っぽでした。</p>
-
-<h1>shiftキーを押しながら起動してみろ</h1>
-
-<p><a href="http://tukaikta.blog135.fc2.com/blog-entry-217.html">Mac歴5年の私が実施してるMacの簡単メンテナンス</a>　</p>
-
-<p>↑の記事にあったのですが、shiftキーを押しながら起動するだけ。</p>
-
-<p>なんと、これだけで12G確保できました！</p>
-
-<p><img src="/images/2014-09-17_22.50.58.png" alt="screen shot" /></p>
-
-<p>でもファイルの種類が全部黄色（その他）になった…何故だ…</p>
-
-<h1>ターミナルから大きいファイルを確認しろ</h1>
-
-<p><a href="https://discussionsjapan.apple.com/docs/DOC-1081">ハードディスクの空き容量が極端に少なくなる場合の対処方法</a></p>
-
-<p>↑ここの「[4] 容量の大きいフォルダを確認」にあるコマンドを実行</p>
-
-<pre><code class="bash">sudo du -g -x -d 5 / | awk '$1 &gt;= 5{print}'
-</code></pre>
-
-<p>その結果がこれ。</p>
-
-<p><img src="/images/2014-09-17_23.05.00.png" alt="screen shot" /></p>
-
-<p>adt-bundle-mac-x86_64って何だっけ…</p>
-
-<p>Android Development Tools?</p>
-
-<p>あ、macでkindle見るために、Android動かそうとした気がする。</p>
-
-<p>使ってないので削除。5G確保。</p>
-
-<p>android-sdksも削除。2G確保。</p>
-
-<p><img src="/images/2014-09-17_23.45.04.png" alt="screen shot" /></p>
-
-<p>とりあえず、20G以上確保できました。</p>
-
-<h1>今後</h1>
-
-<p>根本的な解決としてはmac買い替えだと思いますが、おかねがありません。</p>
-
-<p>他に手がないか、ちょっと調べました。</p>
-
-<h3>SDカード</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00I59UMW4" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>これは見た感じ、刺してるのが分からないらしいです。</p>
-
-<p>128GのmicroSDでも刺せばいいかなと思ったら、11インチmbaはSDカードのスロットすらありませんでした。</p>
-
-<h3>外付けHDD</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00D1I2I0I" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>ポータブルHDDなら2Tで1万5千円。今度これ買おうかな。</p>
-
-<h3>外付けSSD</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B008OE0S56" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>SSDは128Gで1万前後くらいの相場なのかな。よくわかりません。</p>
-
-<p>あ、iPhoneの処置がまだでした。</p>
-
-<p>ではまた。</p>
 ]]></content>
   </entry>
   
