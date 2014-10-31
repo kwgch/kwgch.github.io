@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Aws | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-30T10:25:35+09:00</updated>
+  <updated>2014-10-31T11:08:39+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,64 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#76にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/31/great-h/"/>
+    <updated>2014-10-31T10:17:26+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/31/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマはAutoScaling + Amazon CloudWatchでした。</p>
+
+<h3>CloudWatchってなに？</h3>
+
+<p>AWSの各種リソースをモニタリングするためのWebサービスです。</p>
+
+<ul>
+<li><p>アラーム</p>
+
+<p>例えばWebサーバインスタンスのCPU利用率を監視して、設定したしきい値を超えたら通知するようにできます。</p>
+
+<p>通知のほかにも、Auto Scaling Policyのトリガー、インスタンスをStop/Terminateしたりできます。</p></li>
+<li><p>ビリングアラート</p>
+
+<p>設定した金額になったら通知するようにできます。</p>
+
+<p>リージョンはUS EASTで全リージョンの合計金額を提供しています。</p></li>
+<li><p>カスタムメトリクス</p>
+
+<p>独自のメトリクスを保存し、モニタリング、グラフ化できます。</p></li>
+<li><p>ハイブリッド</p>
+
+<p>本番のEC2は他の方法で監視して、RDSだけCloudWatchで監視とかしてるとこもあるみたいです。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a>">https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a></a></p></li>
+</ul>
+
+
+<h3>AutoScalingってなに？</h3>
+
+<p>負荷が増えたときだけEC2を増強して、負荷が下がったら元にもどす、みたいのを自動的にやるサービスです。</p>
+
+<p>CloudWatchから設定します。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a>">https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a></a></p>
+
+<p>AutoScalingは視聴できませんでした。。</p>
+
+<p>資料がUPされたら後でリンクをはります。</p>
+
+<p>ではまたー</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#75にエア参加しました]]></title>
@@ -219,60 +277,6 @@
 <h3>その他</h3>
 
 <p><a href="http://qiita.com/kwgch/items/a8dcbe9503d847902af3">bootstrap-material-designをさわってみました。</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#71に参加しました＆<br>AWS Black Belt Tech Webinarに参加してみました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/24/great-h/"/>
-    <updated>2014-09-24T18:58:44+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/24/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<h1>18:00～19:00</h1>
-
-<p>AWS Black Belt Tech Webinarに参加してみました。</p>
-
-<h3>AWS Black Belt Tech Webinarって何？</h3>
-
-<p>amazonがやっている無料オンラインセミナーです。</p>
-
-<h3>Webinarって何？何て読むの？</h3>
-
-<p><a href="http://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%93%E3%83%8A%E3%83%BC">ウェビナー</a>と読むみたいです。</p>
-
-<p>ウェブ(Web)とセミナー(Seminar)を組み合わせた造語らしいです。</p>
-
-<h3>どうやって参加するの？</h3>
-
-<p><a href="http://aws.amazon.com/jp/webinar-flow/">参加方法はこちら。</a></p>
-
-<p><a href="http://www.gotomeeting.com/">GoToMeeting</a>というサービスを使っているみたいです。</p>
-
-<h3>どんなコースがあるの？</h3>
-
-<p>ぼくが受けたのはRoute53の回でした。</p>
-
-<p><a href="http://aws.amazon.com/jp/event_schedule/">スケジュールはこちら。</a></p>
-
-<h3><a href="http://www.slideshare.net/AmazonWebServicesJapan">Slideshareで公開されてる資料</a>読めばいいんじゃないの？</h3>
-
-<p>読めばいいんじゃないですかね。</p>
-
-<p>ただ、受講してると講師の人がスライドに書いてないTips的なことを話してくれたりします。</p>
-
-<p>あと、聞きながら質問を書き込んでおくと、最後に答えてくれるみたいです。</p>
-
-<h1>19:00～</h1>
-
-<p><a href="https://github.com/great-h/great-h.github.io/issues/1250">やること宣言</a>と全然ちがうことしてました。</p>
-
-<p><strong><a href="http://qiita.com/kwgch/items/33e4db02abf4c2dcad70">railsでデータを登録、更新したユーザーの情報がほしい</a></strong></p>
 ]]></content>
   </entry>
   

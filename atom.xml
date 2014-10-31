@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-30T10:25:35+09:00</updated>
+  <updated>2014-10-31T11:08:39+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#76にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/10/31/great-h/"/>
+    <updated>2014-10-31T10:17:26+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/10/31/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマはAutoScaling + Amazon CloudWatchでした。</p>
+
+<h3>CloudWatchってなに？</h3>
+
+<p>AWSの各種リソースをモニタリングするためのWebサービスです。</p>
+
+<ul>
+<li><p>アラーム</p>
+
+<p>例えばWebサーバインスタンスのCPU利用率を監視して、設定したしきい値を超えたら通知するようにできます。</p>
+
+<p>通知のほかにも、Auto Scaling Policyのトリガー、インスタンスをStop/Terminateしたりできます。</p></li>
+<li><p>ビリングアラート</p>
+
+<p>設定した金額になったら通知するようにできます。</p>
+
+<p>リージョンはUS EASTで全リージョンの合計金額を提供しています。</p></li>
+<li><p>カスタムメトリクス</p>
+
+<p>独自のメトリクスを保存し、モニタリング、グラフ化できます。</p></li>
+<li><p>ハイブリッド</p>
+
+<p>本番のEC2は他の方法で監視して、RDSだけCloudWatchで監視とかしてるとこもあるみたいです。</p>
+
+<p><blockquote class="twitter-tweet"><p>RDSはフルマネージドなのでCloudWatchでないと監視できない <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/527391000272973824">October 29, 2014</a></blockquote></p></li>
+</ul>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>AutoScalingってなに？</h3>
+
+<p>負荷が増えたときだけEC2を増強して、負荷が下がったら元にもどす、みたいのを自動的にやるサービスです。</p>
+
+<p>CloudWatchから設定します。</p>
+
+<blockquote class="twitter-tweet"><p>しかし飲み会に移動しなければならない。。 <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/527389843819479041">October 29, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>AutoScalingは視聴できませんでした。。</p>
+
+<p>資料がUPされたら後でリンクをはります。</p>
+
+<p>ではまたー</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#75にエア参加しました]]></title>
@@ -2281,60 +2346,6 @@ callback時のログイン処理です。</p>
 
 <p>参考にさせていただきました。
 <a href="http://qiita.com/soramugi/items/5b2ed46e8c8b6157e7cc">devise gemを使ってtwitter認証の設定</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#68に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/03/blog/"/>
-    <updated>2014-09-03T23:46:58+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/03/blog</id>
-    <content type="html"><![CDATA[<h1>参加方式</h1>
-
-<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加しました。</p>
-
-<p>といってもエア参加です。</p>
-
-<p>そうです。なんとすごい広島は、会場に行かなくても、エア参加ができるのです。</p>
-
-<!-- more -->
-
-
-<p>なぜエア参加をしたのか?</p>
-
-<p>パソコンを忘れたのです。</p>
-
-<p>なので、ネットカフェから参加しました。</p>
-
-<p>ネカフェで開発ができるのです。すごい時代です。</p>
-
-<p>ちなみに<a href="https://www.nitrous.io">nitrous.io</a>を使いました。</p>
-
-<p>ナイトラスと読むらしいです。</p>
-
-<h1>今日やること</h1>
-
-<p><a href="https://github.com/great-h/great-h.github.io/issues/1190">今日はやることにしたのは２つ。</a></p>
-
-<p>１つは、issueにチェックボックスをつける。</p>
-
-<p>他の人のIssueを見ると、チェックボックスがついています。</p>
-
-<p>いいな。何だそれ。どうやるんだ。</p>
-
-<p><a href="https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments">ここに書いてありました。</a></p>
-
-<p>こんな感じで書けばいいみたいです。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>- [ ] a task list item</span></code></pre></td></tr></table></div></figure>
-
-
-<p>これはすぐできました。</p>
-
-<p>もう１つは、<a href="https://github.com/intridea/omniauth">omniauth</a>を使ってGitHubでログインする機能を実装する、というのものです。</p>
-
-<p>詳細は<a href="http://kwgch.github.io/blog/2014/09/03/rails/">別エントリ</a>にします。</p>
 ]]></content>
   </entry>
   
