@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-10-31T11:08:39+09:00</updated>
+  <updated>2014-11-03T01:10:54+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,80 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい合同勉強会に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/02/great-study/"/>
+    <updated>2014-11-02T10:56:18+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/02/great-study</id>
+    <content type="html"><![CDATA[<p><a href="http://great-study.doorkeeper.jp/events/13215">すごい合同勉強会</a>に参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>2014/11/01に広島市立大学で「すごい合同勉強会」というのがあったので参加してきました。</p>
+
+<h1>正式名称？</h1>
+
+<p>「すごいOSCLOVE同好会CloudStackE本LT駆動CTFサーバa-blogスクラムNVDAEmacs岡山Functionalλ++.rb.hx」いろんな勉強会の名前をくっつけたらしい。</p>
+
+<h1>趣旨</h1>
+
+<p>「1年に1回ぐらいしか活動できてないコミュニティや、最近活動できてないコミュニティや毎月活動してるコミュニティも年に1回ぐらいまとめて勉強会しようぜ！的な合同勉強会です。」との事</p>
+
+<h1>江添さん</h1>
+
+<p>電源が前のほうにしかない、とひむひむに教えてもらったので、前のほうに座った。</p>
+
+<p>少しして、隣に坊主頭でヒゲの人が座った。</p>
+
+<p>ひむひむが挨拶をしている。</p>
+
+<p>江添さんである。</p>
+
+<p>やばい。</p>
+
+<p>俺C++わかんない。</p>
+
+<p>まあいいや。</p>
+
+<p>「ドワンゴなんですよね？」</p>
+
+<p>「川上会長にC++の歴史講座したんですよね？」</p>
+
+<p>知ってること話かけてみた。</p>
+
+<p>とてもいい人で、きさくに答えてくれる。</p>
+
+<p>「うーんC++の標準化委員会に提案されている最新の新機能#$%&amp;%@#$%&amp;どこまで説明していいか*@&amp;%$#」</p>
+
+<p>ダメだ、ところどころ何言ってるか理解できない。</p>
+
+<p>申し訳ない。</p>
+
+<p>C++入門書くらいしか読んでないことを説明した。</p>
+
+<p>江添さんは不思議な人だった。</p>
+
+<p>昼食後、頻繁に3DSで何かゲームしていた。</p>
+
+<p>「最近買ったけど、使いにくいんですよね〜このゲーム機」と言っていた。</p>
+
+<p>また、頻繁にQ&amp;Aサイトみたいなところに、HHKで、もの凄い勢いで回答を書き込んでいた。</p>
+
+<p>仕事かな？と思ったらask.fmだった。</p>
+
+<blockquote class="twitter-tweet"><p>広島市立大学って広くていいところですよね — 広くて迷った。 <a href="http://t.co/IwIrROcIi4">http://t.co/IwIrROcIi4</a></p>&mdash; Ryou Ezoe (@EzoeRyou) <a href="https://twitter.com/EzoeRyou/status/528435944081608704">November 1, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>TODO 続きは後で書く</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#76にエア参加しました]]></title>
@@ -2143,209 +2217,6 @@
 <p>golangとかhaskellとかあるみたいです。</p>
 
 <p>あ、明日早いので寝ます。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[【rails】Githubアカウントでのログインを実装する]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/03/rails/"/>
-    <updated>2014-09-03T23:47:27+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/03/rails</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/great-h/great-h.github.io/issues/1190">omniauthを使ってGitHubでログインする機能を実装する</a>と宣言したのですが、omniauthは<a href="https://github.com/plataformatec/devise">devise</a>に入ってました。</p>
-
-<p>なのでdeviseを使いました。</p>
-
-<p><img src="https://camo.githubusercontent.com/b1c21cc10f2f94857dea5135fe55f2e4d451e028/68747470733a2f2f7261772e6769746875622e636f6d2f706c617461666f726d617465632f6465766973652f6d61737465722f6465766973652e706e67" alt="devise" /></p>
-
-<!-- more -->
-
-
-<h1>準備</h1>
-
-<p>まずアプリ作成（てきとう）</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rails new github_login_sample
-</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>github_login_sample
-</span><span class='line'><span class="nv">$ </span>rails g scaffold Blog title body:text
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Gemfileに下記を追加</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">gem</span> <span class="s1">&#39;devise&#39;</span>
-</span><span class='line'><span class="n">gem</span> <span class="s1">&#39;omniauth-github&#39;</span>
-</span><span class='line'><span class="n">gem</span> <span class="s2">&quot;figaro&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>deviseのinstall等</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bundle
-</span><span class='line'><span class="nv">$ </span>rails g devise:install
-</span><span class='line'><span class="nv">$ </span>rails g devise User
-</span><span class='line'><span class="nv">$ </span>rails g migration AddColumnsToUsers provider uid
-</span><span class='line'><span class="nv">$ </span>rake db:migrate
-</span><span class='line'><span class="nv">$ </span>rails g figaro:install
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>figaro</h1>
-
-<p>figaroをインストールすると <code>config/application.yml</code> が作成され、<code>.gitignore</code> に下記が追加されます</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>/config/application.yml
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><code>application.yml</code> には下記のように<code>APP_ID</code>と<code>APP_SECRET</code>を書きます。</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>APP_ID: xxxxxxxxxxxxxxxxxxxx
-</span><span class='line'>APP_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>あ、これはGithubの Settings/Apprications/Register new application でアプリを登録すると発行されます。</p>
-
-<p>そして <code>config/initializers/devise.rb</code> へ</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">config</span><span class="o">.</span><span class="n">omniauth</span> <span class="ss">:github</span><span class="p">,</span> <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;APP_ID&quot;</span><span class="o">]</span><span class="p">,</span> <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;APP_SECRET&quot;</span><span class="o">]</span><span class="p">,</span> <span class="ss">scope</span><span class="p">:</span> <span class="s1">&#39;user,public_repo&#39;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>と書くわけです。<code>application.yml</code> に書いた名称と同じなら、<code>APP_ID</code>とかじゃなくても、何でもいいです。</p>
-
-<p><code>application.yml</code> がgit管理対象外になっているので、githubに上げても<code>APP_ID</code>と<code>APP_SECRET</code>が知られなくていいですね。（privateリポジトリなら関係ないけど）</p>
-
-<h1>routes</h1>
-
-<p>次は<code>config/routes.rb</code> へ下記を追加。callbackのルーティングです。</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">root</span> <span class="s1">&#39;blogs#index&#39;</span>
-</span><span class='line'>  <span class="n">get</span> <span class="s1">&#39;blogs/index&#39;</span>
-</span><span class='line'>  <span class="n">devise_for</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">:controllers</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:omniauth_callbacks</span> <span class="o">=&gt;</span> <span class="s2">&quot;users/omniauth_callbacks&quot;</span> <span class="p">}</span>
-</span><span class='line'>  <span class="n">devise_scope</span> <span class="ss">:user</span> <span class="k">do</span>
-</span><span class='line'>    <span class="n">get</span> <span class="s1">&#39;sign_out&#39;</span><span class="p">,</span> <span class="ss">:to</span> <span class="o">=&gt;</span> <span class="s1">&#39;devise/sessions#destroy&#39;</span><span class="p">,</span> <span class="ss">:as</span> <span class="o">=&gt;</span> <span class="ss">:destroy_user_session</span>
-</span><span class='line'>  <span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>controller</h1>
-
-<p>それから <code>app/controller/users/</code> に <code>omniauth_callbacks_controller.rb</code> を追加します。
-callback時のログイン処理です。</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Users</span><span class="o">::</span><span class="no">OmniauthCallbacksController</span> <span class="o">&lt;</span> <span class="no">Devise</span><span class="o">::</span><span class="no">OmniauthCallbacksController</span>
-</span><span class='line'>  <span class="k">def</span> <span class="nf">github</span>
-</span><span class='line'>    <span class="vi">@user</span> <span class="o">=</span> <span class="no">User</span><span class="o">.</span><span class="n">find_or_create_by</span><span class="p">(</span><span class="n">user_params</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">if</span> <span class="vi">@user</span><span class="o">.</span><span class="n">persisted?</span>
-</span><span class='line'>      <span class="n">sign_in_and_redirect</span> <span class="vi">@user</span><span class="p">,</span> <span class="ss">:event</span> <span class="o">=&gt;</span> <span class="ss">:authentication</span>
-</span><span class='line'>      <span class="n">set_flash_message</span><span class="p">(</span><span class="ss">:notice</span><span class="p">,</span> <span class="ss">:success</span><span class="p">,</span> <span class="ss">:kind</span> <span class="o">=&gt;</span> <span class="s2">&quot;Github&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">is_navigational_format?</span>
-</span><span class='line'>    <span class="k">else</span>
-</span><span class='line'>      <span class="n">session</span><span class="o">[</span><span class="s2">&quot;devise.github_data&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">env</span><span class="o">[</span><span class="s2">&quot;omniauth.auth&quot;</span><span class="o">]</span>
-</span><span class='line'>      <span class="n">redirect_to</span> <span class="n">new_user_registration_url</span>
-</span><span class='line'>    <span class="k">end</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="kp">private</span>
-</span><span class='line'>  <span class="k">def</span> <span class="nf">user_params</span>
-</span><span class='line'>    <span class="n">request</span><span class="o">.</span><span class="n">env</span><span class="o">[</span><span class="s2">&quot;omniauth.auth&quot;</span><span class="o">].</span><span class="n">slice</span><span class="p">(</span><span class="ss">:provider</span><span class="p">,</span> <span class="ss">:uid</span><span class="p">)</span><span class="o">.</span><span class="n">to_h</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>model</h1>
-
-<p><code>app/models/user.rb</code> に下記を追加。もうちょっとです。</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
-</span><span class='line'>  <span class="n">devise</span> <span class="ss">:omniauthable</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>view</h1>
-
-<p>viewにSign in、Sign outを追加します。</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='erb'><span class='line'><span class="cp">&lt;%</span> <span class="k">if</span> <span class="n">user_signed_in?</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span><span class='line'><span class="x">    </span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">&quot;Sign out&quot;</span><span class="p">,</span> <span class="n">destroy_user_session_path</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span><span class='line'><span class="cp">&lt;%</span> <span class="k">else</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span><span class='line'><span class="x">    </span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">&quot;Sign in with Github&quot;</span><span class="p">,</span> <span class="n">user_omniauth_authorize_path</span><span class="p">(</span><span class="ss">:github</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span><span class='line'><span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>そして</h1>
-
-<p>あとはログイン後に表示する箇所を</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='erb'><span class='line'><span class="cp">&lt;%</span> <span class="k">if</span> <span class="n">user_signed_in?</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span><span class='line'>
-</span><span class='line'><span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"></span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>でくくるとか、controllerで認証処理を書けばいいわけです。</p>
-
-<hr />
-
-<h1>参考</h1>
-
-<p>参考にさせていただきました。
-<a href="http://qiita.com/soramugi/items/5b2ed46e8c8b6157e7cc">devise gemを使ってtwitter認証の設定</a></p>
 ]]></content>
   </entry>
   
