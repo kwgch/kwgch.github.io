@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/guang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-03T01:10:54+09:00</updated>
+  <updated>2014-11-04T17:33:02+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -20,30 +20,28 @@
     <id>http://kwgch.github.io/blog/2014/11/02/great-study</id>
     <content type="html"><![CDATA[<p><a href="http://great-study.doorkeeper.jp/events/13215">すごい合同勉強会</a>に参加してきました。</p>
 
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+<p><img src="/images/great-study.png" alt="great-study" /></p>
 
 <!-- more -->
 
 
 <p>2014/11/01に広島市立大学で「すごい合同勉強会」というのがあったので参加してきました。</p>
 
-<h1>正式名称？</h1>
-
-<p>「すごいOSCLOVE同好会CloudStackE本LT駆動CTFサーバa-blogスクラムNVDAEmacs岡山Functionalλ++.rb.hx」いろんな勉強会の名前をくっつけたらしい。</p>
-
 <h1>趣旨</h1>
 
-<p>「1年に1回ぐらいしか活動できてないコミュニティや、最近活動できてないコミュニティや毎月活動してるコミュニティも年に1回ぐらいまとめて勉強会しようぜ！的な合同勉強会です。」との事</p>
+<p>1年に1回ぐらいしか活動できてないコミュニティや、最近活動できてないコミュニティや毎月活動してるコミュニティも年に1回ぐらいまとめて勉強会しようぜ！的な合同勉強会です。</p>
 
 <h1>江添さん</h1>
 
-<p>電源が前のほうにしかない、とひむひむに教えてもらったので、前のほうに座った。</p>
+<p>電源が前のほうにしかない、と<a href="https://github.com/eiel">ひむひむ</a>に教えてもらったので、前のほうに座った。</p>
 
 <p>少しして、隣に坊主頭でヒゲの人が座った。</p>
 
 <p>ひむひむが挨拶をしている。</p>
 
-<p>江添さんである。</p>
+<p><a href="http://cpplover.blogspot.jp/2014/11/2014-in.html">江添さん</a>である。</p>
+
+<hr />
 
 <p>やばい。</p>
 
@@ -57,7 +55,9 @@
 
 <p>知ってること話かけてみた。</p>
 
-<p>とてもいい人で、きさくに答えてくれる。</p>
+<p>とてもいい人で、きさくに答えてくれた。</p>
+
+<hr />
 
 <p>「うーんC++の標準化委員会に提案されている最新の新機能#$%&amp;%@#$%&amp;どこまで説明していいか*@&amp;%$#」</p>
 
@@ -65,21 +65,47 @@
 
 <p>申し訳ない。</p>
 
-<p>C++入門書くらいしか読んでないことを説明した。</p>
+<p>C++の入門書くらいしか読んでないことを説明した。</p>
+
+<hr />
 
 <p>江添さんは不思議な人だった。</p>
 
-<p>昼食後、頻繁に3DSで何かゲームしていた。</p>
+<p>頻繁に3DSで何かゲームしていた。</p>
 
 <p>「最近買ったけど、使いにくいんですよね〜このゲーム機」と言っていた。</p>
 
-<p>また、頻繁にQ&amp;Aサイトみたいなところに、HHKで、もの凄い勢いで回答を書き込んでいた。</p>
+<hr />
+
+<p>また、もの凄い勢いでHHK(Happy Hacking Keyboard)をカチャカチャやっていた。</p>
+
+<p>Q&amp;Aの回答をしているようだった。</p>
 
 <p>仕事かな？と思ったらask.fmだった。</p>
 
 <p><a href="https://twitter.com/EzoeRyou/status/528435944081608704">https://twitter.com/EzoeRyou/status/528435944081608704</a>">https://twitter.com/EzoeRyou/status/528435944081608704">https://twitter.com/EzoeRyou/status/528435944081608704</a></a></p>
 
-<p>TODO 続きは後で書く</p>
+<hr />
+
+<p>江添さんの発表は<a href="http://ezoeryou.github.io/sugoi-goudou-2014/#/">「C++提案の読み方」</a>というものだった。</p>
+
+<p>C++の標準化委員会に提案されている最新の新機能についての説明だったが、</p>
+
+<p>シンプルなサンプルコードで説明してくれたので、僕にもなんとなく分かるものであった。</p>
+
+<hr />
+
+<p>江添さんはいい人だった。ステッカーくれたし。</p>
+
+<p><a href="https://twitter.com/ducky19999/status/528492217451573248">https://twitter.com/ducky19999/status/528492217451573248</a>">https://twitter.com/ducky19999/status/528492217451573248">https://twitter.com/ducky19999/status/528492217451573248</a></a></p>
+
+<h1>その他</h1>
+
+<p>懇親会のLTで多少笑いがとれたので、よかったです。</p>
+
+<h1>まとめ</h1>
+
+<p><a href="http://togetter.com/li/739292">まとめてありました。</a></p>
 ]]></content>
   </entry>
   
