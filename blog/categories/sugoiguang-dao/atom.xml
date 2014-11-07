@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-04T17:33:02+09:00</updated>
+  <updated>2014-11-07T10:43:12+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#77にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/06/great-h/"/>
+    <updated>2014-11-06T23:56:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/06/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは Trusted Advisor &amp; Cost Explorer でした。</p>
+
+<h2>Trusted Advisorってなに？</h2>
+
+<p>AWS環境を検査して、推奨事項をお知らせしてくれます。（下記４つは無料）</p>
+
+<h3>コスト最適化</h3>
+
+<p>  不要リソースやアイドル状態のリソースなんかについて教えてくれます</p>
+
+<h3>セキュリティ</h3>
+
+<p>  アプリケーションのセキュリティについて推奨事項を教えてくれます</p>
+
+<p>  例）</p>
+
+<ul>
+<li>特定のポートへの無制限のアクセス（0.0.0.0/0）を許可するルールが使われてないか</li>
+<li>リソースへの無制限のアクセスを許可するルールが使われてないか</li>
+</ul>
+
+
+<h3>耐障害性</h3>
+
+<p>  AWSアプリケーションのアベイラビリティーと冗長性について教えてくれます</p>
+
+<p>  例）</p>
+
+<ul>
+<li>EBSボリュームのスナップショットの経過時間をチェック</li>
+<li>EC2のAvailability Zoneバランスをチェック</li>
+</ul>
+
+
+<h3>パフォーマンス改善</h3>
+
+<p>  利用率が高すぎるインスタンスなどを教えてくれます</p>
+
+<hr />
+
+<p>Trusted Advisor Dashboardから見れます。</p>
+
+<p><img src="https://d0.awsstatic.com/screenshots/Premiumsupport-newsupportcenter/ta_dashboard_site.png" alt="ta_dashboard" /></p>
+
+<h2>Cost Explorerってなに？</h2>
+
+<p>AWSの料金を追跡およびレポート、分析、視覚化ができるツールを提供します。</p>
+
+<p>月次や日時でのビューが用意されており、ドリルダウンでサービスごと等の詳細が見れるようです。</p>
+
+<p>想定以上にコストを食っているインスタンスなんかが、ひと目でわかります。</p>
+
+<p>カスタムしたビューも作成可能です。</p>
+
+<p><img src="http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/images/costinsights-time-granularity.png" alt="cost-explorer" /></p>
+
+<h3>まとめ</h3>
+
+<p>どちらも定期的なミーティングでの報告／検討資料として使われるユースケースを想定されていました。</p>
+
+<p>資料がUPされたら貼ります。</p>
+
+<p>ではでは</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#76にエア参加しました]]></title>
@@ -63,9 +143,11 @@
 
 <p><a href="https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a>">https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a></a></p>
 
-<p>AutoScalingは視聴できませんでした。。</p>
+<p>AutoScalingは視聴できませんでした。。（飲み会のため）</p>
 
-<p>資料がUPされたら後でリンクをはります。</p>
+<p>当日の資料</p>
+
+<p>{ oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling</a> }</p>
 
 <p>ではまたー</p>
 ]]></content>
@@ -222,61 +304,6 @@
 <p><a href="/blog/2014/10/08/sg-learning/">SonicGardenコードレビュー勉強会#2 に参加しました</a></p>
 
 <p>長くなるので別エントリです。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#72にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/01/great-h/"/>
-    <updated>2014-10-01T23:23:23+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/01/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<h1>18:00～19:00</h1>
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>テーマはEMRでした。</p>
-
-<h3>EMRってなに？</h3>
-
-<p>Elastic Map Reduceの略です。</p>
-
-<p>※当日の資料
-<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr</a></a></p>
-
-<h1>19:00~</h1>
-
-<p>10/19に情報処理技術者試験があるので、ITストラテジストの勉強をしました。</p>
-
-<p>論文事例集を読んでいたのですが、</p>
-
-<p><a href="https://twitter.com/ducky19999/status/517274660027650048">https://twitter.com/ducky19999/status/517274660027650048</a>">https://twitter.com/ducky19999/status/517274660027650048">https://twitter.com/ducky19999/status/517274660027650048</a></a></p>
-
-<p>「すべからく」と並んで誤用日本語の定番である「至上命題」が平然と使われていました。</p>
-
-<p>普段は別に何とも思わないのですが、</p>
-
-<p>文章売って金もらっている人間が、平然と使っているのが許せんのですよ。</p>
-
-<p>しかも論文事例集ですよ！</p>
-
-<p>編集の人も何も思ってないわけですよね。</p>
-
-<p>…まぁ、どうでもいいんですけどね（どっちやねん）</p>
-
-<p>以前もプロマネ論文集で見た気がします。</p>
-
-<p>たのんますよ、アイテックさん。</p>
-
-<h3>その他</h3>
-
-<p><a href="http://qiita.com/kwgch/items/a8dcbe9503d847902af3">bootstrap-material-designをさわってみました。</a></p>
 ]]></content>
   </entry>
   

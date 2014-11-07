@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-04T17:33:02+09:00</updated>
+  <updated>2014-11-07T10:43:12+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#77にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/06/great-h/"/>
+    <updated>2014-11-06T23:56:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/06/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは Trusted Advisor &amp; Cost Explorer でした。</p>
+
+<h2>Trusted Advisorってなに？</h2>
+
+<p>AWS環境を検査して、推奨事項をお知らせしてくれます。（下記４つは無料）</p>
+
+<h3>コスト最適化</h3>
+
+<p>  不要リソースやアイドル状態のリソースなんかについて教えてくれます</p>
+
+<h3>セキュリティ</h3>
+
+<p>  アプリケーションのセキュリティについて推奨事項を教えてくれます</p>
+
+<p>  例）</p>
+
+<ul>
+<li>特定のポートへの無制限のアクセス（0.0.0.0/0）を許可するルールが使われてないか</li>
+<li>リソースへの無制限のアクセスを許可するルールが使われてないか</li>
+</ul>
+
+
+<h3>耐障害性</h3>
+
+<p>  AWSアプリケーションのアベイラビリティーと冗長性について教えてくれます</p>
+
+<p>  例）</p>
+
+<ul>
+<li>EBSボリュームのスナップショットの経過時間をチェック</li>
+<li>EC2のAvailability Zoneバランスをチェック</li>
+</ul>
+
+
+<h3>パフォーマンス改善</h3>
+
+<p>  利用率が高すぎるインスタンスなどを教えてくれます</p>
+
+<hr />
+
+<p>Trusted Advisor Dashboardから見れます。</p>
+
+<p><img src="https://d0.awsstatic.com/screenshots/Premiumsupport-newsupportcenter/ta_dashboard_site.png" alt="ta_dashboard" /></p>
+
+<h2>Cost Explorerってなに？</h2>
+
+<p>AWSの料金を追跡およびレポート、分析、視覚化ができるツールを提供します。</p>
+
+<p>月次や日時でのビューが用意されており、ドリルダウンでサービスごと等の詳細が見れるようです。</p>
+
+<p>想定以上にコストを食っているインスタンスなんかが、ひと目でわかります。</p>
+
+<p>カスタムしたビューも作成可能です。</p>
+
+<p><img src="http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/images/costinsights-time-granularity.png" alt="cost-explorer" /></p>
+
+<h3>まとめ</h3>
+
+<p>どちらも定期的なミーティングでの報告／検討資料として使われるユースケースを想定されていました。</p>
+
+<p>資料がUPされたら貼ります。</p>
+
+<p>ではでは</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい合同勉強会に参加しました]]></title>
@@ -174,9 +254,11 @@
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<p>AutoScalingは視聴できませんでした。。</p>
+<p>AutoScalingは視聴できませんでした。。（飲み会のため）</p>
 
-<p>資料がUPされたら後でリンクをはります。</p>
+<p>当日の資料</p>
+
+<p>{ oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling</a> }</p>
 
 <p>ではまたー</p>
 ]]></content>
@@ -2174,79 +2256,6 @@
 
 
 <p>来年もいこう。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ステッカーのサンプルを買ってみた]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/04/blog/"/>
-    <updated>2014-09-04T22:15:31+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/04/blog</id>
-    <content type="html"><![CDATA[<h1>ステッカー</h1>
-
-<p>少し前にMacBook AirのCMで、<a href="https://www.youtube.com/watch?v=gP9G4EKB6Pw">色んなステッカーを貼るやつ</a>が流れてたんですけど、BGMが<a href="https://www.youtube.com/watch?v=ydZUb8q6KIs">Hudson MohawkeのChimes</a>で懐かしかったです。</p>
-
-<p>それとは全く関係なく、ぼくもステッカー貼ってみようかな、と何となく思いました。</p>
-
-<!-- more -->
-
-
-<h1>探してみた</h1>
-
-<p><a href="https://github.myshopify.com/products/die-cut-github-stickers">github</a>、
-<a href="https://www.google-store.com/webcontents/ProductDetails.aspx?request=vLqCI7Ha+5SpKplrcP1t5/V4jfmJkcbyudVLLWxi00CxRyaiR5t0yQ==">android</a>、
-<a href="https://hatena.stores.jp/#!/items/51edfea69de2f0557c0002ac">はてな</a>、
-<a href="http://shop.qiita.com/items/173021">qiita</a>
-は売ってるのを見つけました。まだ買ってません。</p>
-
-<h1>stickermule</h1>
-
-<p>他にないかなーと思ってたら、
-<a href="http://www.stickermule.com/">stickermule</a>というサイトを見つけました。tech系もいろいろありそうです。</p>
-
-<p><a href="http://www.stickermule.com/marketplace/409-code-climate-badge">code climate</a>、
-<a href="http://www.stickermule.com/marketplace/1487-git-logo-stickers">git</a>、
-<a href="http://www.stickermule.com/marketplace/295-html5-stickers">HTML5</a>、
-<a href="http://www.stickermule.com/marketplace/1663-angular-js-badge-stickers">angular.js</a>
-を見つけました。他にもあるみたいです。</p>
-
-<p>あ、<a href="http://www.stickermule.com/marketplace/1026-docker-stickers">docker</a>を見つけました！</p>
-
-<h1>サンプル</h1>
-
-<p>おや、<a href="http://www.stickermule.com/products/sample-pack">$1で９枚サンプルが買えるみたいです。</a></p>
-
-<p>Google Chrome, Twitter, GitHub, New Relicなんかがあるみたいです。</p>
-
-<h1>頼んでみた</h1>
-
-<p>日本で頼むと、送料が$6かかりました…</p>
-
-<p>１週間ほどで届きました。</p>
-
-<p><img src="http://kwgch.github.io/images/envelope.jpg" alt="envelope" /></p>
-
-<p>中身はこんな感じでした。</p>
-
-<p><img src="http://kwgch.github.io/images/sticker.jpg" alt="stecker" /></p>
-
-<p>普通に買ったら1つ$５くらいするみたいなので、お得なんじゃないでしょうか。</p>
-
-<h1>他にも欲しい人は</h1>
-
-<p><a href="https://www.stickermule.com/unlock?ref_id=7959260701">ここから申し込むと</a>$10ぶんステッカーが手に入れられるみたいです。</p>
-
-<p>ぼくにも$10ぶん加算されるしくみです、たぶん。ステッカーしか買えないけど。</p>
-
-<h1>unixstickers</h1>
-
-<p>明日早いので寝ようと思ってたら<a href="http://www.unixstickers.com/">unixstickers</a>というのを見つけてしまいました…</p>
-
-<p>プログラマの人なんかは、こっちのほうが欲しいのありそうです。</p>
-
-<p>golangとかhaskellとかあるみたいです。</p>
-
-<p>あ、明日早いので寝ます。</p>
 ]]></content>
   </entry>
   
