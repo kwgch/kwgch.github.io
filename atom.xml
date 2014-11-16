@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-07T10:43:12+09:00</updated>
+  <updated>2014-11-17T07:16:49+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,292 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RubyWorld Confarence2014に参加してきました#1]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/16/rwc1/"/>
+    <updated>2014-11-16T20:05:29+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/16/rwc1</id>
+    <content type="html"><![CDATA[<p>Rubyさわり始めてまだ半年ですが参加してきました。</p>
+
+<p>間違いあったら指摘お願いします</p>
+
+<!-- more -->
+
+
+<h1>1日目（2014/11/13）</h1>
+
+<h2>基調講演 <a href="https://twitter.com/yukihiro_matz">まつもとゆきひろ</a>さん</h2>
+
+<h2>『Rubyが教えてくれたこと』</h2>
+
+<ul>
+<li><p>浜松の会社に勤務して社内ツールをつくっていたが、バブル崩壊で社内ツール作成チームが解散した。時間があったのでRubyの開発を始めた</p></li>
+<li><p>上司に承認を求めていると進まないのでSkunkwork（会社に報告せずに行う研究開発活動）として進めた</p></li>
+<li><p>許可を求めるな、謝罪せよ（3Mの社是）</p></li>
+<li><p>アイデアに価値はない。実装のないアイデアはゴミ。</p></li>
+<li><p>リチャード・ストールマン、彼は世界を変えた。MatzがRubyを作らなくても、別の自由な開発言語があっただろう。LinusがLinuxを作らなくても、別のフリーOSがあっただろう。しかしStallmanがいなければ、自由なソフトウェアは全てなかっただろう</p></li>
+<li><p>魅力的なOSSには魅力的なコミュニティがある。でも止まると死ぬ。</p></li>
+<li><p>アマチュアでいよう（完璧な計画よりも柔軟な進歩）。最高のアマチュアは普通のプロよりも上</p></li>
+<li><p>開発者はすごいソフトウェアをつくろう。開発者でない人は、すごいソフトウェアを作る手伝いをしよう</p></li>
+</ul>
+
+
+<h3>感想</h3>
+
+<p>感動した。</p>
+
+<blockquote class="twitter-tweet"><p>リチャード・ストールマンの写真若い <a href="https://twitter.com/hashtag/RubyWorld?src=hash">#RubyWorld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532720936491831296">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2><a href="https://twitter.com/miyohide">三好秀徳さん</a> (株式会社日立ソリューションズ)</h2>
+
+<h2>『各Ruby処理系の性能計測調査報告とその考察』</h2>
+
+<ul>
+<li><p>まずPassengerでRailsを動かしてのベンチマーク。CRubyとJRubyで比較</p></li>
+<li><p>JRubyのほうがCPUを消費する（特にGCがひどい）が、CRubyより少ししか速くなかった</p></li>
+<li><p>Warbler（Rails appをwar化してJRubyで動かす、のかな？）は上記よりメモリを消費してるように見えた</p></li>
+<li><p>PumaはCRuby+Passengerと同じくらいのメモリ消費量</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>「フルマラソンのシューズはPumaですか？」 <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532752404148539392">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2><a href="https://twitter.com/ktou">須藤功平</a>さん (株式会社クリアコード)</h2>
+
+<h2>『Rubyを使った分散全文検索ミドルウェア』</h2>
+
+<p><a href="http://rabbit-shocker.org/ja/">Rabbit</a>の作者の方</p>
+
+<ul>
+<li><p>Rubyの浸透促進案 → 有用アプリをつくろう → ミドルウェアつくろう</p></li>
+<li><p>最高速、多機能で勝負しない</p></li>
+<li><p>使いやすさで勝負。導入・設定・運用の簡単さが重要</p></li>
+<li><p>スレッド、シグナル、フォークは難しい三兄弟</p></li>
+<li><p>CPUがボトルネック→処理を減らす</p></li>
+<li><p>ネットワークネック→通信量を減らす</p></li>
+<li><p>Rubyだから、我々は使うんだ！という強い意志で</p></li>
+</ul>
+
+
+<h3>発表資料</h3>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/41498979" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kou/rwc-2014" title="Rubyを使った分散全文検索ミドルウェア" target="_blank">Rubyを使った分散全文検索ミドルウェア</a> </strong> from <strong><a href="http://www.slideshare.net/kou" target="_blank">Kouhei Sutou</a></strong> </div></p>
+
+<p><a href="http://droonga.org/ja/">分散全文検索エンジンDroonga</a></p>
+
+<h2>坂東塁さん、岩瀬裕章さん (楽天株式会社)</h2>
+
+<h2>『楽天のRubyベース分散型KVS “ROMA”への取り組み－GUIで変わるKey-Value Storeの提案』</h2>
+
+<h3>坂東さん</h3>
+
+<ul>
+<li>楽天での開発体制について</li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>楽天のエンジニア1300人、リポジトリ9500こ <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532766101994602496">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>基本スクラムでタスクボード、プランニングポーカーとか使ってる</p></li>
+<li><p>ホワイトボードにFreeTaskのスペース。20%ルールみたく好きなもの作っていい</p></li>
+<li><p>ツールはJira、Confluence、Stash（Atlassian製品）</p></li>
+</ul>
+
+
+<h3>岩瀬さん</h3>
+
+<ul>
+<li><p>ROMAは楽天が作成した分散KVS</p></li>
+<li><p>ROMAのGUIであるGladiatorをつくった</p></li>
+<li><p>なぜなら仕事の80%がROMAのサポート業務になってしまったから</p></li>
+</ul>
+
+
+<h3>発表資料</h3>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/41610067" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/rakutentech/the-effort-of-rakuten-for-a-distributed-key-value-store-roma-in-ruby" title="The Effort of Rakuten for A Distributed Key- Value Store &quot;ROMA&quot; in Ruby" target="_blank">The Effort of Rakuten for A Distributed Key- Value Store &quot;ROMA&quot; in Ruby</a> </strong> from <strong><a href="http://www.slideshare.net/rakutentech" target="_blank">Rakuten, Inc</a></strong> </div></p>
+
+<h2>本多展幸さん、高尾宏治さん (Rubyプログラミング少年団)</h2>
+
+<h2>『ぼくたち、Rubyプログラミング少年団! ～小学生からはじめるRubyプログラミング～』</h2>
+
+<ul>
+<li><p>ラリーペイジ「20年後、あなたが望もうが、望むまいが現在の仕事のほとんどが機械によって代行される」</p></li>
+<li><p>これからはプログラミングができることがますます重要に。しかしそれ以上にプログラミングは楽しいもの</p></li>
+<li><p>松江市では全市立中学でRubyプログラミング教育が2016年度から実施</p></li>
+<li><p>ScratchみたいにグラフィカルにプログラミングができるSmalrubyの紹介</p>
+
+<p>  （App Inventorを思い出しました）</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>「Rubyプログラミング少年団を日本全国へ広めて全国大会をやりたい」 <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532787177512787968">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>発表資料</h3>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/41497002" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kouji/kidsrubyfun" title="Kids,Ruby,Fun! ぼくたち、 Rubyプログラミング少年団！ 〜小学生からはじめる Ruby プログラミング〜" target="_blank">Kids,Ruby,Fun! ぼくたち、 Rubyプログラミング少年団！ 〜小学生からはじめる Ruby プログラミング〜</a> </strong> from <strong><a href="http://www.slideshare.net/kouji" target="_blank">宏治 高尾</a></strong> </div></p>
+
+<h2>島田浩二さん (株式会社えにしテック)</h2>
+
+<h2>『私たちの会社を「開発」する ～Company Hacking Guide』</h2>
+
+<ul>
+<li><p>経費精算処理：git + YAML + seisan</p></li>
+<li><p>お問合せ対応：メールをgithub issuesに登録</p></li>
+<li><p>組織として、ソフトウェアを作り続けるチームをいかに支えていくか</p></li>
+<li><p>心配するのはやめて、コードを書いて幸せになろう（Matz）</p></li>
+<li><p>ふつうの開発のように会社を経営する</p></li>
+<li><p>Ruby Under a Microscopeの翻訳が出ます（<a href="http://www.amazon.co.jp//dp/4274050653">Rubyのしくみ</a>）</p></li>
+</ul>
+
+
+<p><a class="embedly-card" href="https://speakerdeck.com/snoozer05/company-hacking-guide-were-developing-our-company">Company Hacking Guide: We&rsquo;re &ldquo;Developing&rdquo; Our Company</a></p>
+
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+<h1>ショートトラック</h1>
+
+<h2>本間紀史さん (株式会社フランジア･ジャパン)</h2>
+
+<h2>『ベトナム･ハノイ市における学校での日本語IT教育にRubyを活用』</h2>
+
+<ul>
+<li>ベトナムはオフショア開発拠点として成長</li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>ベトナムではソフトウェア産業が労働集約産業と見なされている <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532801150714540034">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>ソフトウェア開発はクリエイティブで楽しいということをベトナムの学生に教えている</li>
+</ul>
+
+
+<p><a href="http://framgia.com/jp/offshore/index.html">framgia「オフショアでのベトナム開発」</a></p>
+
+<h2>国広卓也さん (岡山大学地球物質科学研究センター)</h2>
+
+<h2>『山陰から小惑星へ－地球惑星物質管理システムの着想と今』</h2>
+
+<ul>
+<li><p>太陽系の隕石を分析。そのデータを後世に残したい</p></li>
+<li><p>はやぶさサンプルの粒をスライスして、箱に入れて、子データ、孫データ..と増えていく。人間では管理できない。</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>Orochi on ActiveResource 、Medusa on Rails <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532804707719196673">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>これのことかな？</p>
+
+<p><a href="https://github.com/kellydunn/orochi">orochi</a>、<a href="https://github.com/c2h2/medusa">medusa</a></p>
+
+<h2>本田智和さん (松江市)、石原航さん (株式会社テクノプロジェクト)</h2>
+
+<h2>『Matsue Ruby GW「縁sys (えにしす)」が生み出す「人」と「技術」の縁結び～松江市と塩尻市、そしてRubyの新たなる挑戦～』</h2>
+
+<ul>
+<li><p>松江市のグループウェア、<a href="http://www.tpj.co.jp/enisys/">縁sys</a>。テクノプロジェクト社が開発しOSSに</p></li>
+<li><p>長野県塩尻市でも縁SYSのソースを利用したSymcグループウエアを開発</p></li>
+<li><p>民間でも使われ始めている</p></li>
+</ul>
+
+
+<h2>Ruby Prize 2014 表彰式</h2>
+
+<p>最終ノミネート</p>
+
+<ul>
+<li><p><a href="https://twitter.com/pat_shaughnessy">Pat Shaughnessy</a>さん</p>
+
+<p>  Ruby Under a Microscope</p></li>
+<li><p><a href="https://twitter.com/matsumotory">松本 亮介</a>さん</p>
+
+<p>  HTTPサーバにおけるmruby活用</p></li>
+<li><p><a href="https://twitter.com/hsbt">柴田 博志</a>さん</p>
+
+<p>  開発環境の整備、リリース環境の改善</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>Ruby Prize2014受賞者は柴田博志さんです! <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532814191816503296">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>RubyのCI環境の為にruby associationと交渉</p></li>
+<li><p>OSXでのCIのためTravis-ciと交渉</p></li>
+<li><p>等々</p></li>
+</ul>
+
+
+<h3>受賞講演資料</h3>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/41507219" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/hsbt/20141013-ruby-worldconf2014" title="Ruby with My Life" target="_blank">Ruby with My Life</a> </strong> from <strong><a href="http://www.slideshare.net/hsbt" target="_blank">Hiroshi SHIBATA</a></strong> </div></p>
+
+<h2>レセプション</h2>
+
+<blockquote class="twitter-tweet"><p>しまねっこの人気ヤバい <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a> <a href="http://t.co/X1mNnEn6jY">pic.twitter.com/X1mNnEn6jY</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532847004007665665">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2>全体的な感想</h2>
+
+<p>司会の白石さんのクオリティやばい</p>
+
+<h2>その他</h2>
+
+<blockquote class="twitter-tweet"><p>言った通りMatzに会ってきたで <a href="http://t.co/txrApwbfNP">pic.twitter.com/txrApwbfNP</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/532746132661612545">November 13, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Rubyたのしい</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#77にエア参加しました]]></title>
@@ -1951,311 +2237,6 @@
 <p>月に１回、１月を除いた第１土曜日に開催しているみたいです。</p>
 
 <p>また遊びにいこうと思います。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[デブサミ関西2014に参加してきました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/05/blog/"/>
-    <updated>2014-09-05T23:49:00+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/05/blog</id>
-    <content type="html"><![CDATA[<p>Developers Summit 2014 In Kansai というイベントに参加してきました。</p>
-
-<p><img src="http://event.shoeisha.jp/static/images/event/213/images/devsum_logo.png" alt="devsumi" /></p>
-
-<p>一昨年ぶりの参加です。
-今年はスーツの人ばっかりだなぁと思ったら、近くでやっていた<a href="http://www.kobemesse.com/">国際フロンティア産業メッセ2014</a>の会場に行ってしまいました。</p>
-
-<p>ダッシュで基調講演に間に合った。</p>
-
-<!-- more -->
-
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/550/">基調講演</a></h1>
-
-<p>最初はクックパッドの<a href="https://twitter.com/yoshiori">庄司嘉織さん</a>。</p>
-
-<p>「この『物語』は、ぼくが歩き出す物語だ。肉体が……という意味ではなく、エンジニアとしてという意味で……」というタイトル。</p>
-
-<p>熱い講演で、会場は終止爆笑に包まれました。</p>
-
-<h2>印象に残ったこと</h2>
-
-<h3>経歴</h3>
-
-<p>意外なことに、25才でプログラミング経験なし、高卒で情報系の知識なしでプログラマになったそうです。</p>
-
-<p>30才でプログラマになった高卒の私は、勝手に勇気をもらいました。</p>
-
-<h3>いちばんの&#8221;へたくそ&#8221;でいよう</h3>
-
-<p><a href="http://www.amazon.co.jp/gp/product/4274067939?ie=UTF8&amp;camp=1207&amp;creative=8411&amp;creativeASIN=4274067939&amp;linkCode=shr&amp;tag=ducky19999-22&amp;qid=1409962171">情熱プログラマー</a>という本に出てくる言葉です。</p>
-
-<p>自分が&#8221;へたくそ&#8221;になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。</p>
-
-<p>そのほうが面白いとの事。なるほどその通り。</p>
-
-<h3>もっと怒ろう</h3>
-
-<blockquote class="twitter-tweet"><p>旦那さまが映画館の会員登録で「数字は全角で」ってエラーメッセージで弾かれたのにムカついて「1102号室」を「千百二号室」って入力しててクールだなーと思った</p>&mdash; ショウジユウコ (@ngtyk) <a href="https://twitter.com/ngtyk/status/461046929389285376">April 29, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>おかしい仕様に対しては怒ろう。</p>
-
-<p>おかしいと思うことはおかしいと言おう。</p>
-
-<p><a href="http://news.livedoor.com/article/detail/6330406/">怒られても死なない。</a></p>
-
-<p>git使いたい→足元にサーバを立てた→怒られた→じゃあGitHub Enterpriseを導入させてください→<a href="http://doda.jp/engineer/it/guide/001/19b.html#geek_main">全社導入</a>→みんなが幸せになった</p>
-
-<h3>やりたいことをやろう</h3>
-
-<p><a href="http://techlife.cookpad.com/entry/2014/06/17/160905">AWSで動画配信やりたい</a>→AWS Summit Tokyo 2014の基調講演で取り上げてもらえた</p>
-
-<p>お客さんにも喜んでもらえた→多分、エンジニアがみんなやりたい事をやったほうが世の中はよくなる気がする</p>
-
-<p>”やりたくないことをするには僕の人生は短すぎる&#8221;</p>
-
-<h2>講演資料</h2>
-
-<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/yoshiori/18-till-i-die">18 till i die</a></p>
-
-<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
-
-
-<h2>感想</h2>
-
-<p><a href="https://twitter.com/yoshiori">yoshiori</a>さんがjava-ja立ち上げた人なの忘れて、懇親会で「rubyたのしいです！javaあきました」と言ってしまい、「javaも好きだけど」と言われる失態を晒しました。（感想じゃない）</p>
-
-<hr />
-
-<h1>午後の部</h1>
-
-<p>デブサミ関西2014は、開発プロセストラック、Web＆Cloudトラック、Mobileトラックの３つに分かれていました。</p>
-
-<p>私はWeb＆Cloudトラックにずっといました。</p>
-
-<hr />
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/556/">Webデザインと開発の未来</a></h1>
-
-<p><a href="https://twitter.com/cipher">こもりまさあき</a>さん。</p>
-
-<h2>印象に残ったこと</h2>
-
-<p><a href="http://think.withgoogle.com/databoard/#lang=en-us&amp;study=18&amp;topic=71">デバイスの使われ方がどんどん変わってきている</a>。ずっとwebに繋がっている。</p>
-
-<p><a href="http://opensignal.com/reports/2014/android-fragmentation/#frag_reloaded">Androidを搭載したデバイス、18,000+</a>。やばい。</p>
-
-<p><a href="http://bradfrostweb.com/blog/post/this-is-the-web/">webとは何か？</a>家電、車もwebに。画面も四角とは限らない。</p>
-
-<p>変化に対応するのは正直大変…適応する？そのままでいる？</p>
-
-<p>ビジネスのスピードは加速プロセスしているのに、開発プロセスはどんどん増えている。つらい。</p>
-
-<p>ツール、手法、エコシステムをうまく使おう。やらないと変わらない。</p>
-
-<h2>講演資料</h2>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/38740756" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/gaspanik/web-38740756" title="Webデザインと開発の未来" target="_blank">Webデザインと開発の未来</a> </strong> from <strong><a href="http://www.slideshare.net/gaspanik" target="_blank">Masaaki Komori</a></strong> </div></p>
-
-<h2>感想</h2>
-
-<p>ここ最近の大きな流れがよくわかりました。</p>
-
-<p><a href="http://www.amazon.co.jp/s/ref=sr_st_relevancerank?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;qid=1409968214&amp;rh=n%3A465392%2Ck%3A%E3%80%80%E3%83%AA%E3%83%BC%E3%83%B3&amp;sort=relevancerank">本のタイトルにリーンってつければ売れる</a>んだと思いました。</p>
-
-<hr />
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/557/">Web技術で開発するエンタープライズモバイルアプリ</a></h1>
-
-<p><a href="http://www.asial.co.jp/">アシアル</a>の田中正裕さん。</p>
-
-<h2>印象に残ったこと</h2>
-
-<p>企業もモバイルファースト、モバイルを使った業務アプリがもっと増えてくる。</p>
-
-<p>企業向けモバイルの適用には、HTML5を活用した「ハイブリットアプリ開発」が中核となる。</p>
-
-<p>iOSやAndroidなどの各種プラットフォーム向けネイティブコードによる実行時のフレームワークを提供するのがCordova。</p>
-
-<p>CordovaをつかっているものにPhoneGap,Monaca,IBM Worklight,Senchaがある。</p>
-
-<p>で、アシアルが提供しているのが<a href="http://monaca.mobi/ja/">Monaca</a>。</p>
-
-<p>前にちょっと触ったのですが、iOSもAndroidもわかんないけど、簡単にアプリが動いてスゲーって思った覚えがあります。</p>
-
-<h2>感想</h2>
-
-<p>iOSアプリもAndroidアプリも作ったことがないのでアレですが、業務アプリのモバイル化はもっと進むだろうし、実際お客様の企業でもやっています。</p>
-
-<p>このへんの技術も押さえられたら需要あるんだろうな～と思いました。</p>
-
-<hr />
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/558/">チームもサービスもグローバルへ～世界を目指すヌーラボの素顔に迫る！～</a></h1>
-
-<p><a href="http://nulab-inc.com/ja/">ヌーラボ</a>の<a href="https://twitter.com/tksmd">染田貴志</a>さん。</p>
-
-<h2>印象に残ったこと</h2>
-
-<p><a href="https://cacoo.com/lang/ja/">cacoo</a>は世界に130万のユーザーがいる！</p>
-
-<p>cacooという名前は、街で外国人に聞いて回ってつけた。名前重要。</p>
-
-<p>WordCampに挑戦→lifehackerとかで取り上げられた→サーバが唸る→awsへ</p>
-
-<p><a href="http://www.backlog.jp/">backlog</a>は、受託の傍ら粘りよく作り続けた。こういうの聞くと勇気づけられる。</p>
-
-<p><a href="http://www.backlog.jp/git-guide/">サルでもわかるGit入門</a>も多言語対応しており、ここから他サービスへの流入もある。</p>
-
-<h2>講演資料</h2>
-
-<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/nulabinc/timumosabisumogurobaruhe-shi-jie-womu-zhi-sunurabofalsesu-yan-nipo-ru">チームもサービスもグローバルへ 〜 世界を目指すヌーラボの素顔に迫る！〜</a></p>
-
-<script>(function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b;d.async=true;d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}})(document);</script>
-
-
-<h2>感想</h2>
-
-<p>もっと英語がんばろう。</p>
-
-<hr />
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/559/">インフラ企業で働くフロントエンドエンジニアの挑戦</a></h1>
-
-<p>さくらインターネットの<a href="https://twitter.com/esukei">河原覚</a>さん。</p>
-
-<h2>印象に残ったこと</h2>
-
-<p>しょぼいコントロールパネルを自分の感覚でデザインすることに</p>
-
-<p>そもそも組織にUIデザインの文化がなかった…</p>
-
-<p>その時々で誰かが頑張って作る→知見が蓄積さない、技術が更新されない</p>
-
-<p>UIはユーザーがサービスを利用する際に触るものである→UIの品質向上がサービス体験の向上と訴え続けた</p>
-
-<p>「デザイン上の理由」を根拠を持って説明、可能な限り客観的なデータを用意</p>
-
-<p>ペーパープロトタイピング、モック作成、ユーザーテストの手法を導入</p>
-
-<h2>講演資料</h2>
-
-<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/esukei/creating-a-ui-design-culture">Creating a UI Design culture</a></p>
-
-<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
-
-
-<h2>感想</h2>
-
-<p>組織に新しい文化を導入する、まさにフロントエンドエンジニアの挑戦でした。</p>
-
-<blockquote class="twitter-tweet"><p>さくらの学習帳をゲットしました！ <a href="https://twitter.com/hashtag/kansumi?src=hash">#kansumi</a> <a href="http://t.co/QhDWLnPPdj">pic.twitter.com/QhDWLnPPdj</a></p>&mdash; みの太 (@ducky19999) <a href="https://twitter.com/ducky19999/status/507792461377183744">September 5, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<hr />
-
-<h1><a href="http://event.shoeisha.jp/devsumi/20140905/session/555/">関西で働くという生き方</a></h1>
-
-<p>３名の講演がありました。</p>
-
-<hr />
-
-<h2>ソニックガーデンの<a href="https://twitter.com/jnchito">伊藤淳</a>一さん</h2>
-
-<h3>印象に残ったこと</h3>
-
-<p>リモートワークを成功させるポイント</p>
-
-<ul>
-<li><p>仕事部屋を用意する</p></li>
-<li><p>KPTふりかえりをメンバーと行う</p></li>
-</ul>
-
-
-<p>個人 ＜ 組織文化</p>
-
-<h3>講演資料</h3>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/38736733" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/JunichiIto/devsumi2014-itojunichi" title="田舎からリモートで働くという生き方" target="_blank">田舎からリモートで働くという生き方</a> </strong> from <strong><a href="http://www.slideshare.net/JunichiIto" target="_blank">Junichi Ito</a></strong> </div></p>
-
-<h3>感想</h3>
-
-<p>田舎は広い！ドラムセット置ける！</p>
-
-<hr />
-
-<h2>サイバーエージェントの<a href="https://twitter.com/ku_suke">川畑雄補</a>さん</h2>
-
-<h3>印象に残ったこと</h3>
-
-<p>カオスマップ</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/16848167" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/HiroshiKondo/chaosmap-2013" title="JP_Chaosmap 2013 Spring" target="_blank">JP_Chaosmap 2013 Spring</a> </strong> from <strong><a href="http://www.slideshare.net/HiroshiKondo" target="_blank">Hiroshi Kondo</a></strong> </div></p>
-
-<p>テクノロジーの理解なしにマーケティング活動ができない</p>
-
-<p>データドリブンでマーティングできる→マーケティングエンジニアの時代</p>
-
-<p>東京のWEB系開発はとにかく特化しないと勝てない</p>
-
-<p>大阪のWEB系開発は総合対応力がもとめられる→なんでもやらせてもらえる</p>
-
-<h3>感想</h3>
-
-<p>エンジニアの私は色んな「きぐるみ」 をまとおう</p>
-
-<hr />
-
-<h2>ヤフーの<a href="https://twitter.com/yamamoto_manabu">山本学</a>さん</h2>
-
-<h3>印象に残ったこと</h3>
-
-<p>Yahooが大阪に開発拠点を作り、現地採用→チャンス</p>
-
-<p>新しいメンバーで新しい文化をつくるチャンスだと思った</p>
-
-<p>で、<a href="http://crowdsourcing.yahoo.co.jp/">yahoo!クラウドソーシング</a>をつくった</p>
-
-<p>人口比でいえば、大阪の勉強会の数は東京に負けてない</p>
-
-<h3>感想</h3>
-
-<p>関西にはチャンスがある</p>
-
-<hr />
-
-<h1>まとめ</h1>
-
-<p>↓ここにまとめてありました。</p>
-
-<p><a href="http://codezine.jp/article/detail/8085">「デブサミ関西2014」開催、講演関連資料まとめ</a></p>
-
-<h1>おわりに</h1>
-
-<blockquote class="twitter-tweet"><p>一昨年は高速バスだったから最後まで見れなかったんだ。今年は満喫した！ <a href="https://twitter.com/hashtag/kansumi?src=hash">#kansumi</a></p>&mdash; みの太 (@ducky19999) <a href="https://twitter.com/ducky19999/status/507811473830064128">September 5, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>来年もいこう。</p>
 ]]></content>
   </entry>
   
