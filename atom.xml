@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-17T09:13:33+09:00</updated>
+  <updated>2014-11-18T01:45:51+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -14,7 +14,223 @@
 
   
   <entry>
-    <title type="html"><![CDATA[RubyWorld Confarence2014に参加してきました#1]]></title>
+    <title type="html"><![CDATA[RubyWorld Confarence2014に参加してきました2]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/18/rwc2/"/>
+    <updated>2014-11-18T01:05:05+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/18/rwc2</id>
+    <content type="html"><![CDATA[<p>RWC2014の２日目です。</p>
+
+<!-- more -->
+
+
+<h2>基調講演 Sarah Allenさん (米大統領イノベーションフェロー／Mightyverse CTO)</h2>
+
+<h2>『Ruby in the US Government』</h2>
+
+<ul>
+<li><p>米国連邦政府内は、リーンスタートアップモデルをベースとした、ユーザー中心志向の<a href="https://18f.gsa.gov/">18F</a>という機関を設けている。</p></li>
+<li><p>各国のITサービスの取り組み。<a href="http://publications.gc.ca/collections/Collection/P4-1-2006E.pdf">カナダ</a>、<a href="https://github.com/alphagov">イギリス</a>、<a href="gov30.go.kr">韓国</a></p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>たくさん書類をつくります（中略）それが更なるリスクを生みます <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533065754434748416">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>産業界で当たり前に行われている事が政府では行われていなかった。サービスを利用する人々のニーズを満たす優れたデジタルサービスを構築し、政策、施策の配信を効率的にすること。</p></li>
+<li><p><a href="https://playbook.cio.gov/">US Digital Playbook</a>にまとめられている</p></li>
+<li><p>アメリカでの事例。<a href="https://www.notalone.gov/">Not Alone</a>。通常３、４ヶ月かけるものを１ヶ月で構築。Jekyllを使用してmarkdownでコンテンツを作成。AWSで運用。<a href="https://github.com/18f/notalone">githubに公開してる</a></p></li>
+<li><p>言語・技術だけでなくプロセス・やり方・エコシステムが重要</p></li>
+</ul>
+
+
+<h2>休憩</h2>
+
+<blockquote class="twitter-tweet"><p>ruby和菓子にありつきました <a href="https://twitter.com/hashtag/RubyWorld?src=hash">#RubyWorld</a> <a href="http://t.co/Pes2MDVyQZ">pic.twitter.com/Pes2MDVyQZ</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533078488534614016">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2><a href="https://twitter.com/lrz">Laurent Sansonettiさん</a> (HipByte)</h2>
+
+<h2>『RubyMotion: bringing the Ruby language to the mobile world』</h2>
+
+<ul>
+<li><p>RailsはWebに特化したDSL</p></li>
+<li><p>Android、iOSで言語・IDE・APIが分断されている。なんとかならんか</p></li>
+<li><p>RubyMotionは抽象化によりiOSとAndroidを１つのソースで動くようにする</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>rake android:device <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533091177466064896">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li>デバッガを走らせて、irbで操作すると、エミュレータの画面が動的に変化するデモ</li>
+</ul>
+
+
+<h3>発表資料</h3>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/41642583" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/LaurentSansonetti/bringing-the-ruby-language-into-the-mobile-world" title="Bringing the Ruby language into the mobile world" target="_blank">Bringing the Ruby language into the mobile world</a> </strong> from <strong><a href="http://www.slideshare.net/LaurentSansonetti" target="_blank">Laurent Sansonetti</a></strong> </div></p>
+
+<h2>野崎康行さん (株式会社日立ソリューションズ)</h2>
+
+<h2>『RubyとOpenCOBOLを活用したメインフレームのマイグレーションの実現』</h2>
+
+<ul>
+<li><p>OpenCOBOLは松江で開発された</p></li>
+<li><p>メインフレームからOSSへの移行（ベンダロックインからの解放）</p>
+
+<ul>
+<li><p>オンライン：簡易言語 -> RoR</p></li>
+<li><p>バッチ処理：簡易言語 -> OpenCOBOL + shell script</p></li>
+<li><p>データ:SAM/ISAM/DAM -> PostgreSQL</p></li>
+</ul>
+</li>
+<li><p>ダム端末の操作性をWEBで再現しつつ、業務効率が向上するような改良</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>操作性を維持してるからお客様も安心 <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533114064012967936">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>COBOL方言、業務データや帳票もツールで変換、移行</p></li>
+<li><p>ユーザ「Ruby/RoRの長期保証サービスがないのが不安」</p></li>
+</ul>
+
+
+<h3><a href="http://www.osscons.jp/osscobol/files/?action=cabinet_action_main_download&amp;block_id=414&amp;room_id=21&amp;cabinet_id=11&amp;file_id=208&amp;upload_id=413">発表資料に近い資料</a></h3>
+
+<h2><a href="https://www.facebook.com/Cuon.Inc">林田幸一さん</a> (株式会社Cuon)</h2>
+
+<h2>『Ruby on Railsによる多言語大規模ECサイトの構築～日本を代表する書店のアジア地域向け多言語大規模ECサイトのRuby on Railsによる構築への挑戦～』</h2>
+
+<ul>
+<li><p>海外向けの紀伊国屋書店のサイト。Spreeベース、1,200画面</p></li>
+<li><p>6カ国対応。アラビア文字はページネーションも右から。部品から作り直した。。</p></li>
+<li><p>レスポンシブは捨てて、モバイルとPCでViewを分けた</p></li>
+<li><p>初期データ投入が2000万件くらいあった間に合わないのでActiveRecordをSQL化。それでも230日の計算。。</p></li>
+<li><p>バッチ処理を10スレッドで並行処理。Redisを使って差分更新の判断。RailsでSQL発行。</p></li>
+</ul>
+
+
+<h2><a href="https://twitter.com/bash0c7">小芝敏明さん</a> (ピクシブ株式会社)</h2>
+
+<h2>『月間38億PVメディアを支える広告配信システムのRubyによる内製開発の挑戦』</h2>
+
+<ul>
+<li><p>pixivにとって広告配信はサービスを伸ばすためのもの。収益を上げるためではない。</p></li>
+<li><p>管理サーバー：nginx, unicorn, rails, MySQL</p></li>
+<li><p>配信サーバー：nginx, unicorn, Padrino, Memcached</p></li>
+<li><p>配信サーバーでパフォーマンス問題発生、トラフィックをさばけない。どうする？</p></li>
+<li><p>golangで実装www え？www</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>rubyで簡潔に設計できていたので冗長な書き方へも移行が容易だった <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533134690794745856">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3>発表資料</h3>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/bash0c7/ruby-adsystem">ruby_adsystem</a></p>
+
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+<h2>安濃佑介さん (株式会社ネットワーク応用通信研究所)</h2>
+
+<h2>『Webブラウザで始めるRailsアプリケーション開発』</h2>
+
+<ul>
+<li><p>RoRのWEB開発環境<a href="https://miyatsuko.net/">miyatshko</a></p></li>
+<li><p>ブラウザでER図を書くとscaffoldされる</p></li>
+<li><p>画面遷移の設定、画面デザインもブラウザ上でできる</p></li>
+<li><p>コードの編集もできるし、ダウンロードして動かすことも可能</p></li>
+<li><p>IIJの<a href="http://mogok.jp/">MOGOK</a>にデプロイもできる（要事前会員登録）</p></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>「先にOPENされなかった理由はあるのでしょうか？」「焦らしたかった」www <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533149158757003265">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2><a href="https://twitter.com/igaiga555">五十嵐邦明さん</a> (株式会社spice life)</h2>
+
+<h2>『クラウドサービスを使って簡単に始めるRuby Webアプリケーション開発』</h2>
+
+<ul>
+<li>Rubyの開発環境を用意するのが意外と大変。そこで<a href="https://www.nitrous.io/">Nitrous.IO</a></li>
+</ul>
+
+
+<blockquote class="twitter-tweet"><p>中の人が「ナイトラス.アイオー」って言てたから間違いない <a href="https://twitter.com/hashtag/rubyworld?src=hash">#rubyworld</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533158892625092608">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<ul>
+<li><p>Railsを学ぶために<a href="http://igarashikuniaki.net/rails_textbook/">Railsの教科書</a></p></li>
+<li><p><a href="http://railsguides.jp/">RailsGuides</a></p></li>
+<li><p><a href="http://railstutorial.jp/">RailsTutorial</a></p></li>
+<li><p><a href="https://github.com/igaiga/hitotsubashi-ruby-2013">五十嵐さん講義資料</a></p></li>
+</ul>
+
+
+<h3>発表資料</h3>
+
+<p><a class="embedly-card" data-card-chrome="0" href="https://speakerdeck.com/igaiga/rwc2014">rwc2014</a></p>
+
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+<h2>まとめ</h2>
+
+<p><a href="http://togetter.com/li/745449">まとめてありました。</a></p>
+
+<blockquote class="twitter-tweet"><p>コーヒー買いに行ったらかくたにさんに遭遇した <a href="https://twitter.com/hashtag/RubyWorld?src=hash">#RubyWorld</a> <a href="http://t.co/BZ4hg7PZLI">pic.twitter.com/BZ4hg7PZLI</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/533120216767537152">November 14, 2014</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Rubyたのしい</p>
+
+<h2>その他</h2>
+
+<ul>
+<li><p>SonicGardenの上田さん、野上さんとお話できてよかったです。</p></li>
+<li><p><a href="https://twitter.com/g_maeda">ファーエンドテクノロジー前田さん</a>、販促グッズありがとうございました。</p></li>
+<li><p><a href="https://twitter.com/takatayoshitake">tktさん</a>フリースよかったですねぇ</p></li>
+<li><p>あと何かいろいろあった気がする</p></li>
+<li><p>来年もいきたい</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RubyWorld Confarence2014に参加してきました1]]></title>
     <link href="http://kwgch.github.io/blog/2014/11/16/rwc1/"/>
     <updated>2014-11-16T20:05:29+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/11/16/rwc1</id>
@@ -2178,67 +2394,6 @@
 
 
 <p>ではまた。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LT駆動開発07に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/07/lt/"/>
-    <updated>2014-09-07T17:49:58+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/07/lt</id>
-    <content type="html"><![CDATA[<p>2014/09/06、<a href="http://ltdd.doorkeeper.jp/events/13948">第７回 LT駆動開発</a>に参加してきました。</p>
-
-<p><img src="https://raw.githubusercontent.com/LTDD/Logo/master/logo_lt2.png" alt="ltdd_logo" /></p>
-
-<!-- more -->
-
-
-<h1>LT駆動開発とは</h1>
-
-<p>”LT駆動開発&#8221;は、定期的にライトニングトーク（Lightning Talks、略してLT）をする機会をつくり、LTをするという前提で普段から開発しよう、という勉強会との事です。</p>
-
-<p>参加者が最近勉強したことを5分から15分程度の発表します。</p>
-
-<p>（<a href="https://github.com/moriC">もりしたさん</a>に教えていただきました）</p>
-
-<p>「勉強会でもっとも勉強になるのは発表者ではないか？」というコンセプトのようです。</p>
-
-<p>例によって<a href="https://twitter.com/eielh">ひむら氏</a> が主催しています。</p>
-
-<h1>LTとは</h1>
-
-<p>LTとは、カンファレンスやフォーラムなどで行われる短いプレゼンテーションのことだそうです。</p>
-
-<p>様々な形式があって、持ち時間が5分という制約が広く共有されているとの事。</p>
-
-<p>（<a href="http://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF">wikipedia</a>さんに教えていただきました）</p>
-
-<h1>内容</h1>
-
-<p>14:00 - 17:00の３時間で、11人くらい発表したと思います、たぶん。</p>
-
-<p>内容としては職場環境(5S)、セキュリティ、Coding Bootcamp、メンタルヘルス、Hubot、地域情報共有、経営管理論、電子工作と多岐に渡りました。</p>
-
-<p><a href="https://github.com/LTDD/Sessions/wiki/LT%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA07">詳細はこちら</a></p>
-
-<p>そんな中、「ひどいサービスのつくりかた」と題し、webサービスを公開するさいのアンチプラクティスの紹介をしました。</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/38765905" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ducky19999/ss-38765905" title="ひどいサービスの作り方" target="_blank">ひどいサービスの作り方</a> </strong> from <strong><a href="http://www.slideshare.net/ducky19999" target="_blank">Minoru Kawaguchi</a></strong> </div></p>
-
-<h1>感想</h1>
-
-<p>軽い気持ちで初めて参加しましたが、皆さんのハイレベルっぷりにびびりました。</p>
-
-<p>しかし自分が普段関わらない分野のお話は、大変刺激になりました。</p>
-
-<p>かといって敷居が高いかというと全然そんな感じはなく、ぼくみたいなてきとうな発表でも、暖かく見守っていただきました。</p>
-
-<p>月に１回、１月を除いた第１土曜日に開催しているみたいです。</p>
-
-<p>また遊びにいこうと思います。</p>
 ]]></content>
   </entry>
   
