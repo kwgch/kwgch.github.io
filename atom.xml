@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-18T01:45:51+09:00</updated>
+  <updated>2014-11-20T15:38:41+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-11-18T01:05:05+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/11/18/rwc2</id>
     <content type="html"><![CDATA[<p>RWC2014の２日目です。</p>
+
+<p><img src="http://kwgch.github.io/images/rwc2014_2.JPG" alt="Ruby-logo-notext.png" /></p>
 
 <!-- more -->
 
@@ -235,6 +237,8 @@
     <updated>2014-11-16T20:05:29+09:00</updated>
     <id>http://kwgch.github.io/blog/2014/11/16/rwc1</id>
     <content type="html"><![CDATA[<p>Rubyさわり始めてまだ半年ですが参加してきました。</p>
+
+<p><img src="http://kwgch.github.io/images/rwc2014_1.JPG" alt="Ruby-logo-notext.png" /></p>
 
 <p>間違いあったら指摘お願いします</p>
 
