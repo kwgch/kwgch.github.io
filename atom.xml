@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-20T15:38:41+09:00</updated>
+  <updated>2014-12-02T01:38:36+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#80にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/26/great-h/"/>
+    <updated>2014-11-26T23:10:10+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/26/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは AWS Data Pipeline でした。</p>
+
+<h2>Data Pipelineってなに？</h2>
+
+<p>S3、Glacier、DynamoDB、Redshift、RDS、EMR、KinesisなどのAWSビッグデータサービス間のデータ統合・処理をスケジュールベースで自動化してくれるサービスです。</p>
+
+<h2>どうやって使うの？</h2>
+
+<p>下記を定義します</p>
+
+<ol>
+<li><p>データソースや出力先</p></li>
+<li><p>処理の内容</p></li>
+<li><p>処理の依存関係とスケジュール</p></li>
+<li><p>イベントの通知先</p></li>
+</ol>
+
+
+<h1>どんな使い方があるの？</h1>
+
+<ul>
+<li><p>DynamoDBからS3に自動export</p></li>
+<li><p>EMR clusterでjobを定期実行</p></li>
+<li><p>RDSのMySQLをS3に定期的に増分バックアップ</p></li>
+<li><p>S3から定期的にRedshiftにロード</p></li>
+<li><p>などなど、テンプレートも用意してある</p></li>
+</ul>
+
+
+<h1>そのほか</h1>
+
+<ul>
+<li><p>TaskRunnerはオンプレサーバーでも動く</p></li>
+<li><p>DataPipelineはスケジュールドリブン</p></li>
+<li><p>イベントドリブンがやりかったらAWS Lambda</p></li>
+</ul>
+
+
+<h1>当日の資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42220749" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline" title="AWS Black Belt Techシリーズ AWS Data Pipeline" target="_blank">AWS Black Belt Techシリーズ AWS Data Pipeline</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<p>ではまた</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RubyWorld Confarence2014に参加してきました2]]></title>
@@ -2329,75 +2392,6 @@
 <h1>まとめ</h1>
 
 <p><a href="http://togetter.com/li/718441">まとめました。</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#69に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/10/great-h/"/>
-    <updated>2014-09-10T19:02:00+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/10/great-h</id>
-    <content type="html"><![CDATA[<p>どうも。kwgchです。</p>
-
-<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
-
-<!-- more -->
-
-
-<h1><a href="https://github.com/great-h/great-h.github.io/issues/1215">今日やったこと</a></h1>
-
-<h2>ブログにfeedlyボタンつける</h2>
-
-<p>なんということでしょう。</p>
-
-<p>ここ→<a href="http://www.feedly.com/factory.html">Feedly button</a>でHTMLを生成して貼付けるだけです。以上。</p>
-
-<h2>AWSのIAMユーザーつくる</h2>
-
-<p>ここ→<a href="http://qiita.com/yoshidashingo/items/cd206daca0596659b440">AWSアカウント作ったらこれだけはやっとけ！IAMユーザーとAuthyを使ったMFAで2段階認証</a></p>
-
-<p>を参考にIAMユーザーつくりませう。</p>
-
-<p>…なんということでしょう。</p>
-
-<p>ダッシュボードからIAMを選択すると、ユーザーとグループが既に登録されているではありませんか。</p>
-
-<p>１ヶ月ちょっと前に登録したようです。</p>
-
-<p>全く覚えていません。</p>
-
-<p>最近どうかしています。</p>
-
-<blockquote class="twitter-tweet"><p>自宅用のTシャツと靴下で出勤してた、どうかしてる</p>&mdash; みの太 (@ducky19999) <a href="https://twitter.com/ducky19999/status/508817740476321792">September 8, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>気を取り直して、MFAで2段階認証を設定します。</p>
-
-<p>iPhoneに<a href="https://itunes.apple.com/jp/app/google-authenticator/id388497605?mt=8">Google Authenticator</a>を入れていましたが、</p>
-
-<p>内部のデータがセキュアにバックアップされるため、いざiPhoneが壊れた場合にも、登録した電話番号とパスワードで復旧が可能であるとの事なので<a href="https://itunes.apple.com/jp/app/authy/id494168017?mt=8">Authy</a>を入れました。</p>
-
-<blockquote class="twitter-tweet"><p>I am now using two-factor authentication to protect my online accounts - <a href="https://twitter.com/hashtag/authentication?src=hash">#authentication</a> via <a href="https://twitter.com/Authy">@Authy</a> <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a> <a href="http://t.co/m5Trf2lhWQ">pic.twitter.com/m5Trf2lhWQ</a></p>&mdash; みの太 (@ducky19999) <a href="https://twitter.com/ducky19999/status/509655936353333249">September 10, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>他の人が書いた事を２回かいてもアレなので、ここ→<a href="http://qiita.com/yoshidashingo/items/cd206daca0596659b440">AWSアカウント作ったらこれだけはやっとけ！IAMユーザーとAuthyを使ったMFAで2段階認証</a>を見て下さい。</p>
-
-<h1>他には</h1>
-
-<ul>
-<li><p>javaな人とチャットしてたら Springboot や dropwizard っていうので遊んでるってききました。</p></li>
-<li><p>今行ってる職場がフィルタかけててgmail使えないので、カっとなって<a href="https://www.cloze.com/">cloze</a>に登録しました。これで使えるといいな。</p></li>
-<li><p>deviseとかwardenの事を調べようと思ったのですが、時間となりました。</p></li>
-</ul>
-
-
-<p>ではまた。</p>
 ]]></content>
   </entry>
   

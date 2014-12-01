@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-11-20T15:38:41+09:00</updated>
+  <updated>2014-12-02T01:38:36+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#80にエア参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/11/26/great-h/"/>
+    <updated>2014-11-26T23:10:10+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/11/26/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは AWS Data Pipeline でした。</p>
+
+<h2>Data Pipelineってなに？</h2>
+
+<p>S3、Glacier、DynamoDB、Redshift、RDS、EMR、KinesisなどのAWSビッグデータサービス間のデータ統合・処理をスケジュールベースで自動化してくれるサービスです。</p>
+
+<h2>どうやって使うの？</h2>
+
+<p>下記を定義します</p>
+
+<ol>
+<li><p>データソースや出力先</p></li>
+<li><p>処理の内容</p></li>
+<li><p>処理の依存関係とスケジュール</p></li>
+<li><p>イベントの通知先</p></li>
+</ol>
+
+
+<h1>どんな使い方があるの？</h1>
+
+<ul>
+<li><p>DynamoDBからS3に自動export</p></li>
+<li><p>EMR clusterでjobを定期実行</p></li>
+<li><p>RDSのMySQLをS3に定期的に増分バックアップ</p></li>
+<li><p>S3から定期的にRedshiftにロード</p></li>
+<li><p>などなど、テンプレートも用意してある</p></li>
+</ul>
+
+
+<h1>そのほか</h1>
+
+<ul>
+<li><p>TaskRunnerはオンプレサーバーでも動く</p></li>
+<li><p>DataPipelineはスケジュールドリブン</p></li>
+<li><p>イベントドリブンがやりかったらAWS Lambda</p></li>
+</ul>
+
+
+<h1>当日の資料</h1>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a></a></p>
+
+<p>ではまた</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#77にエア参加しました]]></title>
@@ -265,45 +325,6 @@
 <p>参考：<a href="http://dev.classmethod.jp/cloud/awscli-enhanced-query-opt-snipets/">Python版AWS CLI 1.3の強化されたqueryオプションを使いこなすスニペット4つ</a></p>
 
 <p>ではまた</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#73にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/08/great-h/"/>
-    <updated>2014-10-08T05:32:34+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/08/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今のところ、最低週1本はブログを書けています。</p>
-
-<p>すごい広島のご利益です、ありがたや。</p>
-
-<h1>18:00～19:00</h1>
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>テーマはSESでした。</p>
-
-<h3>SESってなに？</h3>
-
-<p>Simple Email Serviceの略です。</p>
-
-<p>メールの歴史はスパムとの戦いの歴史だと思いました。</p>
-
-<p>※当日の資料
-<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses</a></a></p>
-
-<h1>19:30~</h1>
-
-<p><a href="/blog/2014/10/08/sg-learning/">SonicGardenコードレビュー勉強会#2 に参加しました</a></p>
-
-<p>長くなるので別エントリです。</p>
 ]]></content>
   </entry>
   
