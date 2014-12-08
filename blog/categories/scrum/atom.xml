@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scrum | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/scrum/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T02:00:35+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すくすくスクラム広島#8に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/09/scrum/"/>
+    <updated>2014-12-09T01:31:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/09/scrum</id>
+    <content type="html"><![CDATA[<p>去る2014/11/30、すくすくスクラム広島第8回「塹壕よりスクラムとQC」に参加しました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1759_normal_1383665389_momiji_orange_large.gif" alt="sukusuku-scrum-hiroshima" /></p>
+
+<!-- more -->
+
+
+<h1>内容</h1>
+
+<p>テーマは「スクラムと品質」でした。</p>
+
+<p>「品質」と言っても、みなさんの抱くイメージは様々で「バグが少ないこと」「追いかければ逃げていく」「納品の基準」などなど。</p>
+
+<p>でもチームでひとつの目標に向かっていくときは「品質」とは何か？を共有しないとうまくいかないだろう、また品質のレベルは製品の特性に合わせて変えるべきで、追求しすぎるのも問題では？等の意見がでました。</p>
+
+<p>難しいテーマながら、活発な意見交換ができました！</p>
+
+<h1>発表資料</h1>
+
+<p>{% oembed <a href="http://www.slideshare.net/ducky19999/ss-42174218">http://www.slideshare.net/ducky19999/ss-42174218</a> %}</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すくすくスクラム広島#7に参加しました]]></title>
@@ -49,7 +77,7 @@
 
 <p>※当日の資料（<a href="https://github.com/k2works">Kakigi Katuyukiさん</a>）</p>
 
-<p><a href="http://www.slideshare.net/kakimomokuri/ss-39629182">http://www.slideshare.net/kakimomokuri/ss-39629182</a>">http://www.slideshare.net/kakimomokuri/ss-39629182">http://www.slideshare.net/kakimomokuri/ss-39629182</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/kakimomokuri/ss-39629182">http://www.slideshare.net/kakimomokuri/ss-39629182</a> %}</p>
 
 <h3>リーンってなに？</h3>
 
@@ -59,7 +87,7 @@
 
 <p>5人 × 2チームくらいで実際にリーンキャンバスを作成しました。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/516124642734399488">https://twitter.com/ducky19999/status/516124642734399488</a>">https://twitter.com/ducky19999/status/516124642734399488">https://twitter.com/ducky19999/status/516124642734399488</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/516124642734399488">https://twitter.com/ducky19999/status/516124642734399488</a> %}</p>
 
 <ul>
 <li><p>課題：昼飯食ったあと眠くなる</p></li>
@@ -70,7 +98,7 @@
 </ul>
 
 
-<p><a href="https://twitter.com/ducky19999/status/516152039789694976">https://twitter.com/ducky19999/status/516152039789694976</a>">https://twitter.com/ducky19999/status/516152039789694976">https://twitter.com/ducky19999/status/516152039789694976</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/516152039789694976">https://twitter.com/ducky19999/status/516152039789694976</a> %}</p>
 
 <h3>まとめ</h3>
 

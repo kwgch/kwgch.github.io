@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Oss | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/oss/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T02:00:35+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -94,7 +94,7 @@
 
 <h3>講演資料</h3>
 
-<p><a href="http://www.slideshare.net/star76/20140920-osc">http://www.slideshare.net/star76/20140920-osc</a>">http://www.slideshare.net/star76/20140920-osc">http://www.slideshare.net/star76/20140920-osc</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/star76/20140920-osc">http://www.slideshare.net/star76/20140920-osc</a> %}</p>
 
 <h2>OSS技術者が変わる10の習慣</h2>
 
@@ -114,7 +114,7 @@
 </ul>
 
 
-<p><a href="https://twitter.com/ducky19999/status/513210529435746304">https://twitter.com/ducky19999/status/513210529435746304</a>">https://twitter.com/ducky19999/status/513210529435746304">https://twitter.com/ducky19999/status/513210529435746304</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/513210529435746304">https://twitter.com/ducky19999/status/513210529435746304</a> %}</p>
 
 <h2>LPICレベル１技術解説セミナー</h2>
 
@@ -122,7 +122,7 @@
 
 <p><a href="http://www.lpi.or.jp/examination/level1.shtml">LPIC1</a>レベルの初歩コマンド解説でした。よくわかりました。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/513196209243029505">https://twitter.com/ducky19999/status/513196209243029505</a>">https://twitter.com/ducky19999/status/513196209243029505">https://twitter.com/ducky19999/status/513196209243029505</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/513196209243029505">https://twitter.com/ducky19999/status/513196209243029505</a> %}</p>
 
 <h2>あのサービスもさくら！？「さくらのクラウド」でサービスローンチしてみよう～広島編～</h2>
 
@@ -132,7 +132,7 @@
 
 <p><a href="http://knowledge.sakura.ad.jp/case-study/1664/">関連記事：SmartNewsを支える「さくらのクラウド」</a></p>
 
-<p><a href="https://twitter.com/ducky19999/status/513160435109879809">https://twitter.com/ducky19999/status/513160435109879809</a>">https://twitter.com/ducky19999/status/513160435109879809">https://twitter.com/ducky19999/status/513160435109879809</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/513160435109879809">https://twitter.com/ducky19999/status/513160435109879809</a> %}</p>
 
 <h1>ライトニングトーク＆閉会式</h1>
 
@@ -146,7 +146,7 @@
 
 <p><a href="https://twitter.com/mrtc0">もりたさん</a></p>
 
-<p>vagrantで構築！ハニーポット楽しい!! ✌(&lsquo;ω&#8217;✌ )三✌(&#8216;ω&rsquo;)✌三( ✌&#8217;ω&#8217;)✌</p>
+<p>vagrantで構築！ハニーポット楽しい!! ✌(&lsquo;ω'✌ )三✌('ω&rsquo;)✌三( ✌'ω')✌</p>
 
 <h3>速さは力</h3>
 
@@ -170,7 +170,7 @@
 
 <p>宮城 正伸さん</p>
 
-<p>RaspberyPiとminecraftたのしい✌(&lsquo;ω&#8217;✌ )三✌(&#8216;ω&rsquo;)✌三( ✌&#8217;ω&#8217;)✌</p>
+<p>RaspberyPiとminecraftたのしい✌(&lsquo;ω'✌ )三✌('ω&rsquo;)✌三( ✌'ω')✌</p>
 
 <h3>すごい合同勉強会をしたい</h3>
 
@@ -180,7 +180,7 @@
 
 <h3>じゃんけん大会</h3>
 
-<p><a href="https://twitter.com/ducky19999/status/513237523212935168">https://twitter.com/ducky19999/status/513237523212935168</a>">https://twitter.com/ducky19999/status/513237523212935168">https://twitter.com/ducky19999/status/513237523212935168</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/513237523212935168">https://twitter.com/ducky19999/status/513237523212935168</a> %}</p>
 
 <h1>まとめ</h1>
 

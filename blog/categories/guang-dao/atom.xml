@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/guang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T02:00:35+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -83,7 +83,7 @@
 
 <p>仕事かな？と思ったらask.fmだった。</p>
 
-<p><a href="https://twitter.com/EzoeRyou/status/528435944081608704">https://twitter.com/EzoeRyou/status/528435944081608704</a>">https://twitter.com/EzoeRyou/status/528435944081608704">https://twitter.com/EzoeRyou/status/528435944081608704</a></a></p>
+<p>{% oembed <a href="https://twitter.com/EzoeRyou/status/528435944081608704">https://twitter.com/EzoeRyou/status/528435944081608704</a> %}</p>
 
 <hr />
 
@@ -97,7 +97,7 @@
 
 <p>江添さんはいい人だった。ステッカーくれたし。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/528492217451573248">https://twitter.com/ducky19999/status/528492217451573248</a>">https://twitter.com/ducky19999/status/528492217451573248">https://twitter.com/ducky19999/status/528492217451573248</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/528492217451573248">https://twitter.com/ducky19999/status/528492217451573248</a> %}</p>
 
 <h1>その他</h1>
 
@@ -165,7 +165,7 @@
 
 <p>『広島を盛り上げるWebサービス』 についてみんなでアイデア出しをしました。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/520757399339016192">https://twitter.com/ducky19999/status/520757399339016192</a>">https://twitter.com/ducky19999/status/520757399339016192">https://twitter.com/ducky19999/status/520757399339016192</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/520757399339016192">https://twitter.com/ducky19999/status/520757399339016192</a> %}</p>
 
 <p>私の参加したチームは「瀬戸内の超ニッチな情報を発信する」という感じの方向になりました。</p>
 
@@ -190,7 +190,7 @@
 
 <p>漁師さんが知っている島の絶景スポットをシェアして、プロカメラマンが撮りに行けるようなサービス、という感じで固まっていきました。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/520783887840985088">https://twitter.com/ducky19999/status/520783887840985088</a>">https://twitter.com/ducky19999/status/520783887840985088">https://twitter.com/ducky19999/status/520783887840985088</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/520783887840985088">https://twitter.com/ducky19999/status/520783887840985088</a> %}</p>
 
 <h3>開発</h3>
 
@@ -222,11 +222,11 @@
 
 <h1>プレゼンテーション(デモ発表)</h1>
 
-<p><a href="https://twitter.com/ducky19999/status/520860506345590785/">https://twitter.com/ducky19999/status/520860506345590785/</a>">https://twitter.com/ducky19999/status/520860506345590785/">https://twitter.com/ducky19999/status/520860506345590785/</a></a>
-<a href="https://twitter.com/ducky19999/status/520864156451217411/">https://twitter.com/ducky19999/status/520864156451217411/</a>">https://twitter.com/ducky19999/status/520864156451217411/">https://twitter.com/ducky19999/status/520864156451217411/</a></a>
-<a href="https://twitter.com/ducky19999/status/520867284030468096/">https://twitter.com/ducky19999/status/520867284030468096/</a>">https://twitter.com/ducky19999/status/520867284030468096/">https://twitter.com/ducky19999/status/520867284030468096/</a></a>
-<a href="https://twitter.com/ducky19999/status/520868648945070080/">https://twitter.com/ducky19999/status/520868648945070080/</a>">https://twitter.com/ducky19999/status/520868648945070080/">https://twitter.com/ducky19999/status/520868648945070080/</a></a>
-<a href="https://twitter.com/ducky19999/status/520871401960378369/">https://twitter.com/ducky19999/status/520871401960378369/</a>">https://twitter.com/ducky19999/status/520871401960378369/">https://twitter.com/ducky19999/status/520871401960378369/</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/520860506345590785">https://twitter.com/ducky19999/status/520860506345590785</a> %}
+{% oembed <a href="https://twitter.com/ducky19999/status/520864156451217411">https://twitter.com/ducky19999/status/520864156451217411</a> %}
+{% oembed <a href="https://twitter.com/ducky19999/status/520867284030468096">https://twitter.com/ducky19999/status/520867284030468096</a> %}
+{% oembed <a href="https://twitter.com/ducky19999/status/520868648945070080">https://twitter.com/ducky19999/status/520868648945070080</a> %}
+{% oembed <a href="https://twitter.com/ducky19999/status/520871401960378369">https://twitter.com/ducky19999/status/520871401960378369</a> %}</p>
 
 <h3>審査</h3>
 
@@ -245,13 +245,13 @@
 
 <p>外国人観光客向けトイレ探索サービス「KAWAYA」でした！</p>
 
-<p><a href="https://twitter.com/ducky19999/status/520876794124050432">https://twitter.com/ducky19999/status/520876794124050432</a>">https://twitter.com/ducky19999/status/520876794124050432">https://twitter.com/ducky19999/status/520876794124050432</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/520876794124050432">https://twitter.com/ducky19999/status/520876794124050432</a> %}</p>
 
 <p>審査員の選んだ最優秀賞は、神楽マッチングサービス「カグリク！」でした。</p>
 
 <p>ちなみにカグリクは時間内にFacebookページを用意して、アンケートまでとっていました。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/520878642251849728">https://twitter.com/ducky19999/status/520878642251849728</a>">https://twitter.com/ducky19999/status/520878642251849728">https://twitter.com/ducky19999/status/520878642251849728</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/520878642251849728">https://twitter.com/ducky19999/status/520878642251849728</a> %}</p>
 
 <h1>感想</h1>
 
@@ -321,7 +321,7 @@
 
 <p>ものすごいテンションでしゃべるので、何だこの人…と思ったら、未踏のPMやってたりしたらしい。謎だ…</p>
 
-<p><a href="https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a>">https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a></a></p>
+<p>{% oembed <a href="https://twitter.com/pasonatech/status/510365408231059456">https://twitter.com/pasonatech/status/510365408231059456</a> %}</p>
 
 <h3><a href="http://www.soneru.com/">ソネル</a>の和田　純平さん</h3>
 
@@ -331,7 +331,7 @@
 
 <p>最近はゲームとかたくさん作ってるらしいです。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a>">https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/510366571261202433">https://twitter.com/ducky19999/status/510366571261202433</a> %}</p>
 
 <h3><a href="http://www.systemfriend.co.jp/corporate_profile/summary">システムフレンド</a>の岡本　敏秀さん</h3>
 
@@ -339,7 +339,7 @@
 
 <p>「広島のIT企業はもっと自立する必要がある。他の企業の景気に左右されないようにならないと」という意見には同感。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a>">https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/510367979402297344">https://twitter.com/ducky19999/status/510367979402297344</a> %}</p>
 
 <h3><a href="http://funaffect.jp/">ファナフェクト</a>の<a href="https://twitter.com/moobay9">大林　正典</a>さん</h3>
 
@@ -347,7 +347,7 @@
 
 <p>広島のエンジニアの技術力は高い。広島でITがイケてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a>">https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/510369498742808579">https://twitter.com/ducky19999/status/510369498742808579</a> %}</p>
 
 <h3>総論</h3>
 
@@ -367,7 +367,7 @@
 
 <p>要は<a href="http://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0">プレスト</a>です。4~6人で、12チームくらいあったと思います。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a>">https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/510387888773533696">https://twitter.com/ducky19999/status/510387888773533696</a> %}</p>
 
 <p>結果としては</p>
 

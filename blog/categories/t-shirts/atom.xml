@@ -4,7 +4,7 @@
   <title><![CDATA[Category: T-shirts | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/t-shirts/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T02:00:35+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -29,13 +29,13 @@
 
 <p>こんなツイートを見かけたので</p>
 
-<p><a href="https://twitter.com/NitrousIO/status/474708467224027136">https://twitter.com/NitrousIO/status/474708467224027136</a>">https://twitter.com/NitrousIO/status/474708467224027136">https://twitter.com/NitrousIO/status/474708467224027136</a></a></p>
+<p>{% oembed <a href="https://twitter.com/NitrousIO/status/474708467224027136">https://twitter.com/NitrousIO/status/474708467224027136</a> %}</p>
 
 <p>話かけてみた</p>
 
-<p><a href="https://twitter.com/ducky19999/status/511687625153863680">https://twitter.com/ducky19999/status/511687625153863680</a>">https://twitter.com/ducky19999/status/511687625153863680">https://twitter.com/ducky19999/status/511687625153863680</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/511687625153863680">https://twitter.com/ducky19999/status/511687625153863680</a> %}</p>
 
-<p><a href="https://twitter.com/NitrousIO/status/511937047351660544">https://twitter.com/NitrousIO/status/511937047351660544</a>">https://twitter.com/NitrousIO/status/511937047351660544">https://twitter.com/NitrousIO/status/511937047351660544</a></a></p>
+<p>{% oembed <a href="https://twitter.com/NitrousIO/status/511937047351660544">https://twitter.com/NitrousIO/status/511937047351660544</a> %}</p>
 
 <p>この後、メールで住所等をやりとり</p>
 
@@ -51,7 +51,7 @@
 
 <p>ありがとうございました！</p>
 
-<p><a href="https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a>">https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/522149761797738497">https://twitter.com/ducky19999/status/522149761797738497</a> %}</p>
 
 <h1>Nitrous.IOって何？</h1>
 

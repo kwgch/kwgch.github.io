@@ -4,7 +4,7 @@
   <title><![CDATA[Category: デブサミ | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/debusami/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T02:00:35+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -46,17 +46,17 @@
 
 <p>30才でプログラマになった高卒の私は、勝手に勇気をもらいました。</p>
 
-<h3>いちばんの&#8221;へたくそ&#8221;でいよう</h3>
+<h3>いちばんの"へたくそ"でいよう</h3>
 
 <p><a href="http://www.amazon.co.jp/gp/product/4274067939?ie=UTF8&amp;camp=1207&amp;creative=8411&amp;creativeASIN=4274067939&amp;linkCode=shr&amp;tag=ducky19999-22&amp;qid=1409962171">情熱プログラマー</a>という本に出てくる言葉です。</p>
 
-<p>自分が&#8221;へたくそ&#8221;になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。</p>
+<p>自分が"へたくそ"になる環境に身において、自分よりできる人からどんどん吸収して、成長していく。</p>
 
 <p>そのほうが面白いとの事。なるほどその通り。</p>
 
 <h3>もっと怒ろう</h3>
 
-<p><a href="https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a>">https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ngtyk/status/461046929389285376">https://twitter.com/ngtyk/status/461046929389285376</a> %}</p>
 
 <p>おかしい仕様に対しては怒ろう。</p>
 
@@ -72,7 +72,7 @@
 
 <p>お客さんにも喜んでもらえた→多分、エンジニアがみんなやりたい事をやったほうが世の中はよくなる気がする</p>
 
-<p>”やりたくないことをするには僕の人生は短すぎる&#8221;</p>
+<p>”やりたくないことをするには僕の人生は短すぎる"</p>
 
 <h2>講演資料</h2>
 
@@ -115,7 +115,7 @@
 
 <h2>講演資料</h2>
 
-<p><a href="http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a>">http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/gaspanik/web-38740756">http://www.slideshare.net/gaspanik/web-38740756</a> %}</p>
 
 <h2>感想</h2>
 
@@ -209,7 +209,7 @@
 
 <p>組織に新しい文化を導入する、まさにフロントエンドエンジニアの挑戦でした。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a>">https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/507792461377183744">https://twitter.com/ducky19999/status/507792461377183744</a> %}</p>
 
 <hr />
 
@@ -235,7 +235,7 @@
 
 <h3>講演資料</h3>
 
-<p><a href="http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a>">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi">http://www.slideshare.net/JunichiIto/devsumi2014-itojunichi</a> %}</p>
 
 <h3>感想</h3>
 
@@ -248,7 +248,7 @@
 <h3>印象に残ったこと</h3>
 
 <p>カオスマップ
-<a href="http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a>">http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a></a></p>
+{% oembed <a href="http://www.slideshare.net/HiroshiKondo/chaosmap-2013">http://www.slideshare.net/HiroshiKondo/chaosmap-2013</a> %}</p>
 
 <p>テクノロジーの理解なしにマーケティング活動ができない</p>
 
@@ -290,7 +290,7 @@
 
 <h1>おわりに</h1>
 
-<p><a href="https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a>">https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/507811473830064128">https://twitter.com/ducky19999/status/507811473830064128</a> %}</p>
 
 <p>来年もいこう。</p>
 ]]></content>

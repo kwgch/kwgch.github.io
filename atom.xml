@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-02T01:38:36+09:00</updated>
+  <updated>2014-12-09T01:59:54+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すくすくスクラム広島#8に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/09/scrum/"/>
+    <updated>2014-12-09T01:31:37+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/09/scrum</id>
+    <content type="html"><![CDATA[<p>去る2014/11/30、すくすくスクラム広島第8回「塹壕よりスクラムとQC」に参加しました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1759_normal_1383665389_momiji_orange_large.gif" alt="sukusuku-scrum-hiroshima" /></p>
+
+<!-- more -->
+
+
+<h1>内容</h1>
+
+<p>テーマは「スクラムと品質」でした。</p>
+
+<p>「品質」と言っても、みなさんの抱くイメージは様々で「バグが少ないこと」「追いかければ逃げていく」「納品の基準」などなど。</p>
+
+<p>でもチームでひとつの目標に向かっていくときは「品質」とは何か？を共有しないとうまくいかないだろう、また品質のレベルは製品の特性に合わせて変えるべきで、追求しすぎるのも問題では？等の意見がでました。</p>
+
+<p>難しいテーマながら、活発な意見交換ができました！</p>
+
+<h1>発表資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42174218" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ducky19999/ss-42174218" title="すくすくスクラム広島第８回「塹壕よりスクラムとQC」" target="_blank">すくすくスクラム広島第８回「塹壕よりスクラムとQC」</a> </strong> from <strong><a href="http://www.slideshare.net/ducky19999" target="_blank">Minoru Kawaguchi</a></strong> </div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#81に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/03/great-h/"/>
+    <updated>2014-12-03T01:30:14+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/03/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>「ギークエンジニア必見！Lispインタープリター」勉強会 with すごい広島ということで、JavaScriptでLispを実装するという勉強会でした。</p>
+
+<p><a href="http://great-h.doorkeeper.jp/events/16621">http://great-h.doorkeeper.jp/events/16621</a></p>
+
+<p>当日の資料 <a href="http://goo.gl/wtkXro">http://goo.gl/wtkXro</a></p>
+
+<p>講師はウルシステムズの近棟さんという方でした。</p>
+
+<p>同じくウルシステムズの田中さんは同じプロジェクトにいた事があり、今回こんな勉強会を企画していると教えてもらいました。</p>
+
+<p>東京でもやった勉強会だそうです。</p>
+
+<p>広島でやるときに、場所どうしよう？と相談していたのですが、広島にはすごい広島があるじゃないか！ということでひむら氏に相談すると快諾していただいた。</p>
+
+<p>そして<a href="http://coworking-hiroshima.com/">Movin&#8217;on</a>にて、すごい広島内での開催としていただいたのである。</p>
+
+<p>場所と動員がいっぺんに解決である。すごい。</p>
+
+<p>広島でIT系勉強会を企画してる人は、ひむひむに相談するといいんじゃないだろうか。</p>
+
+<p>そしてすごい広島とコラボするといいんじゃないだろうか。知らんけど。</p>
+
+<p>募集を開始すると、遠方の方より「リモートで参加できないか」というお問合わせがあった。Ustreamでも流すか。</p>
+
+<p>でもどうやるんだ？そこで今度は、広島のIT系勉強会と言えばこの人、高田さんに相談した。</p>
+
+<p>機材の貸し出しを快諾していただいた。なんていい人だ。</p>
+
+<p>で、肝心の内容であるが、何故かustの配信が途切れたりして、気が気ではなく、常時モニタリングしていたため、講師の声を左耳からリアルタイム、右耳から20秒遅れで聞いていて、内容がさっぱり頭に入ってこなかった。</p>
+
+<p>今思うと、モニタしていたMBAのWi-Fiが切れただけで、焦って操作したのがいけなかった気がしないでもない。</p>
+
+<p>終わったあと、最近尿酸値が高いのでビールだけ飲んで帰りました。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#80にエア参加しました]]></title>
@@ -2109,289 +2188,6 @@
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#70にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/17/great-h/"/>
-    <updated>2014-09-17T00:00:00+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/17/great-h</id>
-    <content type="html"><![CDATA[<p>今週も<a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
-
-<p>今回もエア参加です。</p>
-
-<!-- more -->
-
-
-<h1>simple_formで多重送信をふせぐ</h1>
-
-<p>railsでsimple_formというのを使ってみたのですが、更新ボタンを連打したらデータがたくさんできました。</p>
-
-<p>どうしよう。</p>
-
-<p><a href="http://qiita.com/kakipo/items/d3fb5595ccfa7250f3eb">ちょうどいい記事を発見しました。</a></p>
-
-<p>これで解決です。やったね！おや？</p>
-
-<blockquote class="twitter-tweet"><p>iPhone息してない</p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/512186392101654528">September 17, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>どうしたというのでしょう。</p>
-
-<p>iPhoneが黒い画面です。とりあえずおうちに帰ろう。</p>
-
-<p>（ちなみに5s、iOSはまだ7です）</p>
-
-<h1>macの容量がない</h1>
-
-<p>MacBook AirにつないでとりあえずiTunesで復元しようとしました。あ、写真のバックアップをしとこう。</p>
-
-<p>すると「ディスク容量がいっぱいやねん」の旨メッセージが。</p>
-
-<p>ぼくのmbaは11インチのいちばんやすいやつです。128Gしかありません。</p>
-
-<p>この時点でストレージが残り２G。</p>
-
-<p>これはあかん。とり急ぎ下記を実行。</p>
-
-<ul>
-<li><p>ゴミ箱の中身を削除</p></li>
-<li><p>ブラウザのキャッシュを削除</p></li>
-<li><p>Downloadsのファイルを削除</p></li>
-<li><p>VirtualBox VMsのファイルを削除</p></li>
-</ul>
-
-
-<p>これでもう2G確保。</p>
-
-<p><img src="http://kwgch.github.io/images/2014-09-17_22.24.37.png" alt="screen shot" /></p>
-
-<p>さてどうしよう。ggrks。すると、ある記事に、こんなことが書いてありました。</p>
-
-<h1>/coresの下を全部削除しろ</h1>
-
-<p>見たけど空っぽでした。</p>
-
-<h1>shiftキーを押しながら起動してみろ</h1>
-
-<p><a href="http://tukaikta.blog135.fc2.com/blog-entry-217.html">Mac歴5年の私が実施してるMacの簡単メンテナンス</a>　</p>
-
-<p>↑の記事にあったのですが、shiftキーを押しながら起動するだけ。</p>
-
-<p>なんと、これだけで12G確保できました！</p>
-
-<p><img src="http://kwgch.github.io/images/2014-09-17_22.50.58.png" alt="screen shot" /></p>
-
-<p>でもファイルの種類が全部黄色（その他）になった…何故だ…</p>
-
-<h1>ターミナルから大きいファイルを確認しろ</h1>
-
-<p><a href="https://discussionsjapan.apple.com/docs/DOC-1081">ハードディスクの空き容量が極端に少なくなる場合の対処方法</a></p>
-
-<p>↑ここの「[4] 容量の大きいフォルダを確認」にあるコマンドを実行</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo du -g -x -d <span class="m">5</span> / <span class="p">|</span> awk <span class="s1">&#39;$1 &gt;= 5{print}&#39;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>その結果がこれ。</p>
-
-<p><img src="http://kwgch.github.io/images/2014-09-17_23.05.00.png" alt="screen shot" /></p>
-
-<p>adt-bundle-mac-x86_64って何だっけ…</p>
-
-<p>Android Development Tools?</p>
-
-<p>あ、macでkindle見るために、Android動かそうとした気がする。</p>
-
-<p>使ってないので削除。5G確保。</p>
-
-<p>android-sdksも削除。2G確保。</p>
-
-<p><img src="http://kwgch.github.io/images/2014-09-17_23.45.04.png" alt="screen shot" /></p>
-
-<p>とりあえず、20G以上確保できました。</p>
-
-<h1>今後</h1>
-
-<p>根本的な解決としてはmac買い替えだと思いますが、おかねがありません。</p>
-
-<p>他に手がないか、ちょっと調べました。</p>
-
-<h3>SDカード</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00I59UMW4" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>これは見た感じ、刺してるのが分からないらしいです。</p>
-
-<p>128GのmicroSDでも刺せばいいかなと思ったら、11インチmbaはSDカードのスロットすらありませんでした。</p>
-
-<h3>外付けHDD</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00D1I2I0I" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>ポータブルHDDなら2Tで1万5千円。今度これ買おうかな。</p>
-
-<h3>外付けSSD</h3>
-
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ducky19999-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B008OE0S56" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-<p>SSDは128Gで1万前後くらいの相場なのかな。よくわかりません。</p>
-
-<p>あ、iPhoneの処置がまだでした。</p>
-
-<p>ではまた。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[【広島】レッドハッカソン プレイベントに参加してきました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/12/redhackathon/"/>
-    <updated>2014-09-12T23:26:51+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/12/redhackathon</id>
-    <content type="html"><![CDATA[<p><img src="https://www.pref.hiroshima.lg.jp/uploaded/image/114728.png" alt="Red Hackathon Hiroshima Pre-Event" /></p>
-
-<p><a href="https://www.pu-hiroshima.ac.jp/site/satellite/">サテライトキャンパスひろしま</a>というところで行われた、「Red Hackathon Hiroshima」のプレイベントというものに参加してきました。無料だったので。</p>
-
-<!-- more -->
-
-
-<h1>概要</h1>
-
-<p><a href="https://www.pref.hiroshima.lg.jp/site/innovation/hackathon.html">広島県の「起業、新規ビジネス創出支援」の一環として行われたものです。</a></p>
-
-<p><a href="http://www.pasonatech.co.jp/search/features_plan/hackathon_hiroshima.jsp">パソナテックが受託し、「新規事業を目指す企業や個人を対象に、Webサービス開発技術やハッカソンの魅力を伝えるイベント」として開催されました。</a></p>
-
-<h1>ハッカソンとは</h1>
-
-<blockquote><p>ハッカソン（英語: hackathon、別名:hack day,hackfest,codefest）とはソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に共同作業をするソフトウェア関連プロジェクトのイベントである。時にはハードウェアコンポーネントが扱われることもある。ハッカソンは一般的に最低限1日から一週間の期間で開催される。いくつかのハッカソンは単に教育や社会的な目的を意図に開催されるが、多くの場合使用に耐えるソフトウェアの開発や既存のソフトウェアを改善することを目標としている。また、使用プログラミング言語、オペレーティングシステム、アプリケーション、API、主題や参加プログラマーの人数を定める傾向にある。</p>
-
-<p>引用元: <cite><a href="http://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3">Wikipedia</a></cite></p></blockquote>
-
-<h1>構成</h1>
-
-<p>第１部がパネルディスカッション、第２部がアイデアソンでした。</p>
-
-<h2>パネルディスカッション</h2>
-
-<h3><a href="http://www.pasonatech.co.jp/">パソナテック</a>の<a href="https://www.facebook.com/akihiro.habuchi">羽渕　彰博</a>さん</h3>
-
-<p>ファシリテーター役をしていました。StartupWeekendTokyoやGoogleハッカソン（！），コスプレソン等，色々なハッカソンのファシリテーターをしているらしいです。</p>
-
-<p><img src="http://kwgch.github.io/images/20140912-1.JPG" alt="envelope" /></p>
-
-<h3><a href="https://www.facebook.com/hisashikatsuya/about">勝屋　久</a>さん</h3>
-
-<p>何か人と人をつなげるのが仕事らしいです。</p>
-
-<p>ものすごいテンションでしゃべるので、何だこの人…と思ったら、未踏のPMやってたりしたらしい。謎だ…</p>
-
-<blockquote class="twitter-tweet"><p>広島、盛り上がってます！！レッドハッカソンひろしまプレイベント始まりましたー <a href="http://t.co/YNz2FPKZkq">pic.twitter.com/YNz2FPKZkq</a></p>&mdash; ザパソナテック (@pasonatech) <a href="https://twitter.com/pasonatech/status/510365408231059456">September 12, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h3><a href="http://www.soneru.com/">ソネル</a>の和田　純平さん</h3>
-
-<p>iOSアプリの<a href="http://fingerpiano.net/FingerPianoPlus/">FingerPiano</a>というのを作った人です。</p>
-
-<p>600万ダウンロードとか言ってた気がするので、たぶんもう働かなくていいんじゃないでしょうか。</p>
-
-<p>最近はゲームとかたくさん作ってるらしいです。</p>
-
-<blockquote class="twitter-tweet"><p>FingerPianoの和田さん <a href="https://twitter.com/hashtag/%E3%83%AC%E3%83%83%E3%83%89%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3?src=hash">#レッドハッカソン</a> <a href="http://t.co/e4OHHiMksG">pic.twitter.com/e4OHHiMksG</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/510366571261202433">September 12, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h3><a href="http://www.systemfriend.co.jp/corporate_profile/summary">システムフレンド</a>の岡本　敏秀さん</h3>
-
-<p>社長さんですが、社員をハッカソンに参加させているそうです!</p>
-
-<p>「広島のIT企業はもっと自立する必要がある。他の企業の景気に左右されないようにならないと」という意見には同感。</p>
-
-<blockquote class="twitter-tweet"><p>システムフレンド社長の岡本さん <a href="https://twitter.com/hashtag/%E3%83%AC%E3%83%83%E3%83%89%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3?src=hash">#レッドハッカソン</a> <a href="http://t.co/zNd9W9g2Vf">pic.twitter.com/zNd9W9g2Vf</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/510367979402297344">September 12, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h3><a href="http://funaffect.jp/">ファナフェクト</a>の<a href="https://twitter.com/moobay9">大林　正典</a>さん</h3>
-
-<p>理想の働き方とは？ 「モチベーション > 不満因子」と言っていました。ずいぶん控えめな言い方のような…</p>
-
-<p>広島のエンジニアの技術力は高い。広島でITがイケてない残念な理由は、産業的に製造業が強いから。との事。なるほど。</p>
-
-<blockquote class="twitter-tweet"><p>ファナファクト大林さん <a href="https://twitter.com/hashtag/%E3%83%AC%E3%83%83%E3%83%89%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3?src=hash">#レッドハッカソン</a> <a href="http://t.co/8FGMn1ahQv">pic.twitter.com/8FGMn1ahQv</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/510369498742808579">September 12, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h3>総論</h3>
-
-<p>全体としては、好き嫌いをはっきりさせることが大事で、好きな事、やりたい事をどんどんやるべきである。という話だったと思います。</p>
-
-<h2>アイデアソン</h2>
-
-<h3>アイデアソンとは</h3>
-
-<blockquote><p>アイデアソン（Ideathon）はアイデア（Idea）とマラソン（Marathon）を組み合わせた造語である。特定のテーマに興味を持つ人が集まり、課題解決につながるアイデアを出し合い、それをまとめていくワークショップ形式のイベントである。半日～1日で行われることが多く、テーマに対する関心があれば誰でも参加できることもあり、参加のハードルは比較的低い。そのため、さまざまな方が参加することで、課題に対する多様な見方、特定分野に縛られない自由度の高いアイデアが生まれやすいことが魅力である。また、多様な立場の方と意見交換をすることから、参加者自身の考えや活動に対しての気づきが得られることや、今後の活動につながるネットワークの広がりという面でも意味がある。アイデアソンは成果物としてのアイデアだけでなく、そのプロセスに重要な意味を持つ。</p>
-
-<p>引用元：<cite><a href="http://mag.sendenkaigi.com/senden/201405/ad-topics/002101.php">宣伝会議</a></cite></p></blockquote>
-
-<h3>やったこと</h3>
-
-<p>20分でwebアプリの企画を考えて、1分で発表（エレベーターピッチ！）するというもの。</p>
-
-<p>要は<a href="http://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0">プレスト</a>です。4~6人で、12チームくらいあったと思います。</p>
-
-<blockquote class="twitter-tweet"><p>ブレストつらい <a href="https://twitter.com/hashtag/%E3%83%AC%E3%83%83%E3%83%89%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3?src=hash">#レッドハッカソン</a> <a href="http://t.co/1t3qCPxDz7">pic.twitter.com/1t3qCPxDz7</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/510387888773533696">September 12, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>結果としては</p>
-
-<ul>
-<li><p>広島変態図鑑</p></li>
-<li><p>海外旅行者に世界最先端の日本のトイレを楽しんでもらう</p></li>
-<li><p>カープを勝たせるサービス</p></li>
-</ul>
-
-
-<p>などなど、全チームちゃんとアイデアをまとめていて、すごいなぁと思いました。</p>
-
-<p>僕が参加したチームは「国外カープ女子の育て方」というサービスを考えました。</p>
-
-<p>ここだけ聞くと何だそれ。</p>
-
-<p>カープ関連のサービスが３つくらい出ました。</p>
-
-<p>広島はカープ愛が強いです。（僕は広島出身ではないのです）</p>
-
-<h1>次回</h1>
-
-<p>今回はプレイベントなので、本イベントがあります。</p>
-
-<p>1日でWEBサービスを実際につくると思います。たぶん。</p>
-
-<p>次回は10/11にあるそうです。12月にもあるらしいので、どちらか参加してみようと思います。</p>
-
-<h1>まとめ</h1>
-
-<p><a href="http://togetter.com/li/718441">まとめました。</a></p>
 ]]></content>
   </entry>
   
