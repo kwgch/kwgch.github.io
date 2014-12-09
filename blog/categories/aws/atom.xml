@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Aws | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-09T02:00:35+09:00</updated>
+  <updated>2014-12-09T09:30:01+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -51,7 +51,7 @@
 
 <p>本番のEC2は他の方法で監視して、RDSだけCloudWatchで監視とかしてるとこもあるみたいです。</p>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a> %}</p></li>
+<p><a href="https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a>">https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a></a></p></li>
 </ul>
 
 
@@ -61,7 +61,7 @@
 
 <p>CloudWatchから設定します。</p>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a>">https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a></a></p>
 
 <p>AutoScalingは視聴できませんでした。。（飲み会のため）</p>
 
@@ -99,19 +99,19 @@
 
 <h3>ゲームに</h3>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a>">https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a></a></p>
 
 <h3>通信は</h3>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a>">https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a></a></p>
 
 <h3>お値段</h3>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a>">https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a></a></p>
 
 <p>※当日の資料</p>
 
-<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a> %}</p>
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a></a></p>
 
 <p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
 
@@ -140,7 +140,7 @@
 <p>Command Line Interfaceの略です。</p>
 
 <p>※当日の資料
-{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface</a> %}</p>
+<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-command-line-interface</a></a></p>
 
 <p>各種OS（windows,mac,linux）のコマンドラインからAWSの色々なサービスを操作できるツールです。</p>
 
@@ -154,7 +154,7 @@
 
 <h3>JMESPath</h3>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/522318121709740032">https://twitter.com/ducky19999/status/522318121709740032</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/522318121709740032">https://twitter.com/ducky19999/status/522318121709740032</a>">https://twitter.com/ducky19999/status/522318121709740032">https://twitter.com/ducky19999/status/522318121709740032</a></a></p>
 
 <p>JMESPathとはJSON Matching Expression pathsの略らしいです。</p>
 
@@ -217,7 +217,7 @@
 <p>メールの歴史はスパムとの戦いの歴史だと思いました。</p>
 
 <p>※当日の資料
-{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses</a> %}</p>
+<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses</a></a></p>
 
 <h1>19:30~</h1>
 
@@ -250,7 +250,7 @@
 <p>Elastic Map Reduceの略です。</p>
 
 <p>※当日の資料
-{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr</a> %}</p>
+<a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr</a></a></p>
 
 <h1>19:00~</h1>
 
@@ -258,7 +258,7 @@
 
 <p>論文事例集を読んでいたのですが、</p>
 
-<p>{% oembed <a href="https://twitter.com/ducky19999/status/517274660027650048">https://twitter.com/ducky19999/status/517274660027650048</a> %}</p>
+<p><a href="https://twitter.com/ducky19999/status/517274660027650048">https://twitter.com/ducky19999/status/517274660027650048</a>">https://twitter.com/ducky19999/status/517274660027650048">https://twitter.com/ducky19999/status/517274660027650048</a></a></p>
 
 <p>「すべからく」と並んで誤用日本語の定番である「至上命題」が平然と使われていました。</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-09T01:59:54+09:00</updated>
+  <updated>2014-12-09T09:30:01+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -56,39 +56,63 @@
 <!-- more -->
 
 
-<p>「ギークエンジニア必見！Lispインタープリター」勉強会 with すごい広島ということで、JavaScriptでLispを実装するという勉強会でした。</p>
+<p><a href="http://great-h.doorkeeper.jp/events/16621">「ギークエンジニア必見！Lispインタープリター」勉強会 with すごい広島</a>ということで、JavaScriptでLispを実装するという勉強会でした。</p>
 
-<p><a href="http://great-h.doorkeeper.jp/events/16621">http://great-h.doorkeeper.jp/events/16621</a></p>
+<p><a href="http://goo.gl/wtkXro">当日の資料はこちら</a></p>
 
-<p>当日の資料 <a href="http://goo.gl/wtkXro">http://goo.gl/wtkXro</a></p>
+<p><a href="http://enterprisegeeks.hatenablog.com/archive/category/Lisp">講師はウルシステムズの近棟さん</a>という方でした。</p>
 
-<p>講師はウルシステムズの近棟さんという方でした。</p>
+<h1>いきさつ</h1>
 
-<p>同じくウルシステムズの田中さんは同じプロジェクトにいた事があり、今回こんな勉強会を企画していると教えてもらいました。</p>
+<p>同じくウルシステムズの田中さんという人は、<a href="http://sukusuku-scrum-hiroshima.doorkeeper.jp/events">すくすくスクラム広島</a>のスタッフであり、今回の勉強会を企画していると教えてもらいました。</p>
 
-<p>東京でもやった勉強会だそうです。</p>
+<p><a href="http://connpass.com/event/6655/">東京でもやった勉強会だそうです。</a></p>
 
-<p>広島でやるときに、場所どうしよう？と相談していたのですが、広島にはすごい広島があるじゃないか！ということでひむら氏に相談すると快諾していただいた。</p>
+<p>広島でやるときに、場所どうしよう？と相談していたのですが、広島には<a href="http://great-h.github.io/">すごい広島</a>があるじゃないか！</p>
+
+<p>ということで<a href="https://github.com/eiel">eiel</a>氏に相談すると、<a href="http://great-h.doorkeeper.jp">すごい広島</a>とのコラボを快諾していただいた。なんていい人だ。</p>
+
+<h1>すごい広島</h1>
 
 <p>そして<a href="http://coworking-hiroshima.com/">Movin&#8217;on</a>にて、すごい広島内での開催としていただいたのである。</p>
 
 <p>場所と動員がいっぺんに解決である。すごい。</p>
 
-<p>広島でIT系勉強会を企画してる人は、ひむひむに相談するといいんじゃないだろうか。</p>
+<p><a href="https://www.google.com/calendar/embed?src=5udlp7brhcnbuv0mq7t0jcmh04@group.calendar.google.com">広島でIT系勉強会</a>をやろうかな～と思っている人は、<a href="https://twitter.com/eielh">ひむひむ</a>に相談するといいんじゃないだろうか。</p>
 
-<p>そしてすごい広島とコラボするといいんじゃないだろうか。知らんけど。</p>
+<p>そして<a href="http://great-h.doorkeeper.jp/events">すごい広島</a>とコラボするといいんじゃないだろうか。知らんけど。</p>
 
-<p>募集を開始すると、遠方の方より「リモートで参加できないか」というお問合わせがあった。Ustreamでも流すか。</p>
+<h1>Ustream配信</h1>
 
-<p>でもどうやるんだ？そこで今度は、広島のIT系勉強会と言えばこの人、高田さんに相談した。</p>
+<p>募集を開始すると、遠方の方より「リモートで参加できないか」というお問合わせがあった。</p>
+
+<p>そこでUstream配信をすることにした。</p>
+
+<p>でもどうやるんだ？そこで今度は、広島のIT系勉強会と言えばこの人、<a href="https://twitter.com/takatayoshitake">高田</a>さんに相談した。</p>
 
 <p>機材の貸し出しを快諾していただいた。なんていい人だ。</p>
 
-<p>で、肝心の内容であるが、何故かustの配信が途切れたりして、気が気ではなく、常時モニタリングしていたため、講師の声を左耳からリアルタイム、右耳から20秒遅れで聞いていて、内容がさっぱり頭に入ってこなかった。</p>
+<p>その後もソーシャルストリームの設定など、いろいろアドバイスいただいた。ありがとうございます。</p>
+
+<h1>反省</h1>
+
+<p>で、肝心の内容であるが、何故かustの配信が途切れたりして、気が気ではなく、常時モニタリングしていた。</p>
+
+<p>そのため、講師の声を左耳からリアルタイム、右耳から20秒遅れで聞いていて、内容がさっぱり頭に入ってこなかった。（近棟さんすみません）</p>
 
 <p>今思うと、モニタしていたMBAのWi-Fiが切れただけで、焦って操作したのがいけなかった気がしないでもない。</p>
 
-<p>終わったあと、最近尿酸値が高いのでビールだけ飲んで帰りました。</p>
+<h1>やってみて</h1>
+
+<p>ustを見ていた人からは、質問があったり、「pythonでlispつくります！」という反応をいただいたので、やってよかったと思います。</p>
+
+<p>ひむ氏は速攻で<a href="https://gist.github.com/eiel/af120e6f44febc875702">Haskellにより実装してました</a>。</p>
+
+<p>Haskellよくわからないけど、この瞬発力はすごいと思います。</p>
+
+<h1>まとめ</h1>
+
+<p><a href="http://togetter.com/li/753364">まとめてありました</a></p>
 ]]></content>
   </entry>
   
