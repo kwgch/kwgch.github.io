@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-09T09:39:43+09:00</updated>
+  <updated>2014-12-17T12:58:02+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#82に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/17/great-h/"/>
+    <updated>2014-12-17T12:21:14+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/17/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回はAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは AWS CloudTrail &amp; CloudWatch Logs でした。</p>
+
+<h2>CloudTrailってなに？</h2>
+
+<p>AWSアカウントのAPIの呼び出しを記録し、ログファイルを送信するウェブサービスです。</p>
+
+<p>呼び出し元のID、呼び出し元のIPアドレス、リクエストパラメータ、レスポンス内容が記録されます。</p>
+
+<p>呼び出し履歴を利用して、セキュリティの分析、リソース変更の追跡、コンプライアンスの監査を行うことができます。</p>
+
+<p>活用Tipsとして、CloudTrail + ElasticSearch + Kibanaで可視化する例などが紹介されていました。</p>
+
+<h1>CloudWatch Logsってなに？</h1>
+
+<p>OS、アプリケーション等のログアグリゲーションを行うサービスです。（2014年7月にリリース）</p>
+
+<p>今のところUS East (N. Virginia)、US West (Oregon)、EU (Ireland)のリージョンで使えるみたいです。</p>
+
+<p>OS、アプリケーションログ中のエラー・警告メッセージを監視、フィルタで設定した文字列が閾値を越えたらSNSで通知、なんてことができるそう。</p>
+
+<p>ログデータの保存期間は「永久保存」も選択可能とのこと。</p>
+
+<h1>当日の資料</h1>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a></a></p>
+
+<p>久しぶりに現地に行ってみたところ、<a href="https://twitter.com/kakenavi">デスマ神</a>が降臨されましたので、拝みました。</p>
+
+<p>ではまた</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#81に参加しました]]></title>
@@ -284,52 +330,6 @@
 <p>{ oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling</a> }</p>
 
 <p>ではまたー</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#75にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/22/great-h/"/>
-    <updated>2014-10-22T21:38:13+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/22/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>今日のテーマはAmazon AppStreamでした。</p>
-
-<h3>Amazon AppStreamってなに？</h3>
-
-<p>リッチなグラフィックのゲームなど、大量のリソースを使うアプリケーションを、クラウドからストリーミングするサービスです。</p>
-
-<p>ローカルデバイスでは5M程度のクライアントアプリをダウンロードすればよく、高速なGPUや大量のストレージは必要とせず動画／音声などがストリーミング配信されます。</p>
-
-<p>処理能力の低いPCやモバイル、タブレットなど、OSやプラットフォームを選ばずにアプリケーションを利用できます。</p>
-
-<h3>ゲームに</h3>
-
-<p><a href="https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a>">https://twitter.com/ducky19999/status/524851744275046401">https://twitter.com/ducky19999/status/524851744275046401</a></a></p>
-
-<h3>通信は</h3>
-
-<p><a href="https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a>">https://twitter.com/ducky19999/status/524854706615488512">https://twitter.com/ducky19999/status/524854706615488512</a></a></p>
-
-<h3>お値段</h3>
-
-<p><a href="https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a>">https://twitter.com/ducky19999/status/524860747499577344">https://twitter.com/ducky19999/status/524860747499577344</a></a></p>
-
-<p>※当日の資料</p>
-
-<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-appstream</a></a></p>
-
-<p><a href="http://docs.aws.amazon.com/ja_jp/appstream/latest/developerguide/appstream-downloads.html">SDKが用意されているみたいです。</a></p>
-
-<p>ではまた。</p>
 ]]></content>
   </entry>
   

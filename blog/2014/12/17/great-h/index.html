@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>SonicGardenコードレビュー勉強会#2 に参加しました - 30才からのプログラマ</title>
+  <title>すごい広島#82に参加しました - 30才からのプログラマ</title>
   <meta name="author" content="m.kwgch">
 
   
@@ -14,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kwgch.github.io/blog/2014/10/08/sg-learning">
+  <link rel="canonical" href="http://kwgch.github.io/blog/2014/12/17/great-h">
   <link rel="shortcut icon" href="/favicon.ico" />
   <link href="/atom.xml" rel="alternate" title="30才からのプログラマ" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://kwgch.github.io/blog/2014/10/08/sg-learning">
-  <meta property="og:title" content="SonicGardenコードレビュー勉強会#2 に参加しました - 30才からのプログラマ">
+  <meta property="og:url" content="http://kwgch.github.io/blog/2014/12/17/great-h">
+  <meta property="og:title" content="すごい広島#82に参加しました - 30才からのプログラマ">
   
 
   <meta name="google-site-verification" content="vXmzcgVB6aMh06EGr6BLwdZD--z1GHa2lCz1SRmqQEU" />
@@ -123,140 +123,60 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-08T12:03:37+09:00"  data-updated="true" itemprop="datePublished dateCreated">Oct 8th, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-17T12:21:14+09:00"  data-updated="true" itemprop="datePublished dateCreated">Dec 17th, 2014</time>
         
       </p>
     
     
     <h1 class="entry-title" itemprop="name headline">
-        SonicGardenコードレビュー勉強会#2 に参加しました
+        すごい広島#82に参加しました
         
     </h1>
     
   </header>
 
 
-<div class="entry-content clearfix" itemprop="articleBody description"><p>広島からリモートで、SonicGardenコードレビュー勉強会#2 に参加しました。</p>
+<div class="entry-content clearfix" itemprop="articleBody description"><p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
 
-<p><img src="http://www.sonicgarden.jp/assets/logo-535075f3e242d36af1a349451b6bdabf.png" alt="sonic_garden" /></p>
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
 
 <!-- more -->
 
 
-<h1>何をしたか</h1>
+<p>今回はAWS Black Belt Tech Webinarを視聴しました。</p>
 
-<p><a href="http://www.sonicgarden.jp/">SonicGarden</a>さんの主催する、コードレビュー勉強会に参加しました。</p>
+<p>今日のテーマは AWS CloudTrail &amp; CloudWatch Logs でした。</p>
 
-<p>Ruby on Railsのソースコードレビューになります。</p>
+<h2>CloudTrailってなに？</h2>
 
-<p>今回で２回目です。10名の参加でした。</p>
+<p>AWSアカウントのAPIの呼び出しを記録し、ログファイルを送信するウェブサービスです。</p>
 
-<h1>なぜ参加したのか</h1>
+<p>呼び出し元のID、呼び出し元のIPアドレス、リクエストパラメータ、レスポンス内容が記録されます。</p>
 
-<p>実は、私はSonicGardenさんの<a href="http://www.sonicgarden.jp/guild">ソニックガーデンギルド</a>に挑戦中なのです。</p>
+<p>呼び出し履歴を利用して、セキュリティの分析、リソース変更の追跡、コンプライアンスの監査を行うことができます。</p>
 
-<p>その一環としてコードレビューを受けるのですが、ほかの人のコードレビューにも参加して、学習を加速させるというわけです。</p>
+<p>活用Tipsとして、CloudTrail + ElasticSearch + Kibanaで可視化する例などが紹介されていました。</p>
 
-<h1>どうやったのか</h1>
+<h1>CloudWatch Logsってなに？</h1>
 
-<p><a href="http://www.google.com/intl/ja/+/learnmore/hangouts/onair.html">Google Hangouts on Air</a>というサービスを利用して参加しました。</p>
+<p>OS、アプリケーション等のログアグリゲーションを行うサービスです。（2014年7月にリリース）</p>
 
-<p>これは、ライブ配信を行いながらビデオ通話やチャットができ、配信を終了するとYoutubeに動画として登録される、というものです。すごい！</p>
+<p>今のところUS East (N. Virginia)、US West (Oregon)、EU (Ireland)のリージョンで使えるみたいです。</p>
 
-<p>レビューアはCTOの松村さんです。</p>
+<p>OS、アプリケーションログ中のエラー・警告メッセージを監視、フィルタで設定した文字列が閾値を越えたらSNSで通知、なんてことができるそう。</p>
 
-<h1>困ったこと</h1>
+<p>ログデータの保存期間は「永久保存」も選択可能とのこと。</p>
 
-<p>はじめのうち、音声がハウリングしてしまい、よく聞き取れなくなりました。</p>
+<h1>当日の資料</h1>
 
-<p>レビューアとレビューイ以外がマイクをOFFにするといい具合になったので、チャット等で質問を投げる形式ですすめました。</p>
-
-<h1>感想</h1>
-
-<p>コードレビューをリアルタイムで視聴して、その場で質問できるというのは、すごくよい勉強になると思いました。</p>
-
-<p>今回は見ながら考えてばかりで、質問投げれなかったのですが…</p>
-
-<h1>学んだこと</h1>
-
-<p>今回も含め、過去のレビュー動画を見て学んだことを、列挙してみます。</p>
-
-<h3>全般</h3>
-
-<ul>
-<li>極力コードが短くなるようにする</li>
-<li>ひとつのメソッドにひとつの仕事を書く</li>
-<li>セッションに大きなデータ入れない</li>
-<li>Ruby1.9以降のhashシンタックスを使ってコードを短く書く</li>
-</ul>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42559373" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 
-<h3>controller</h3>
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs" title="AWS Black Belt Techシリーズ AWS CloudTrail &amp; CloudWatch Logs" target="_blank">AWS Black Belt Techシリーズ AWS CloudTrail &amp; CloudWatch Logs</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
 
-<ul>
-<li>ロジックはconrollerではなくmodelに書く</li>
-<li>scaffoldくらいの量のcontrollerで機能を実現できるのが理想</li>
-<li>表示に関する処理は、controllerではなくviewやhelperに書く</li>
-<li>共通した処理はbefore_actionなどのフィルターにまとめる</li>
-<li>find!メソッドでデータ取れなければ、例外で404ページに飛ばせる</li>
-</ul>
+<p>久しぶりに現地に行ってみたところ、<a href="https://twitter.com/kakenavi">デスマ神</a>が降臨されましたので、拝みました。</p>
 
-
-<h3>model</h3>
-
-<ul>
-<li>正しいリレーションにする （belongs_toを書く）</li>
-<li>scopeでModelに検索条件を定義できる</li>
-<li><a href="https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md#sexy-validations">&ldquo;sexy&rdquo; validations</a> を利用する</li>
-<li>ActiveRecordのメソッドチェインを使って流れるように書く</li>
-<li>after_saveなど、ActiveRecordのコールバックを効果的に使う</li>
-<li>アソシエーションしたモデルは、直接操作しない</li>
-<li>親オブジェクトからメソッドチェイン的にbuildを呼び出すと、引数忘れがない</li>
-<li>find_or_create_by便利</li>
-<li>1対多のモデルで<a href="http://blog.livedoor.jp/sasata299/archives/51931176.html">accepts_nested_attributes_for</a>を使うとコードがすっきりする</li>
-<li>has_manyなモデルはviewで<a href="http://railsdoc.com/references/fields_for">fields_for</a>を使う</li>
-<li><a href="https://github.com/FooBarWidget/default_value_for">default_value_for</a>を使うと、modelにデフォルト値が簡単に書ける</li>
-</ul>
-
-
-<h3>view</h3>
-
-<ul>
-<li>helperを使ってDRYにする</li>
-<li>erbで文字列に変数を連結するときは、+でつなげるより、#{ 変数 } を使う</li>
-<li><a href="https://github.com/plataformatec/simple_form">simple_form</a>を使うと、シンプルなフォームなら早く作れる（デザインが凝った画面は大変かも）</li>
-<li>パンくずリストは<a href="https://github.com/lassebunk/gretel">gretel</a>を使うとよい</li>
-<li>hamlでインデントつけてもHTML通りにならない。<a href="http://railsdoc.com/references/content_tag_for">content_tag_for</a>を使う(これは好み)</li>
-</ul>
-
-
-<h3>routes</h3>
-
-<ul>
-<li>routesのresourcesブロックでmember（単票系）やcollection（一覧系）が使える</li>
-<li>リソースを入れ子にして、親を only:[ ] だけにすると、子供のURLのみ生成</li>
-<li>モデルのカーディナリティを意識したURL設計をする</li>
-</ul>
-
-
-<h3>そのほか</h3>
-
-<ul>
-<li>githubでURLをcompare/&lt;ハッシュ>&hellip;masterと打てばコンペアできる</li>
-<li><a href="https://github.com/plataformatec/devise">devise</a>と<a href="https://github.com/intridea/omniauth">omniauth</a>で、Twitterとgithubアカウントでのログインを可能に</li>
-<li><a href="https://github.com/charliesome/better_errors">better_errors</a>、<a href="https://github.com/banister/binding_of_caller">binding_of_caller</a>を入れて、エラー画面でreplできる</li>
-<li><a href="https://github.com/intridea/hashie">hashie</a>を使って、ハッシュにドットでアクセスできる</li>
-<li><a href="https://github.com/brainspec/enumerize">enumerize</a>を使うと列挙が扱える</li>
-</ul>
-
-
-<h1>まとめ</h1>
-
-<p>とても勉強になります！また参加したいです。</p>
-
-<p>ちなみにSonicGardenさんでは<a href="http://www.sonicgarden.jp/guild">ギルド参加者を募集しています</a>。</p>
-
-<p><a href="http://www.sonicgarden.jp/category/concept/">納品のない受託開発</a>に興味のあるエンジニアは、申し込んでみるとよいのではないでしょうか。</p>
+<p>ではまた</p>
 </div>
 
 
@@ -280,13 +200,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-10-08T12:03:37+09:00"  data-updated="true" itemprop="datePublished dateCreated">Oct 8th, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-17T12:21:14+09:00"  data-updated="true" itemprop="datePublished dateCreated">Dec 17th, 2014</time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/sonicgarden/'>sonicgarden</a>
+    <a class='category' href='/blog/categories/sugoiguang-dao/'>すごい広島</a>
   
 </span>
 
@@ -295,12 +215,12 @@
         
           <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kwgch.github.io/blog/2014/10/08/sg-learning/" data-via="ducky19999" data-counturl="http://kwgch.github.io/blog/2014/10/08/sg-learning/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kwgch.github.io/blog/2014/12/17/great-h/" data-via="ducky19999" data-counturl="http://kwgch.github.io/blog/2014/12/17/great-h/" >Tweet</a>
   
   
   <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button"
       data-hatena-bookmark-layout="standard"
-      data-hatena-bookmark-url="http://kwgch.github.io/blog/2014/10/08/sg-learning/">
+      data-hatena-bookmark-url="http://kwgch.github.io/blog/2014/12/17/great-h/">
     <img src="http://b.st-hatena.com/images/entry-button/button-only.gif"
         alt="このエントリーをはてなブックマークに追加" width="20" height="20"
         style="border: none">
@@ -313,10 +233,8 @@
         
           <ul class="meta text-muted pager">
             
-            <li class="previous"><a href="/blog/2014/10/08/great-h/" title="Previous Post: すごい広島#73にエア参加しました">&laquo; すごい広島#73にエア参加しました</a></li>
+            <li class="previous"><a href="/blog/2014/12/09/scrum/" title="Previous Post: すくすくスクラム広島#8に参加しました">&laquo; すくすくスクラム広島#8に参加しました</a></li>
             
-            
-            <li class="next"><a href="/blog/2014/10/11/redhackathon/" title="Next Post: 【広島】レッドハッカソンに参加してきました">【広島】レッドハッカソンに参加してきました &raquo;</a></li>
             
           </ul>
         
@@ -444,7 +362,7 @@
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2014/12/17/great-h/">すごい広島#82に参加しました</a>
+    <a class="list-group-item active" href="/blog/2014/12/17/great-h/">すごい広島#82に参加しました</a>
     
     <a class="list-group-item " href="/blog/2014/12/09/scrum/">すくすくスクラム広島#8に参加しました</a>
     

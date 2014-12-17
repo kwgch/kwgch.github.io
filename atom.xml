@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-09T09:39:43+09:00</updated>
+  <updated>2014-12-17T12:58:02+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#82に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/17/great-h/"/>
+    <updated>2014-12-17T12:21:14+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/17/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回はAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは AWS CloudTrail &amp; CloudWatch Logs でした。</p>
+
+<h2>CloudTrailってなに？</h2>
+
+<p>AWSアカウントのAPIの呼び出しを記録し、ログファイルを送信するウェブサービスです。</p>
+
+<p>呼び出し元のID、呼び出し元のIPアドレス、リクエストパラメータ、レスポンス内容が記録されます。</p>
+
+<p>呼び出し履歴を利用して、セキュリティの分析、リソース変更の追跡、コンプライアンスの監査を行うことができます。</p>
+
+<p>活用Tipsとして、CloudTrail + ElasticSearch + Kibanaで可視化する例などが紹介されていました。</p>
+
+<h1>CloudWatch Logsってなに？</h1>
+
+<p>OS、アプリケーション等のログアグリゲーションを行うサービスです。（2014年7月にリリース）</p>
+
+<p>今のところUS East (N. Virginia)、US West (Oregon)、EU (Ireland)のリージョンで使えるみたいです。</p>
+
+<p>OS、アプリケーションログ中のエラー・警告メッセージを監視、フィルタで設定した文字列が閾値を越えたらSNSで通知、なんてことができるそう。</p>
+
+<p>ログデータの保存期間は「永久保存」も選択可能とのこと。</p>
+
+<h1>当日の資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42559373" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs" title="AWS Black Belt Techシリーズ AWS CloudTrail &amp; CloudWatch Logs" target="_blank">AWS Black Belt Techシリーズ AWS CloudTrail &amp; CloudWatch Logs</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<p>久しぶりに現地に行ってみたところ、<a href="https://twitter.com/kakenavi">デスマ神</a>が降臨されましたので、拝みました。</p>
+
+<p>ではまた</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すくすくスクラム広島#8に参加しました]]></title>
@@ -2118,102 +2167,6 @@
 <p><a href="http://togetter.com/li/666584">まとめてありました</a></p>
 
 <p>たのしかったです。来年もいこうと思います。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[第22回 CloudStackユーザー会 in 広島に参加してみました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/19/event/"/>
-    <updated>2014-09-19T18:39:34+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/19/event</id>
-    <content type="html"><![CDATA[<p><a href="https://atnd.org/events/55097">CloudStackユーザー会</a>に参加してみました。</p>
-
-<p>普段仕事でインフラを触ることはない私ですが、なんとなく行ってみました。</p>
-
-<p><img src="http://cloudstack.apache.org/images/monkey.png" alt="cloudstack_image" /></p>
-
-<!-- more -->
-
-
-<h1>印象に残ったこと</h1>
-
-<h3>CloudStack概要・再入門～いまさら聞けない！？CloudStackとは～</h3>
-
-<p><a href="https://twitter.com/smzksts/">島崎聡史さん</a></p>
-
-<p>CloudStackとは？</p>
-
-<ul>
-<li>管理サーバとシステムVMが連携してiaasクラウド環境を提供</li>
-<li>利用者はインスタンスと仮想ネットワークをオンデマンドで利用</li>
-<li>管理者はインフラ、アカウント、サービスを管理</li>
-</ul>
-
-
-<h3>CloudStack入門以前 (広島サーバユーザ友の会)</h3>
-
-<p><a href="https://twitter.com/takatayoshitake">tktさん</a></p>
-
-<p>2013年に<a href="https://atnd.org/events/45041">Cloudstackをみんなでつくってみよう！</a>を開催</p>
-
-<p>和室で９時間…！？</p>
-
-<h3>CloudStack4.4最新情報</h3>
-
-<p><a href="https://twitter.com/star76popin">大削緑さん</a></p>
-
-<p><a href="http://www.amazon.co.jp/dp/4844395920">CloudStack実践ガイド</a>を執筆された。</p>
-
-<p><a href="http://www.lpi.or.jp/news/press/page/20140912_01/">LPI-Japan、『CloudStack技術者認定試験』を2015年2月初旬に配信開始</a></p>
-
-<p>人柱として4.4を入れてみた。いろいろとハマりどころあり。</p>
-
-<h3>CloudStack用ハイパーバイザーの選び方</h3>
-
-<p><a href="https://twitter.com/smzksts/">島崎聡史さん</a></p>
-
-<p>マルチハイパーバイザー対応だけど手間もある</p>
-
-<p>コスト</p>
-
-<ul>
-<li>XenServer > KVM > Hyper-v > vSphere</li>
-</ul>
-
-
-<p>機能拡張の追従</p>
-
-<ul>
-<li>XenServer >= KVM > vSphere > Hyper</li>
-</ul>
-
-
-<p>対応ゲストの多さ</p>
-
-<ul>
-<li>vSphere > KVM > XenServer >= Hyper</li>
-</ul>
-
-
-<p>XenServerがいちばん楽。アクティベーションがいらない</p>
-
-<h3>CloudStackに触れてみよう!(Citrix CloudPlatformラボ環境)</h3>
-
-<p>実際に動かしてみました。</p>
-
-<p>時間が少ないので、スクリプトで自動的に環境を構築しました。</p>
-
-<h1>感想</h1>
-
-<p>ほぼJavaと、少しのPythonでできた、オープンソースの、awsのダッシュボード的なものだと理解しました。</p>
-
-<p>知らない技術の勉強会にいくときは、予習しとこう。</p>
-
-<blockquote class="twitter-tweet"><p>予習してくればよかったな（何もわかってない）<a href="https://twitter.com/hashtag/csstudy22?src=hash">#csstudy22</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/512907713701883906">September 19, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ]]></content>
   </entry>
   
