@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-17T12:58:02+09:00</updated>
+  <updated>2014-12-22T16:22:58+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#83に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2014/12/18/great-h/"/>
+    <updated>2014-12-18T12:21:14+09:00</updated>
+    <id>http://kwgch.github.io/blog/2014/12/18/great-h</id>
+    <content type="html"><![CDATA[<p>去る2014/12/17、<a href="http://great-h.github.io/">すごい広島</a>にエア参加しました。</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは AWS CloudFront でした。</p>
+
+<h2>CloudFrontってなに？</h2>
+
+<p>CDN（コンテンツ配信ネットワーク）です。</p>
+
+<h2>CDNってなに？</h2>
+
+<blockquote><p>コンテンツデリバリネットワーク(Contents Delivery Network, CDN)とは、Webコンテンツをインターネット経由で配信するために最適化されたネットワークのことである。コンテンツ配信網とも。（中略）
+CDNを用いることにより、Webのみならず、大容量アプリケーション、音楽、動画の配信やオンラインゲームといったブロードバンドのコンテンツを配信することが安定かつ低コストで行えるようになる。そのためビジネス分野において注目されている。
+&ndash; <cite><a href="http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF">wikipedia</a></cite></p></blockquote>
+
+<h2>CloudFrontの特徴は？</h2>
+
+<p>Amazon CloudFrontは世界中にエッジロケーション（キャッシュサーバー）を配置して、最短距離でコンテンツを配信するCDNです。</p>
+
+<p>エッジロケーションでは、最も低いレイテンシーが提供されるので、コンテンツは、可能な最高のパフォーマンスで配信されます。</p>
+
+<p>コンテンツがこのエッジロケーションにすでに存在する場合、コンテンツを直ちに配信します。</p>
+
+<p>コンテンツがこのエッジロケーションに現在存在しない場合、コンテンツの最終バージョンのソースとして識別されているS3バケットまたは HTTPサーバーからコンテンツを取り込みます。</p>
+
+<h2>当日の資料</h2>
+
+<p>TODO</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#82に参加しました]]></title>
@@ -270,66 +312,6 @@
 <p>資料がUPされたら貼ります。</p>
 
 <p>ではでは</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#76にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/31/great-h/"/>
-    <updated>2014-10-31T10:17:26+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/31/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>今日のテーマはAutoScaling + Amazon CloudWatchでした。</p>
-
-<h3>CloudWatchってなに？</h3>
-
-<p>AWSの各種リソースをモニタリングするためのWebサービスです。</p>
-
-<ul>
-<li><p>アラーム</p>
-
-<p>例えばWebサーバインスタンスのCPU利用率を監視して、設定したしきい値を超えたら通知するようにできます。</p>
-
-<p>通知のほかにも、Auto Scaling Policyのトリガー、インスタンスをStop/Terminateしたりできます。</p></li>
-<li><p>ビリングアラート</p>
-
-<p>設定した金額になったら通知するようにできます。</p>
-
-<p>リージョンはUS EASTで全リージョンの合計金額を提供しています。</p></li>
-<li><p>カスタムメトリクス</p>
-
-<p>独自のメトリクスを保存し、モニタリング、グラフ化できます。</p></li>
-<li><p>ハイブリッド</p>
-
-<p>本番のEC2は他の方法で監視して、RDSだけCloudWatchで監視とかしてるとこもあるみたいです。</p>
-
-<p><a href="https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a>">https://twitter.com/ducky19999/status/527391000272973824">https://twitter.com/ducky19999/status/527391000272973824</a></a></p></li>
-</ul>
-
-
-<h3>AutoScalingってなに？</h3>
-
-<p>負荷が増えたときだけEC2を増強して、負荷が下がったら元にもどす、みたいのを自動的にやるサービスです。</p>
-
-<p>CloudWatchから設定します。</p>
-
-<p><a href="https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a>">https://twitter.com/ducky19999/status/527389843819479041">https://twitter.com/ducky19999/status/527389843819479041</a></a></p>
-
-<p>AutoScalingは視聴できませんでした。。（飲み会のため）</p>
-
-<p>当日の資料</p>
-
-<p>{ oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudwatch-auto-scaling</a> }</p>
-
-<p>ではまたー</p>
 ]]></content>
   </entry>
   
