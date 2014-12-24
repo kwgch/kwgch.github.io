@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-22T16:22:58+09:00</updated>
+  <updated>2014-12-24T10:54:51+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -35,23 +35,46 @@
 
 <h2>CDNってなに？</h2>
 
-<blockquote><p>コンテンツデリバリネットワーク(Contents Delivery Network, CDN)とは、Webコンテンツをインターネット経由で配信するために最適化されたネットワークのことである。コンテンツ配信網とも。（中略）
-CDNを用いることにより、Webのみならず、大容量アプリケーション、音楽、動画の配信やオンラインゲームといったブロードバンドのコンテンツを配信することが安定かつ低コストで行えるようになる。そのためビジネス分野において注目されている。
-&ndash; <cite><a href="http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF">wikipedia</a></cite></p></blockquote>
+<blockquote><p>コンテンツデリバリネットワーク(Contents Delivery Network, CDN)とは、Webコンテンツをインターネット経由で配信するために最適化されたネットワークのことである。コンテンツ配信網とも。</p>
+
+<p>（中略）</p>
+
+<p>CDNを用いることにより、Webのみならず、大容量アプリケーション、音楽、動画の配信やオンラインゲームといったブロードバンドのコンテンツを配信することが安定かつ低コストで行えるようになる。そのためビジネス分野において注目されている。</p>
+
+<p>&ndash; <cite><a href="http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF">wikipedia</a>より</cite></p></blockquote>
 
 <h2>CloudFrontの特徴は？</h2>
 
-<p>Amazon CloudFrontは世界中にエッジロケーション（キャッシュサーバー）を配置して、最短距離でコンテンツを配信するCDNです。</p>
+<ul>
+<li><p>世界中にエッジロケーション（キャッシュサーバー）を配置して、最短距離でコンテンツを配信するCDN</p></li>
+<li><p>エッジロケーションでは、最も低いレイテンシーが提供される。コンテンツは可能な中で最高のパフォーマンスで配信</p></li>
+<li><p>コンテンツがエッジロケーションにすでに存在する場合、コンテンツを直ちに配信</p></li>
+<li><p>コンテンツがエッジロケーションに現在存在しない場合、コンテンツの最終バージョンとして識別されているS3バケットまたは HTTPサーバーからコンテンツを取り込む</p></li>
+</ul>
 
-<p>エッジロケーションでは、最も低いレイテンシーが提供されるので、コンテンツは、可能な最高のパフォーマンスで配信されます。</p>
 
-<p>コンテンツがこのエッジロケーションにすでに存在する場合、コンテンツを直ちに配信します。</p>
+<h2>動的コンテンツにも対応</h2>
 
-<p>コンテンツがこのエッジロケーションに現在存在しない場合、コンテンツの最終バージョンのソースとして識別されているS3バケットまたは HTTPサーバーからコンテンツを取り込みます。</p>
+<ul>
+<li><p>Header, Cookie, QueryStrings情報をオリジンサーバにフォワードして、動的なページのキャッシングにも対応</p></li>
+<li><p>全てのHeaderやCookieをフォワードするとキャッシュ効率が大幅に低下。必要最限のものを指定する</p></li>
+</ul>
+
+
+<h2>ストリーミング配信</h2>
+
+<ul>
+<li><p>S3、またはストリーミングサーバと連携してストリーミング配信</p></li>
+<li><p>CloudFormationテンプレートあり</p></li>
+</ul>
+
 
 <h2>当日の資料</h2>
 
-<p>TODO</p>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42885524" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront" title="AWS Black Belt Techシリーズ Amazon CloudFront" target="_blank">AWS Black Belt Techシリーズ Amazon CloudFront</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
 ]]></content>
   </entry>
   
