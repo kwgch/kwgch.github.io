@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2014-12-24T10:54:51+09:00</updated>
+  <updated>2015-01-14T01:35:45+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#86に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/14/great-h/"/>
+    <updated>2015-01-14T00:58:52+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/14/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加しました。(2015/01/07)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは Amazon Elastic Transcoder でした。</p>
+
+<h2>Elastic Transcoder ってなに？</h2>
+
+<p>メディア変換サービスです。</p>
+
+<p>動画のエンコーディングとかができます。</p>
+
+<p>mp4ファイルをH.264に変換したりとか？（よく知らない）</p>
+
+<h1>単純に変換ツールでいいんじゃないの？</h1>
+
+<ul>
+<li><p>トランスコードソフトウェアの購入、設定、管理の必要がない</p></li>
+<li><p>各種デバイス向けに事前定義されたプリセットが用意されている</p></li>
+<li><p>作業負荷に応じて自動的にスケールアップ/ダウンしてくれる</p></li>
+</ul>
+
+
+<p>等の利点があります。</p>
+
+<h1>どうやって使うの？</h1>
+
+<p>S3に置いた動画を変換して、S3に吐き出します。</p>
+
+<p>動画をS3にアップロード -> 変換 -> S3に配備 -> CloudFrontで配信 みたいなユースケース</p>
+
+<h1>その他の特徴</h1>
+
+<ul>
+<li><p>サムネイル画像生成機能</p></li>
+<li><p>キャプション挿入</p></li>
+<li><p>KMSで暗号化</p></li>
+<li><p>CloudTrail対応（監査対応等）</p></li>
+</ul>
+
+
+<h1>当日の資料</h1>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a></a></p>
+
+<p>全然知らない分野の勉強も楽しいです。</p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#83に参加しました]]></title>
@@ -252,86 +313,6 @@
 <p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a></a></p>
 
 <p>ではまた</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#77にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/11/06/great-h/"/>
-    <updated>2014-11-06T23:56:37+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/11/06/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>今日のテーマは Trusted Advisor &amp; Cost Explorer でした。</p>
-
-<h2>Trusted Advisorってなに？</h2>
-
-<p>AWS環境を検査して、推奨事項をお知らせしてくれます。（下記４つは無料）</p>
-
-<h3>コスト最適化</h3>
-
-<p>  不要リソースやアイドル状態のリソースなんかについて教えてくれます</p>
-
-<h3>セキュリティ</h3>
-
-<p>  アプリケーションのセキュリティについて推奨事項を教えてくれます</p>
-
-<p>  例）</p>
-
-<ul>
-<li>特定のポートへの無制限のアクセス（0.0.0.0/0）を許可するルールが使われてないか</li>
-<li>リソースへの無制限のアクセスを許可するルールが使われてないか</li>
-</ul>
-
-
-<h3>耐障害性</h3>
-
-<p>  AWSアプリケーションのアベイラビリティーと冗長性について教えてくれます</p>
-
-<p>  例）</p>
-
-<ul>
-<li>EBSボリュームのスナップショットの経過時間をチェック</li>
-<li>EC2のAvailability Zoneバランスをチェック</li>
-</ul>
-
-
-<h3>パフォーマンス改善</h3>
-
-<p>  利用率が高すぎるインスタンスなどを教えてくれます</p>
-
-<hr />
-
-<p>Trusted Advisor Dashboardから見れます。</p>
-
-<p><img src="https://d0.awsstatic.com/screenshots/Premiumsupport-newsupportcenter/ta_dashboard_site.png" alt="ta_dashboard" /></p>
-
-<h2>Cost Explorerってなに？</h2>
-
-<p>AWSの料金を追跡およびレポート、分析、視覚化ができるツールを提供します。</p>
-
-<p>月次や日時でのビューが用意されており、ドリルダウンでサービスごと等の詳細が見れるようです。</p>
-
-<p>想定以上にコストを食っているインスタンスなんかが、ひと目でわかります。</p>
-
-<p>カスタムしたビューも作成可能です。</p>
-
-<p><img src="http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/images/costinsights-time-granularity.png" alt="cost-explorer" /></p>
-
-<h3>まとめ</h3>
-
-<p>どちらも定期的なミーティングでの報告／検討資料として使われるユースケースを想定されていました。</p>
-
-<p>資料がUPされたら貼ります。</p>
-
-<p>ではでは</p>
 ]]></content>
   </entry>
   
