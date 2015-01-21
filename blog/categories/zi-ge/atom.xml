@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 資格 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/zi-ge/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-14T01:35:45+09:00</updated>
+  <updated>2015-01-21T15:46:55+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -133,9 +133,9 @@
 
 <p>あんまり細かいとこまで詰めてると、試験が詰みます。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/523702650101981184">https://twitter.com/ducky19999/status/523702650101981184</a>">https://twitter.com/ducky19999/status/523702650101981184">https://twitter.com/ducky19999/status/523702650101981184</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/523702650101981184">https://twitter.com/ducky19999/status/523702650101981184</a> %}</p>
 
-<p><a href="https://twitter.com/ducky19999/status/523704029256241153">https://twitter.com/ducky19999/status/523704029256241153</a>">https://twitter.com/ducky19999/status/523704029256241153">https://twitter.com/ducky19999/status/523704029256241153</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/523704029256241153">https://twitter.com/ducky19999/status/523704029256241153</a> %}</p>
 
 <h1>今後</h1>
 

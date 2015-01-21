@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-14T01:35:45+09:00</updated>
+  <updated>2015-01-21T15:46:55+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#87に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/14/great-h2/"/>
+    <updated>2015-01-14T00:58:52+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/14/great-h2</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加しました。(2015/01/14)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは Amazon  ElastiCache でした。</p>
+
+<h1>ElastiCache ってなに？</h1>
+
+<p>マネージドなキャシュサービスです。</p>
+
+<h1>キャシュサービスって何？</h1>
+
+<ul>
+<li>アプリを高速化する手法の１つ</li>
+<li>消えても良いデータを格納してDBアクセス・負荷を低減</li>
+<li>メモリにキャッシュしたデータを再利用し 低遅延化・負荷低減</li>
+</ul>
+
+
+<h1>特徴は？</h1>
+
+<p>  下記2つのOSSインメモリキャッシュエンジンをサポート</p>
+
+<ul>
+<li><a href="http://memcached.org/">Memcached</a></li>
+<li><a href="http://redis.io/">Redis</a></li>
+</ul>
+
+
+<p>くわしくは ↓ を（手抜き）</p>
+
+<h1>当日の資料</h1>
+
+<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache</a> %}</p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#86に参加しました]]></title>
@@ -66,7 +115,7 @@
 
 <h1>当日の資料</h1>
 
-<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a> %}</p>
 
 <p>全然知らない分野の勉強も楽しいです。</p>
 
@@ -132,7 +181,7 @@
 
 <h2>当日の資料</h2>
 
-<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a> %}</p>
 ]]></content>
   </entry>
   
@@ -174,7 +223,7 @@
 
 <h1>当日の資料</h1>
 
-<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a></a></p>
+<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a> %}</p>
 
 <p>久しぶりに現地に行ってみたところ、<a href="https://twitter.com/kakenavi">デスマ神</a>が降臨されましたので、拝みました。</p>
 
@@ -214,7 +263,7 @@
 
 <h1>すごい広島</h1>
 
-<p>そして<a href="http://coworking-hiroshima.com/">Movin&#8217;on</a>にて、すごい広島内での開催としていただいたのである。</p>
+<p>そして<a href="http://coworking-hiroshima.com/">Movin'on</a>にて、すごい広島内での開催としていただいたのである。</p>
 
 <p>場所と動員がいっぺんに解決である。すごい。</p>
 
@@ -253,66 +302,6 @@
 <h1>まとめ</h1>
 
 <p><a href="http://togetter.com/li/753364">まとめてありました</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#80にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/11/26/great-h/"/>
-    <updated>2014-11-26T23:10:10+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/11/26/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>今日のテーマは AWS Data Pipeline でした。</p>
-
-<h2>Data Pipelineってなに？</h2>
-
-<p>S3、Glacier、DynamoDB、Redshift、RDS、EMR、KinesisなどのAWSビッグデータサービス間のデータ統合・処理をスケジュールベースで自動化してくれるサービスです。</p>
-
-<h2>どうやって使うの？</h2>
-
-<p>下記を定義します</p>
-
-<ol>
-<li><p>データソースや出力先</p></li>
-<li><p>処理の内容</p></li>
-<li><p>処理の依存関係とスケジュール</p></li>
-<li><p>イベントの通知先</p></li>
-</ol>
-
-
-<h1>どんな使い方があるの？</h1>
-
-<ul>
-<li><p>DynamoDBからS3に自動export</p></li>
-<li><p>EMR clusterでjobを定期実行</p></li>
-<li><p>RDSのMySQLをS3に定期的に増分バックアップ</p></li>
-<li><p>S3から定期的にRedshiftにロード</p></li>
-<li><p>などなど、テンプレートも用意してある</p></li>
-</ul>
-
-
-<h1>そのほか</h1>
-
-<ul>
-<li><p>TaskRunnerはオンプレサーバーでも動く</p></li>
-<li><p>DataPipelineはスケジュールドリブン</p></li>
-<li><p>イベントドリブンがやりかったらAWS Lambda</p></li>
-</ul>
-
-
-<h1>当日の資料</h1>
-
-<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-data-pipeline</a></a></p>
-
-<p>ではまた</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-14T01:35:45+09:00</updated>
+  <updated>2015-01-21T15:44:47+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,58 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#87に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/14/great-h2/"/>
+    <updated>2015-01-14T00:58:52+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/14/great-h2</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加しました。(2015/01/14)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>今日のテーマは Amazon  ElastiCache でした。</p>
+
+<h1>ElastiCache ってなに？</h1>
+
+<p>マネージドなキャシュサービスです。</p>
+
+<h1>キャシュサービスって何？</h1>
+
+<ul>
+<li>アプリを高速化する手法の１つ</li>
+<li>消えても良いデータを格納してDBアクセス・負荷を低減</li>
+<li>メモリにキャッシュしたデータを再利用し 低遅延化・負荷低減</li>
+</ul>
+
+
+<h1>特徴は？</h1>
+
+<p>  下記2つのOSSインメモリキャッシュエンジンをサポート</p>
+
+<ul>
+<li><a href="http://memcached.org/">Memcached</a></li>
+<li><a href="http://redis.io/">Redis</a></li>
+</ul>
+
+
+<p>くわしくは ↓ を（手抜き）</p>
+
+<h1>当日の資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/43528203" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache" title="AWS Black Belt Techシリーズ Amazon ElastiCache" target="_blank">AWS Black Belt Techシリーズ Amazon ElastiCache</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#86に参加しました]]></title>
@@ -1970,82 +2022,6 @@
 <h3>その他</h3>
 
 <p><a href="http://qiita.com/kwgch/items/a8dcbe9503d847902af3">bootstrap-material-designをさわってみました。</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すくすくスクラム広島#7に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/09/28/scrum/"/>
-    <updated>2014-09-28T23:04:53+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/09/28/scrum</id>
-    <content type="html"><![CDATA[<p>すくすくスクラム広島第7回「リーンキャンバスって？」に参加しました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1759_normal_1383665389_momiji_orange_large.gif" alt="sukusuku-scrum-hiroshima" /></p>
-
-<!-- more -->
-
-
-<h3>すくすくスクラム広島ってなに？</h3>
-
-<p><a href="https://www.facebook.com/Sukusuku.Scrum.Hiroshima">広島のすくすくスクラムです。</a></p>
-
-<p>今回で１周年でした。</p>
-
-<h3>すくすくスクラムってなに？</h3>
-
-<p><a href="http://sukusuku-scrum.org/">スクラムの勉強会です。</a></p>
-
-<h3>スクラムってなに？</h3>
-
-<p><a href="http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA)">新製品開発のためのフレームワークです。</a></p>
-
-<h3>リーンキャンバスってなに？</h3>
-
-<p>リーンスタートアップ向けに開発された戦略モデル</p>
-
-<p>顧客開発モデル → ビジネスモデルキャンバス → リーンキャンバス</p>
-
-<p>と進化してきたものだそうです。</p>
-
-<p>※当日の資料（<a href="https://github.com/k2works">Kakigi Katuyukiさん</a>）</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/39629182" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kakimomokuri/ss-39629182" title="リーンスタートアップの奇妙な冒険" target="_blank">リーンスタートアップの奇妙な冒険</a> </strong> from <strong><a href="http://www.slideshare.net/kakimomokuri" target="_blank">Kakigi Katuyuki</a></strong> </div></p>
-
-<h3>リーンってなに？</h3>
-
-<p><a href="http://dictionary.goo.ne.jp/leaf/jn2/230485/m0u/">リーン【lean】［形動］《やせた、引き締まった、などの意》生産方式や企業で、無駄を排したさま。「力強い―な会社」</a></p>
-
-<h3>何をしたの？</h3>
-
-<p>5人 × 2チームくらいで実際にリーンキャンバスを作成しました。</p>
-
-<blockquote class="twitter-tweet"><p>すくすくスクラム広島でリーンキャンバスを体験します <a href="http://t.co/aOXiKtLyxG">pic.twitter.com/aOXiKtLyxG</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/516124642734399488">September 28, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<ul>
-<li><p>課題：昼飯食ったあと眠くなる</p></li>
-<li><p>顧客セグメント：座って仕事する人</p></li>
-<li><p>独自の価値提案：寝てもいい状態にする</p></li>
-<li><p>ソリューション：ウェアラブル機器で眠気データ収集 → 生産性を可視化</p></li>
-<li><p>収益の流れ：1万社 × 10万円/年 = 10億円/年</p></li>
-</ul>
-
-
-<blockquote class="twitter-tweet"><p>リーンキャンバス、完成前に時間となりました <a href="http://t.co/ytyqByXFQ4">pic.twitter.com/ytyqByXFQ4</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/516152039789694976">September 28, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<h3>まとめ</h3>
-
-<p>11月はぼくが担当です。よろしくお願いします。（まとめてない）</p>
 ]]></content>
   </entry>
   

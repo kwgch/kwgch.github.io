@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Cloudstack | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/cloudstack/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-14T01:35:45+09:00</updated>
+  <updated>2015-01-21T15:46:55+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -101,7 +101,7 @@
 
 <p>知らない技術の勉強会にいくときは、予習しとこう。</p>
 
-<p><a href="https://twitter.com/ducky19999/status/512907713701883906">https://twitter.com/ducky19999/status/512907713701883906</a>">https://twitter.com/ducky19999/status/512907713701883906">https://twitter.com/ducky19999/status/512907713701883906</a></a></p>
+<p>{% oembed <a href="https://twitter.com/ducky19999/status/512907713701883906">https://twitter.com/ducky19999/status/512907713701883906</a> %}</p>
 ]]></content>
   </entry>
   
