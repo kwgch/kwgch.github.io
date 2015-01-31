@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-21T15:46:55+09:00</updated>
+  <updated>2015-01-31T18:05:16+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,99 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#89に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/31/great-h/"/>
+    <updated>2015-01-31T16:33:44+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/31/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加しました。(2015/01/28)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマは AWS Direct Connect でした。</p>
+
+<h1>AWS Direct Connect ってなに？</h1>
+
+<p>オンプレミスとAWSを専用線で接続し、ハイブリッドクラウドを構成するためのサービスです。</p>
+
+<h1>ハイブリッドクラウドってなに？</h1>
+
+<p>オンプレとクラウドをつないじゃうんだって</p>
+
+<h1>そんなの何に使うの？</h1>
+
+<p>エンタープライズでは全部パブリッククラウドにするより現実的。既存の資産が活かせる。</p>
+
+<h1>危なくないの？</h1>
+
+<p>専用線を利用したVPNで接続するらしいよ</p>
+
+<h1>簡単にできるの？</h1>
+
+<p>オンプレ側のルートがBGP対応してないといけないらしい</p>
+
+<h1>BGPってなに</h1>
+
+<p>プロバイダ同士の相互接続するときに経路情報をやりとりするらしい</p>
+
+<h1>当日の資料</h1>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect</a></a></p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#88に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/21/great-h/"/>
+    <updated>2015-01-21T15:27:24+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/21/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加しました。(2015/01/21)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマは AWS Lambda でした。</p>
+
+<h1>AWS Lambda ってなに？</h1>
+
+<p>イベントをトリガーにNode.jsで書かれたプログラムを実行するサービスです。</p>
+
+<h1>Node.jsってなに？</h1>
+
+<p>javascriptでサーバサイドプログラムかけるやつ</p>
+
+<h1>何ができるの？</h1>
+
+<p>EC2インスタンスやOS等の設定・管理を行うことなくイベントドリブン・アプリケーションを構築可能です。</p>
+
+<h1>たとえばどんな使い方？</h1>
+
+<ul>
+<li><p>S3に画像がアップロードされたら、それをトリガーにサムネイル作成、リサイズ処理</p></li>
+<li><p>AWS MobileSDKとDynamoDBで口コミアプリ作って、点数の集計とかをLambdaで処理すればAPサーバ不要</p></li>
+<li><p>などなど</p></li>
+</ul>
+
+
+<h1>当日の資料</h1>
+
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-lambda">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-lambda</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-lambda">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-lambda</a></a></p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#87に参加しました]]></title>
@@ -56,7 +149,7 @@
 
 <h1>当日の資料</h1>
 
-<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache</a> %}</p>
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elasticache</a></a></p>
 
 <p>ではまた。</p>
 ]]></content>
@@ -115,7 +208,7 @@
 
 <h1>当日の資料</h1>
 
-<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a> %}</p>
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-elastic-transcoder</a></a></p>
 
 <p>全然知らない分野の勉強も楽しいです。</p>
 
@@ -181,127 +274,7 @@
 
 <h2>当日の資料</h2>
 
-<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a> %}</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#82に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/12/17/great-h/"/>
-    <updated>2014-12-17T12:21:14+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/12/17/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今回はAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>今日のテーマは AWS CloudTrail &amp; CloudWatch Logs でした。</p>
-
-<h2>CloudTrailってなに？</h2>
-
-<p>AWSアカウントのAPIの呼び出しを記録し、ログファイルを送信するウェブサービスです。</p>
-
-<p>呼び出し元のID、呼び出し元のIPアドレス、リクエストパラメータ、レスポンス内容が記録されます。</p>
-
-<p>呼び出し履歴を利用して、セキュリティの分析、リソース変更の追跡、コンプライアンスの監査を行うことができます。</p>
-
-<p>活用Tipsとして、CloudTrail + ElasticSearch + Kibanaで可視化する例などが紹介されていました。</p>
-
-<h1>CloudWatch Logsってなに？</h1>
-
-<p>OS、アプリケーション等のログアグリゲーションを行うサービスです。（2014年7月にリリース）</p>
-
-<p>今のところUS East (N. Virginia)、US West (Oregon)、EU (Ireland)のリージョンで使えるみたいです。</p>
-
-<p>OS、アプリケーションログ中のエラー・警告メッセージを監視、フィルタで設定した文字列が閾値を越えたらSNSで通知、なんてことができるそう。</p>
-
-<p>ログデータの保存期間は「永久保存」も選択可能とのこと。</p>
-
-<h1>当日の資料</h1>
-
-<p>{% oembed <a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-cloudtrail-cloudwatch-logs</a> %}</p>
-
-<p>久しぶりに現地に行ってみたところ、<a href="https://twitter.com/kakenavi">デスマ神</a>が降臨されましたので、拝みました。</p>
-
-<p>ではまた</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#81に参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/12/03/great-h/"/>
-    <updated>2014-12-03T01:30:14+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/12/03/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>に参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<p>ゆるい広島 Advent Calendar 2014の10日目の記事です。 昨日は<a href="http://www.adventar.org/users/356">えいるなんとか</a>さん の <a href="http://blog.eiel.info/blog/2014/12/09/yurui-word/">広島で使われるゆるい言葉</a> という記事でした。</p>
-
-<!-- more -->
-
-
-<p><a href="http://great-h.doorkeeper.jp/events/16621">「ギークエンジニア必見！Lispインタープリター」勉強会 with すごい広島</a>ということで、JavaScriptでLispを実装するという勉強会でした。</p>
-
-<p><a href="http://goo.gl/wtkXro">当日の資料はこちら</a></p>
-
-<p><a href="http://enterprisegeeks.hatenablog.com/archive/category/Lisp">講師はウルシステムズの近棟さん</a>という方でした。</p>
-
-<h1>いきさつ</h1>
-
-<p>同じくウルシステムズの田中さんという人は、<a href="http://sukusuku-scrum-hiroshima.doorkeeper.jp/events">すくすくスクラム広島</a>のスタッフであり、今回の勉強会を企画していると教えてもらいました。</p>
-
-<p><a href="http://connpass.com/event/6655/">東京でもやった勉強会だそうです。</a></p>
-
-<p>広島でやるときに、場所どうしよう？と相談していたのですが、広島には<a href="http://great-h.github.io/">すごい広島</a>があるじゃないか！</p>
-
-<p>ということで<a href="https://github.com/eiel">eiel</a>氏に相談すると、<a href="http://great-h.doorkeeper.jp">すごい広島</a>とのコラボを快諾していただいた。なんていい人だ。</p>
-
-<h1>すごい広島</h1>
-
-<p>そして<a href="http://coworking-hiroshima.com/">Movin'on</a>にて、すごい広島内での開催としていただいたのである。</p>
-
-<p>場所と動員がいっぺんに解決である。すごい。</p>
-
-<p><a href="https://www.google.com/calendar/embed?src=5udlp7brhcnbuv0mq7t0jcmh04@group.calendar.google.com">広島でIT系勉強会</a>をやろうかな～と思っている人は、<a href="https://twitter.com/eielh">ひむひむ</a>に相談するといいんじゃないだろうか。</p>
-
-<p>そして<a href="http://great-h.doorkeeper.jp/events">すごい広島</a>とコラボするといいんじゃないだろうか。知らんけど。</p>
-
-<h1>Ustream配信</h1>
-
-<p>募集を開始すると、遠方の方より「リモートで参加できないか」というお問合わせがあった。</p>
-
-<p>そこでUstream配信をすることにした。</p>
-
-<p>でもどうやるんだ？そこで今度は、広島のIT系勉強会と言えばこの人、<a href="https://twitter.com/takatayoshitake">高田</a>さんに相談した。</p>
-
-<p>機材の貸し出しを快諾していただいた。なんていい人だ。</p>
-
-<p>その後もソーシャルストリームの設定など、いろいろアドバイスいただいた。ありがとうございます。</p>
-
-<h1>反省</h1>
-
-<p>で、肝心の内容であるが、何故かustの配信が途切れたりして、気が気ではなく、常時モニタリングしていた。</p>
-
-<p>そのため、講師の声を左耳からリアルタイム、右耳から20秒遅れで聞いていて、内容がさっぱり頭に入ってこなかった。（近棟さんすみません）</p>
-
-<p>今思うと、モニタしていたMBAのWi-Fiが切れただけで、焦って操作したのがいけなかった気がしないでもない。</p>
-
-<h1>やってみて</h1>
-
-<p>ustを見ていた人からは、質問があったり、「pythonでlispつくります！」という反応をいただいたので、やってよかったと思います。</p>
-
-<p>ひむ氏は速攻で<a href="https://gist.github.com/eiel/af120e6f44febc875702">Haskellにより実装してました</a>。</p>
-
-<p>Haskellよくわからないけど、この瞬発力はすごいと思います。</p>
-
-<h1>まとめ</h1>
-
-<p><a href="http://togetter.com/li/753364">まとめてありました</a></p>
+<p><a href="http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a>">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront">http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-cloudfront</a></a></p>
 ]]></content>
   </entry>
   

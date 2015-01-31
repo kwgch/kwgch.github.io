@@ -4,7 +4,7 @@
   <title><![CDATA[30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-01-21T15:44:47+09:00</updated>
+  <updated>2015-01-31T18:05:16+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -12,6 +12,105 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#89に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/31/great-h/"/>
+    <updated>2015-01-31T16:33:44+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/31/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加しました。(2015/01/28)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマは AWS Direct Connect でした。</p>
+
+<h1>AWS Direct Connect ってなに？</h1>
+
+<p>オンプレミスとAWSを専用線で接続し、ハイブリッドクラウドを構成するためのサービスです。</p>
+
+<h1>ハイブリッドクラウドってなに？</h1>
+
+<p>オンプレとクラウドをつないじゃうんだって</p>
+
+<h1>そんなの何に使うの？</h1>
+
+<p>エンタープライズでは全部パブリッククラウドにするより現実的。既存の資産が活かせる。</p>
+
+<h1>危なくないの？</h1>
+
+<p>専用線を利用したVPNで接続するらしいよ</p>
+
+<h1>簡単にできるの？</h1>
+
+<p>オンプレ側のルートがBGP対応してないといけないらしい</p>
+
+<h1>BGPってなに</h1>
+
+<p>プロバイダ同士の相互接続するときに経路情報をやりとりするらしい</p>
+
+<h1>当日の資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/44019846" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect" title="AWS Black Belt Techシリーズ AWS Direct Connect" target="_blank">AWS Black Belt Techシリーズ AWS Direct Connect</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[すごい広島#88に参加しました]]></title>
+    <link href="http://kwgch.github.io/blog/2015/01/21/great-h/"/>
+    <updated>2015-01-21T15:27:24+09:00</updated>
+    <id>http://kwgch.github.io/blog/2015/01/21/great-h</id>
+    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加しました。(2015/01/21)</p>
+
+<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
+
+<!-- more -->
+
+
+<p>今回もAWS Black Belt Tech Webinarを視聴しました。</p>
+
+<p>テーマは AWS Lambda でした。</p>
+
+<h1>AWS Lambda ってなに？</h1>
+
+<p>イベントをトリガーにNode.jsで書かれたプログラムを実行するサービスです。</p>
+
+<h1>Node.jsってなに？</h1>
+
+<p>javascriptでサーバサイドプログラムかけるやつ</p>
+
+<h1>何ができるの？</h1>
+
+<p>EC2インスタンスやOS等の設定・管理を行うことなくイベントドリブン・アプリケーションを構築可能です。</p>
+
+<h1>たとえばどんな使い方？</h1>
+
+<ul>
+<li><p>S3に画像がアップロードされたら、それをトリガーにサムネイル作成、リサイズ処理</p></li>
+<li><p>AWS MobileSDKとDynamoDBで口コミアプリ作って、点数の集計とかをLambdaで処理すればAPサーバ不要</p></li>
+<li><p>などなど</p></li>
+</ul>
+
+
+<h1>当日の資料</h1>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/44019768" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-lambda" title="AWS Black Belt Techシリーズ AWS Lambda" target="_blank">AWS Black Belt Techシリーズ AWS Lambda</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
+
+<p>ではまた。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[すごい広島#87に参加しました]]></title>
@@ -1916,112 +2015,6 @@
 <p>ちなみにSonicGardenさんでは<a href="http://www.sonicgarden.jp/guild">ギルド参加者を募集しています</a>。</p>
 
 <p><a href="http://www.sonicgarden.jp/category/concept/">納品のない受託開発</a>に興味のあるエンジニアは、申し込んでみるとよいのではないでしょうか。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#73にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/08/great-h/"/>
-    <updated>2014-10-08T05:32:34+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/08/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<p>今のところ、最低週1本はブログを書けています。</p>
-
-<p>すごい広島のご利益です、ありがたや。</p>
-
-<h1>18:00～19:00</h1>
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>テーマはSESでした。</p>
-
-<h3>SESってなに？</h3>
-
-<p>Simple Email Serviceの略です。</p>
-
-<p>メールの歴史はスパムとの戦いの歴史だと思いました。</p>
-
-<p>※当日の資料</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/40094427" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-ses" title="AWS Black Belt Techシリーズ Amazon SES" target="_blank">AWS Black Belt Techシリーズ Amazon SES</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
-
-<h1>19:30~</h1>
-
-<p><a href="http://kwgch.github.io/blog/2014/10/08/sg-learning/">SonicGardenコードレビュー勉強会#2 に参加しました</a></p>
-
-<p>長くなるので別エントリです。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[すごい広島#72にエア参加しました]]></title>
-    <link href="http://kwgch.github.io/blog/2014/10/01/great-h/"/>
-    <updated>2014-10-01T23:23:23+09:00</updated>
-    <id>http://kwgch.github.io/blog/2014/10/01/great-h</id>
-    <content type="html"><![CDATA[<p><a href="http://great-h.github.io/">すごい広島</a>にエア参加してきました。</p>
-
-<p><img src="https://dzpp79ucibp5a.cloudfront.net/groups_logos/1865_normal_1378360291_d4addcb8ac4412933e3e64a18f86c561-1.png" alt="great-h-logo" /></p>
-
-<!-- more -->
-
-
-<h1>18:00～19:00</h1>
-
-<p>今週もAWS Black Belt Tech Webinarを視聴しました。</p>
-
-<p>テーマはEMRでした。</p>
-
-<h3>EMRってなに？</h3>
-
-<p>Elastic Map Reduceの略です。</p>
-
-<p>※当日の資料</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/39746532" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-amazon-emr" title="AWS Black Belt Techシリーズ Amazon EMR" target="_blank">AWS Black Belt Techシリーズ Amazon EMR</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServicesJapan" target="_blank">Amazon Web Services Japan</a></strong> </div></p>
-
-<h1>19:00~</h1>
-
-<p>10/19に情報処理技術者試験があるので、ITストラテジストの勉強をしました。</p>
-
-<p>論文事例集を読んでいたのですが、</p>
-
-<blockquote class="twitter-tweet"><p>3000円も払ったサンプル論文集に「至上命題」なんてデタラメな日本語が出てきて憤慨している <a href="https://twitter.com/hashtag/%E3%81%99%E3%81%94%E3%81%84%E5%BA%83%E5%B3%B6?src=hash">#すごい広島</a></p>&mdash; kwgch (@ducky19999) <a href="https://twitter.com/ducky19999/status/517274660027650048">October 1, 2014</a></blockquote>
-
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<p>「すべからく」と並んで誤用日本語の定番である「至上命題」が平然と使われていました。</p>
-
-<p>普段は別に何とも思わないのですが、</p>
-
-<p>文章売って金もらっている人間が、平然と使っているのが許せんのですよ。</p>
-
-<p>しかも論文事例集ですよ！</p>
-
-<p>編集の人も何も思ってないわけですよね。</p>
-
-<p>…まぁ、どうでもいいんですけどね（どっちやねん）</p>
-
-<p>以前もプロマネ論文集で見た気がします。</p>
-
-<p>たのんますよ、アイテックさん。</p>
-
-<h3>その他</h3>
-
-<p><a href="http://qiita.com/kwgch/items/a8dcbe9503d847902af3">bootstrap-material-designをさわってみました。</a></p>
 ]]></content>
   </entry>
   
