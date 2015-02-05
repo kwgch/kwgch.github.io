@@ -4,7 +4,7 @@
   <title><![CDATA[Category: すごい広島 | 30才からのプログラマ]]></title>
   <link href="http://kwgch.github.io/blog/categories/sugoiguang-dao/atom.xml" rel="self"/>
   <link href="http://kwgch.github.io/"/>
-  <updated>2015-02-05T11:56:28+09:00</updated>
+  <updated>2015-02-05T13:34:51+09:00</updated>
   <id>http://kwgch.github.io/</id>
   <author>
     <name><![CDATA[m.kwgch]]></name>
@@ -47,11 +47,11 @@
 
 <h1>簡単にできるの？</h1>
 
-<p>オンプレ側のルートがBGP対応してないといけないらしい</p>
+<p>オンプレ側のルーターがBGP対応してないといけないらしい</p>
 
 <h1>BGPってなに</h1>
 
-<p>プロバイダ同士の相互接続するときに経路情報をやりとりするらしい</p>
+<p>プロバイダ同士の相互接続するときに経路情報をやりとりするプロトコルだって</p>
 
 <h1>当日の資料</h1>
 
